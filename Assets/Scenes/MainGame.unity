@@ -716,6 +716,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlockGun
       objectReference: {fileID: 0}
+    - target: {fileID: 301225907869973191, guid: 3eece101e6cac364ea8aa4647cb29774,
+        type: 3}
+      propertyPath: upTriggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2854924156997874885, guid: 3eece101e6cac364ea8aa4647cb29774,
         type: 3}
       propertyPath: m_Layer
