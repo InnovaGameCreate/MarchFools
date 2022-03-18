@@ -1,0 +1,311 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5186273309835470871
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2431026514579281825}
+  - component: {fileID: 3186703557309067776}
+  - component: {fileID: 2734937169013184797}
+  - component: {fileID: 956398296243297780}
+  - component: {fileID: 7042004018864523139}
+  - component: {fileID: 8309255008366925703}
+  - component: {fileID: 5595308386972013111}
+  - component: {fileID: 1638909071413393022}
+  - component: {fileID: 5974716255901812898}
+  - component: {fileID: 6918590728685485732}
+  m_Layer: 0
+  m_Name: GunSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2431026514579281825
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5186273309835470871}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3186703557309067776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5186273309835470871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id:
+    value: 0
+  itemName: "\u30A2\u30A4\u30C6\u30E0"
+--- !u!114 &2734937169013184797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5186273309835470871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 3186703557309067776}
+  key:
+    target: 0
+    key: CreateHandGun1
+  itemTemplate: {fileID: 6798926963194874423, guid: c53ade98785fbee4f83a9ff7a7a9e5b2,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 2431026514579281825}
+--- !u!114 &956398296243297780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5186273309835470871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d06d8dc2ce9e442ab2712de694945b2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 3186703557309067776}
+  key:
+    target: 2
+    key: GameStart
+  logic:
+    statements:
+    - singleStatement:
+        targetState:
+          target: 0
+          key: CreateGunRandom
+          parameterType: 0
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+            sourceState:
+              target: 0
+              key: 
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                sourceState:
+                  target: 0
+                  key: 
+              operatorExpression:
+                operator: 0
+                operands: []
+--- !u!114 &7042004018864523139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5186273309835470871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12b8fe0632e2fbc4ba2a1871588ba96e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 3186703557309067776}
+  key:
+    target: 0
+    key: CreateGunRandom
+  choices:
+  - weight: 10
+    triggers:
+    - target: 0
+      specifiedTargetItem: {fileID: 0}
+      key: CreateHandGun1
+      type: 0
+      value:
+        boolValue: 0
+        floatValue: 0
+        integerValue: 0
+  - weight: 10
+    triggers:
+    - target: 0
+      specifiedTargetItem: {fileID: 0}
+      key: CreateMachineGun1
+      type: 0
+      value:
+        boolValue: 0
+        floatValue: 0
+        integerValue: 0
+  - weight: 10
+    triggers:
+    - target: 0
+      specifiedTargetItem: {fileID: 0}
+      key: CreateChargeGun1
+      type: 0
+      value:
+        boolValue: 0
+        floatValue: 0
+        integerValue: 0
+  - weight: 1
+    triggers:
+    - target: 0
+      specifiedTargetItem: {fileID: 0}
+      key: CreateHandGun2
+      type: 0
+      value:
+        boolValue: 0
+        floatValue: 0
+        integerValue: 0
+  - weight: 1
+    triggers:
+    - target: 0
+      specifiedTargetItem: {fileID: 0}
+      key: CreateMachineGun2
+      type: 0
+      value:
+        boolValue: 0
+        floatValue: 0
+        integerValue: 0
+  - weight: 1
+    triggers:
+    - target: 0
+      specifiedTargetItem: {fileID: 0}
+      key: CreateChargeGun2
+      type: 0
+      value:
+        boolValue: 0
+        floatValue: 0
+        integerValue: 0
+--- !u!114 &8309255008366925703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5186273309835470871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 3186703557309067776}
+  key:
+    target: 0
+    key: CreateMachineGun1
+  itemTemplate: {fileID: 3759649897646182366, guid: 282a6fb49ed0eb04292df4b93ca6494e,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 2431026514579281825}
+--- !u!114 &5595308386972013111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5186273309835470871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 3186703557309067776}
+  key:
+    target: 0
+    key: CreateChargeGun1
+  itemTemplate: {fileID: 1480700039269339619, guid: c3db4a100d1550b4cb6e59afaff6f6a5,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 2431026514579281825}
+--- !u!114 &1638909071413393022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5186273309835470871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 3186703557309067776}
+  key:
+    target: 0
+    key: CreateHandGun2
+  itemTemplate: {fileID: 6798926963194874423, guid: f415304428e369846bcfe25d86638823,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 2431026514579281825}
+--- !u!114 &5974716255901812898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5186273309835470871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 3186703557309067776}
+  key:
+    target: 0
+    key: CreateMachineGun2
+  itemTemplate: {fileID: 3759649897646182366, guid: 8523ee3632dc8cf42a82880bbcfdd358,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 2431026514579281825}
+--- !u!114 &6918590728685485732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5186273309835470871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 3186703557309067776}
+  key:
+    target: 0
+    key: CreateChargeGun2
+  itemTemplate: {fileID: 1480700039269339619, guid: 88d026207be5fd54dbaf1532e7f66078,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 2431026514579281825}
