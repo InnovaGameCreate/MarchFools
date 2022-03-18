@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: d08fc89f335db634c89cb73c2da2421c
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _Trim_Texture: {fileID: 2800000, guid: 908bdd2e8601e724f95349b6a5e7b160, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
