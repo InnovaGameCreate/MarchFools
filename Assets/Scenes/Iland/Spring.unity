@@ -1356,6 +1356,75 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!1001 &4394043881914688821
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4394043881267556888, guid: f391e93d20c8ca744a5b4cae1b9e8135,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4394043881267556888, guid: f391e93d20c8ca744a5b4cae1b9e8135,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 4394043881267556888, guid: f391e93d20c8ca744a5b4cae1b9e8135,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4394043881267556888, guid: f391e93d20c8ca744a5b4cae1b9e8135,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 4394043881267556888, guid: f391e93d20c8ca744a5b4cae1b9e8135,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4394043881267556888, guid: f391e93d20c8ca744a5b4cae1b9e8135,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4394043881267556888, guid: f391e93d20c8ca744a5b4cae1b9e8135,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4394043881267556888, guid: f391e93d20c8ca744a5b4cae1b9e8135,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4394043881267556888, guid: f391e93d20c8ca744a5b4cae1b9e8135,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4394043881267556888, guid: f391e93d20c8ca744a5b4cae1b9e8135,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4394043881267556888, guid: f391e93d20c8ca744a5b4cae1b9e8135,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4394043881267556895, guid: f391e93d20c8ca744a5b4cae1b9e8135,
+        type: 3}
+      propertyPath: m_Name
+      value: Collapse
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f391e93d20c8ca744a5b4cae1b9e8135, type: 3}
 --- !u!23 &6070750654119606601
 MeshRenderer:
   m_ObjectHideFlags: 0
