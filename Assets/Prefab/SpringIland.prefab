@@ -1277,6 +1277,7 @@ GameObject:
   - component: {fileID: 3937538517453055653}
   - component: {fileID: 3937538517449664215}
   - component: {fileID: 3937538517450630295}
+  - component: {fileID: 2723489644578633188}
   m_Layer: 0
   m_Name: Tierra
   m_TagString: Untagged
@@ -1346,6 +1347,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &2723489644578633188
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3937538517452896965}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300002, guid: 62a1903fd3708d7499742985e02168a7, type: 3}
 --- !u!1 &3937538517452896971
 GameObject:
   m_ObjectHideFlags: 0
@@ -1357,6 +1372,7 @@ GameObject:
   - component: {fileID: 3937538517453055659}
   - component: {fileID: 3937538517449664213}
   - component: {fileID: 3937538517450630293}
+  - component: {fileID: 6770247123400177687}
   m_Layer: 0
   m_Name: SueloVerde
   m_TagString: Untagged
@@ -1426,6 +1442,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &6770247123400177687
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3937538517452896971}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 62a1903fd3708d7499742985e02168a7, type: 3}
 --- !u!1 &3937538517452896981
 GameObject:
   m_ObjectHideFlags: 0

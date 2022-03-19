@@ -511,7 +511,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1202435379417630556}
   m_Layer: 0
-  m_Name: SpringIland 1
+  m_Name: Summer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2317,6 +2317,7 @@ GameObject:
   - component: {fileID: 4940531345667465089}
   - component: {fileID: 4940531345664598003}
   - component: {fileID: 4940531345665564083}
+  - component: {fileID: 8776719104529403350}
   m_Layer: 0
   m_Name: Tierra
   m_TagString: Untagged
@@ -2386,6 +2387,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &8776719104529403350
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4940531345667818465}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300002, guid: 62a1903fd3708d7499742985e02168a7, type: 3}
 --- !u!1 &4940531345667818469
 GameObject:
   m_ObjectHideFlags: 0
@@ -2555,6 +2570,7 @@ GameObject:
   - component: {fileID: 4940531345667465103}
   - component: {fileID: 4940531345664598001}
   - component: {fileID: 4940531345665564081}
+  - component: {fileID: 7763650902098740017}
   m_Layer: 0
   m_Name: SueloVerde
   m_TagString: Untagged
@@ -2624,6 +2640,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &7763650902098740017
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4940531345667818479}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 62a1903fd3708d7499742985e02168a7, type: 3}
 --- !u!1 &4940531345667818481
 GameObject:
   m_ObjectHideFlags: 0
