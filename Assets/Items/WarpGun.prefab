@@ -5433,7 +5433,8 @@ MonoBehaviour:
       vector2Value: {x: 0, y: 0}
       vector3Value: {x: 0, y: 0, z: 0}
   - target: 1
-    specifiedTargetItem: {fileID: 0}
+    specifiedTargetItem: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
+      type: 3}
     key: Shoot
     type: 0
     value:
@@ -5443,7 +5444,8 @@ MonoBehaviour:
       vector2Value: {x: 0, y: 0}
       vector3Value: {x: 0, y: 0, z: 0}
   - target: 1
-    specifiedTargetItem: {fileID: 0}
+    specifiedTargetItem: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
+      type: 3}
     key: shooting
     type: 1
     value:
@@ -5474,7 +5476,8 @@ MonoBehaviour:
       vector3Value: {x: 0, y: 0, z: 0}
   upTriggers:
   - target: 1
-    specifiedTargetItem: {fileID: 0}
+    specifiedTargetItem: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
+      type: 3}
     key: shooting
     type: 1
     value:
@@ -5529,7 +5532,8 @@ MonoBehaviour:
     target: 1
     key: GunWarp.1
     item: {fileID: 0}
-  targetTransform: {fileID: 0}
+  targetTransform: {fileID: 7670364246324224457, guid: 83c4455bfb6430844b58fd051130db73,
+    type: 3}
   keepPosition: 0
   keepRotation: 1
 --- !u!95 &7625333893145222322

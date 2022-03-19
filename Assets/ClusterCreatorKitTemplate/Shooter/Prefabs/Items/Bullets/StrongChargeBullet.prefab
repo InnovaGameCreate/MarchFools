@@ -5081,7 +5081,7 @@ MonoBehaviour:
     type: 2
     value:
       boolValue: 0
-      floatValue: 5
+      floatValue: 1
       integerValue: 0
       vector2Value: {x: 0, y: 0}
       vector3Value: {x: 0, y: 0, z: 0}
@@ -5091,7 +5091,7 @@ MonoBehaviour:
     type: 2
     value:
       boolValue: 0
-      floatValue: 5
+      floatValue: 1
       integerValue: 0
       vector2Value: {x: 0, y: 0}
       vector3Value: {x: 0, y: 0, z: 0}
