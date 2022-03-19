@@ -185,7 +185,7 @@ MonoBehaviour:
   key:
     target: 0
     key: Shoot
-  itemTemplate: {fileID: 8533804513839474506, guid: 63fbac738b1ed26428026b1c70200f24,
+  itemTemplate: {fileID: 5411712286893335261, guid: 91eb5226a7f05c243b493c9be9366b90,
     type: 3}
   itemTemplateId:
     value: 0
