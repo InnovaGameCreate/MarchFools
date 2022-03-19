@@ -1239,6 +1239,90 @@ MonoBehaviour:
   itemTemplateId:
     value: 0
   spawnPoint: {fileID: 139925707}
+--- !u!114 &139925710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 139925706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 139925718}
+  key:
+    target: 0
+    key: CreateMadGun2
+  itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 139925707}
+--- !u!114 &139925711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 139925706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 139925718}
+  key:
+    target: 0
+    key: CreateMadGun1
+  itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 139925707}
+--- !u!114 &139925712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 139925706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 139925718}
+  key:
+    target: 0
+    key: CreateWarpGun1
+  itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 139925707}
+--- !u!114 &139925713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 139925706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 139925718}
+  key:
+    target: 0
+    key: CreateWarpGun2
+  itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 139925707}
 --- !u!114 &139925718 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3186703557309067776, guid: 56feb52028c15144192bb6489346db0e,
@@ -1684,11 +1768,16 @@ PrefabInstance:
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.size
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[3].weight
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[4].weight
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
@@ -1703,12 +1792,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
+      propertyPath: choices.Array.data[8].weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
       propertyPath: choices.Array.data[6].triggers.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[7].triggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[8].triggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].triggers.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
@@ -1729,27 +1838,37 @@ PrefabInstance:
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[3].triggers.Array.data[0].key
-      value: CreateSlowGun1
+      value: CreateMadGun1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[4].triggers.Array.data[0].key
-      value: CreateBardShotGun2
+      value: CreateSlowGun1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[5].triggers.Array.data[0].key
-      value: CreateWallCreater2
+      value: CreateBardShotGun2
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[6].triggers.Array.data[0].key
-      value: CreateWarpGun2
+      value: CreateWallCreater2
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[7].triggers.Array.data[0].key
+      value: CreateWarpGun2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[8].triggers.Array.data[0].key
       value: CreateSlowGun2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].triggers.Array.data[0].key
+      value: CreateMadGun2
       objectReference: {fileID: 0}
     - target: {fileID: 8309255008366925703, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -1831,6 +1950,90 @@ MonoBehaviour:
     target: 0
     key: CreateWarpGun2
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 198542764}
+--- !u!114 &198542769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 198542765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 198542766}
+  key:
+    target: 0
+    key: CreateMadGun2
+  itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 198542764}
+--- !u!114 &198542770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 198542765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 198542766}
+  key:
+    target: 0
+    key: CreateMadGun1
+  itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 198542764}
+--- !u!114 &198542771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 198542765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 198542766}
+  key:
+    target: 0
+    key: CreateWarpGun1
+  itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 198542764}
+--- !u!114 &198542772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 198542765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 198542766}
+  key:
+    target: 0
+    key: CreateWarpGun2
+  itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
     value: 0
@@ -3375,11 +3578,16 @@ PrefabInstance:
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.size
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[3].weight
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[4].weight
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
@@ -3394,12 +3602,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
+      propertyPath: choices.Array.data[8].weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
       propertyPath: choices.Array.data[6].triggers.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[7].triggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[8].triggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].triggers.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
@@ -3420,27 +3648,37 @@ PrefabInstance:
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[3].triggers.Array.data[0].key
-      value: CreateSlowGun1
+      value: CreateMadGun1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[4].triggers.Array.data[0].key
-      value: CreateBardShotGun2
+      value: CreateSlowGun1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[5].triggers.Array.data[0].key
-      value: CreateWallCreater2
+      value: CreateBardShotGun2
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[6].triggers.Array.data[0].key
-      value: CreateWarpGun2
+      value: CreateWallCreater2
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[7].triggers.Array.data[0].key
+      value: CreateWarpGun2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[8].triggers.Array.data[0].key
       value: CreateSlowGun2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].triggers.Array.data[0].key
+      value: CreateMadGun2
       objectReference: {fileID: 0}
     - target: {fileID: 8309255008366925703, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -3522,6 +3760,90 @@ MonoBehaviour:
     target: 0
     key: CreateWarpGun1
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 377726926}
+--- !u!114 &377726931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 377726927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 377726928}
+  key:
+    target: 0
+    key: CreateMadGun2
+  itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 377726926}
+--- !u!114 &377726932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 377726927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 377726928}
+  key:
+    target: 0
+    key: CreateMadGun1
+  itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 377726926}
+--- !u!114 &377726933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 377726927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 377726928}
+  key:
+    target: 0
+    key: CreateWarpGun1
+  itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 377726926}
+--- !u!114 &377726934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 377726927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 377726928}
+  key:
+    target: 0
+    key: CreateWarpGun2
+  itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
     value: 0
@@ -3780,11 +4102,16 @@ PrefabInstance:
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.size
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[3].weight
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[4].weight
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
@@ -3799,12 +4126,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
+      propertyPath: choices.Array.data[8].weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
       propertyPath: choices.Array.data[6].triggers.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[7].triggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[8].triggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].triggers.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
@@ -3825,27 +4172,37 @@ PrefabInstance:
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[3].triggers.Array.data[0].key
-      value: CreateSlowGun1
+      value: CreateMadGun1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[4].triggers.Array.data[0].key
-      value: CreateBardShotGun2
+      value: CreateSlowGun1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[5].triggers.Array.data[0].key
-      value: CreateWallCreater2
+      value: CreateBardShotGun2
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[6].triggers.Array.data[0].key
-      value: CreateWarpGun2
+      value: CreateWallCreater2
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[7].triggers.Array.data[0].key
+      value: CreateWarpGun2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[8].triggers.Array.data[0].key
       value: CreateSlowGun2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].triggers.Array.data[0].key
+      value: CreateMadGun2
       objectReference: {fileID: 0}
     - target: {fileID: 8309255008366925703, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -3927,6 +4284,90 @@ MonoBehaviour:
     target: 0
     key: CreateWarpGun1
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 414315865}
+--- !u!114 &414315870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 414315866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 414315867}
+  key:
+    target: 0
+    key: CreateMadGun2
+  itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 414315865}
+--- !u!114 &414315871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 414315866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 414315867}
+  key:
+    target: 0
+    key: CreateMadGun1
+  itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 414315865}
+--- !u!114 &414315872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 414315866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 414315867}
+  key:
+    target: 0
+    key: CreateWarpGun1
+  itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 414315865}
+--- !u!114 &414315873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 414315866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 414315867}
+  key:
+    target: 0
+    key: CreateWarpGun2
+  itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
     value: 0
@@ -4196,11 +4637,16 @@ PrefabInstance:
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.size
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[3].weight
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[4].weight
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
@@ -4215,12 +4661,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
+      propertyPath: choices.Array.data[8].weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
       propertyPath: choices.Array.data[6].triggers.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[7].triggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[8].triggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].triggers.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
@@ -4241,27 +4707,37 @@ PrefabInstance:
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[3].triggers.Array.data[0].key
-      value: CreateSlowGun1
+      value: CreateMadGun1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[4].triggers.Array.data[0].key
-      value: CreateBardShotGun2
+      value: CreateSlowGun1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[5].triggers.Array.data[0].key
-      value: CreateWallCreater2
+      value: CreateBardShotGun2
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[6].triggers.Array.data[0].key
-      value: CreateWarpGun2
+      value: CreateWallCreater2
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[7].triggers.Array.data[0].key
+      value: CreateWarpGun2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[8].triggers.Array.data[0].key
       value: CreateSlowGun2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].triggers.Array.data[0].key
+      value: CreateMadGun2
       objectReference: {fileID: 0}
     - target: {fileID: 8309255008366925703, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -4343,6 +4819,90 @@ MonoBehaviour:
     target: 0
     key: CreateWarpGun2
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 448484603}
+--- !u!114 &448484608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448484604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 448484605}
+  key:
+    target: 0
+    key: CreateMadGun2
+  itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 448484603}
+--- !u!114 &448484609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448484604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 448484605}
+  key:
+    target: 0
+    key: CreateMadGun1
+  itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 448484603}
+--- !u!114 &448484610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448484604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 448484605}
+  key:
+    target: 0
+    key: CreateWarpGun1
+  itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 448484603}
+--- !u!114 &448484611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448484604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 448484605}
+  key:
+    target: 0
+    key: CreateWarpGun2
+  itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
     value: 0
@@ -4502,11 +5062,16 @@ PrefabInstance:
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.size
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[3].weight
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[4].weight
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
@@ -4521,12 +5086,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
+      propertyPath: choices.Array.data[8].weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
       propertyPath: choices.Array.data[6].triggers.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[7].triggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[8].triggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].triggers.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
@@ -4547,27 +5132,37 @@ PrefabInstance:
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[3].triggers.Array.data[0].key
-      value: CreateSlowGun1
+      value: CreateMadGun1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[4].triggers.Array.data[0].key
-      value: CreateBardShotGun2
+      value: CreateSlowGun1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[5].triggers.Array.data[0].key
-      value: CreateWallCreater2
+      value: CreateBardShotGun2
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[6].triggers.Array.data[0].key
-      value: CreateWarpGun2
+      value: CreateWallCreater2
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[7].triggers.Array.data[0].key
+      value: CreateWarpGun2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[8].triggers.Array.data[0].key
       value: CreateSlowGun2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].triggers.Array.data[0].key
+      value: CreateMadGun2
       objectReference: {fileID: 0}
     - target: {fileID: 8309255008366925703, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -5238,11 +5833,16 @@ PrefabInstance:
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.size
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[3].weight
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[4].weight
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
@@ -5257,12 +5857,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
+      propertyPath: choices.Array.data[8].weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
       propertyPath: choices.Array.data[6].triggers.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[7].triggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[8].triggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].triggers.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
@@ -5283,27 +5903,37 @@ PrefabInstance:
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[3].triggers.Array.data[0].key
-      value: CreateSlowGun1
+      value: CreateMadGun1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[4].triggers.Array.data[0].key
-      value: CreateBardShotGun2
+      value: CreateSlowGun1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[5].triggers.Array.data[0].key
-      value: CreateWallCreater2
+      value: CreateBardShotGun2
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[6].triggers.Array.data[0].key
-      value: CreateWarpGun2
+      value: CreateWallCreater2
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[7].triggers.Array.data[0].key
+      value: CreateWarpGun2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[8].triggers.Array.data[0].key
       value: CreateSlowGun2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].triggers.Array.data[0].key
+      value: CreateMadGun2
       objectReference: {fileID: 0}
     - target: {fileID: 8309255008366925703, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -5914,11 +6544,16 @@ PrefabInstance:
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.size
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[3].weight
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[4].weight
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
@@ -5933,12 +6568,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
+      propertyPath: choices.Array.data[8].weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
       propertyPath: choices.Array.data[6].triggers.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[7].triggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[8].triggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].triggers.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
@@ -5959,27 +6614,37 @@ PrefabInstance:
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[3].triggers.Array.data[0].key
-      value: CreateSlowGun1
+      value: CreateMadGun1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[4].triggers.Array.data[0].key
-      value: CreateBardShotGun2
+      value: CreateSlowGun1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[5].triggers.Array.data[0].key
-      value: CreateWallCreater2
+      value: CreateBardShotGun2
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[6].triggers.Array.data[0].key
-      value: CreateWarpGun2
+      value: CreateWallCreater2
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[7].triggers.Array.data[0].key
+      value: CreateWarpGun2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[8].triggers.Array.data[0].key
       value: CreateSlowGun2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].triggers.Array.data[0].key
+      value: CreateMadGun2
       objectReference: {fileID: 0}
     - target: {fileID: 8309255008366925703, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -6306,11 +6971,16 @@ PrefabInstance:
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.size
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[3].weight
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[4].weight
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
@@ -6325,12 +6995,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
+      propertyPath: choices.Array.data[8].weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
       propertyPath: choices.Array.data[6].triggers.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[7].triggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[8].triggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].triggers.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
@@ -6351,27 +7041,37 @@ PrefabInstance:
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[3].triggers.Array.data[0].key
-      value: CreateSlowGun1
+      value: CreateMadGun1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[4].triggers.Array.data[0].key
-      value: CreateBardShotGun2
+      value: CreateSlowGun1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[5].triggers.Array.data[0].key
-      value: CreateWallCreater2
+      value: CreateBardShotGun2
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[6].triggers.Array.data[0].key
-      value: CreateWarpGun2
+      value: CreateWallCreater2
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[7].triggers.Array.data[0].key
+      value: CreateWarpGun2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[8].triggers.Array.data[0].key
       value: CreateSlowGun2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].triggers.Array.data[0].key
+      value: CreateMadGun2
       objectReference: {fileID: 0}
     - target: {fileID: 8309255008366925703, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -6759,11 +7459,16 @@ PrefabInstance:
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.size
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[3].weight
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[4].weight
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
@@ -6778,12 +7483,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
+      propertyPath: choices.Array.data[8].weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
       propertyPath: choices.Array.data[6].triggers.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[7].triggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[8].triggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].triggers.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
@@ -6804,27 +7529,37 @@ PrefabInstance:
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[3].triggers.Array.data[0].key
-      value: CreateSlowGun1
+      value: CreateMadGun1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[4].triggers.Array.data[0].key
-      value: CreateBardShotGun2
+      value: CreateSlowGun1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[5].triggers.Array.data[0].key
-      value: CreateWallCreater2
+      value: CreateBardShotGun2
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[6].triggers.Array.data[0].key
-      value: CreateWarpGun2
+      value: CreateWallCreater2
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[7].triggers.Array.data[0].key
+      value: CreateWarpGun2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[8].triggers.Array.data[0].key
       value: CreateSlowGun2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].triggers.Array.data[0].key
+      value: CreateMadGun2
       objectReference: {fileID: 0}
     - target: {fileID: 8309255008366925703, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -6906,6 +7641,90 @@ MonoBehaviour:
     target: 0
     key: CreateWarpGun2
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 629504697}
+--- !u!114 &629504702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629504698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 629504699}
+  key:
+    target: 0
+    key: CreateMadGun2
+  itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 629504697}
+--- !u!114 &629504703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629504698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 629504699}
+  key:
+    target: 0
+    key: CreateMadGun1
+  itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 629504697}
+--- !u!114 &629504704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629504698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 629504699}
+  key:
+    target: 0
+    key: CreateWarpGun1
+  itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 629504697}
+--- !u!114 &629504705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629504698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 629504699}
+  key:
+    target: 0
+    key: CreateWarpGun2
+  itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
     value: 0
@@ -7744,6 +8563,90 @@ MonoBehaviour:
   itemTemplateId:
     value: 0
   spawnPoint: {fileID: 691419163}
+--- !u!114 &691419166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691419162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 691419174}
+  key:
+    target: 0
+    key: CreateMadGun2
+  itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 691419163}
+--- !u!114 &691419167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691419162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 691419174}
+  key:
+    target: 0
+    key: CreateMadGun1
+  itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 691419163}
+--- !u!114 &691419168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691419162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 691419174}
+  key:
+    target: 0
+    key: CreateWarpGun1
+  itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 691419163}
+--- !u!114 &691419169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691419162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 691419174}
+  key:
+    target: 0
+    key: CreateWarpGun2
+  itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 691419163}
 --- !u!114 &691419174 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3186703557309067776, guid: 56feb52028c15144192bb6489346db0e,
@@ -7838,6 +8741,90 @@ MonoBehaviour:
     target: 0
     key: CreateWarpGun1
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 720770224}
+--- !u!114 &720770227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720770223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 720770235}
+  key:
+    target: 0
+    key: CreateMadGun2
+  itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 720770224}
+--- !u!114 &720770228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720770223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 720770235}
+  key:
+    target: 0
+    key: CreateMadGun1
+  itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 720770224}
+--- !u!114 &720770229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720770223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 720770235}
+  key:
+    target: 0
+    key: CreateWarpGun1
+  itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 720770224}
+--- !u!114 &720770230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720770223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 720770235}
+  key:
+    target: 0
+    key: CreateWarpGun2
+  itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
     value: 0
@@ -8936,11 +9923,16 @@ PrefabInstance:
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.size
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[3].weight
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[4].weight
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
@@ -8955,12 +9947,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
+      propertyPath: choices.Array.data[8].weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
       propertyPath: choices.Array.data[6].triggers.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[7].triggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[8].triggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].triggers.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
@@ -8981,27 +9993,37 @@ PrefabInstance:
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[3].triggers.Array.data[0].key
-      value: CreateSlowGun1
+      value: CreateMadGun1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[4].triggers.Array.data[0].key
-      value: CreateBardShotGun2
+      value: CreateSlowGun1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[5].triggers.Array.data[0].key
-      value: CreateWallCreater2
+      value: CreateBardShotGun2
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[6].triggers.Array.data[0].key
-      value: CreateWarpGun2
+      value: CreateWallCreater2
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[7].triggers.Array.data[0].key
+      value: CreateWarpGun2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[8].triggers.Array.data[0].key
       value: CreateSlowGun2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].triggers.Array.data[0].key
+      value: CreateMadGun2
       objectReference: {fileID: 0}
     - target: {fileID: 8309255008366925703, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -9071,6 +10093,90 @@ MonoBehaviour:
     target: 0
     key: CreateWarpGun1
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 781255548}
+--- !u!114 &781255551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781255547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 781255559}
+  key:
+    target: 0
+    key: CreateMadGun2
+  itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 781255548}
+--- !u!114 &781255552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781255547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 781255559}
+  key:
+    target: 0
+    key: CreateMadGun1
+  itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 781255548}
+--- !u!114 &781255553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781255547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 781255559}
+  key:
+    target: 0
+    key: CreateWarpGun1
+  itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 781255548}
+--- !u!114 &781255554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781255547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 781255559}
+  key:
+    target: 0
+    key: CreateWarpGun2
+  itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
     value: 0
@@ -9521,11 +10627,16 @@ PrefabInstance:
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.size
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[3].weight
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[4].weight
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
@@ -9540,12 +10651,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
+      propertyPath: choices.Array.data[8].weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
       propertyPath: choices.Array.data[6].triggers.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[7].triggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[8].triggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].triggers.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
@@ -9566,27 +10697,37 @@ PrefabInstance:
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[3].triggers.Array.data[0].key
-      value: CreateSlowGun1
+      value: CreateMadGun1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[4].triggers.Array.data[0].key
-      value: CreateBardShotGun2
+      value: CreateSlowGun1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[5].triggers.Array.data[0].key
-      value: CreateWallCreater2
+      value: CreateBardShotGun2
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[6].triggers.Array.data[0].key
-      value: CreateWarpGun2
+      value: CreateWallCreater2
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[7].triggers.Array.data[0].key
+      value: CreateWarpGun2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[8].triggers.Array.data[0].key
       value: CreateSlowGun2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].triggers.Array.data[0].key
+      value: CreateMadGun2
       objectReference: {fileID: 0}
     - target: {fileID: 8309255008366925703, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -9767,11 +10908,16 @@ PrefabInstance:
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.size
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[3].weight
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[4].weight
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
@@ -9786,12 +10932,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
+      propertyPath: choices.Array.data[8].weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
       propertyPath: choices.Array.data[6].triggers.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[7].triggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[8].triggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].triggers.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
@@ -9812,27 +10978,37 @@ PrefabInstance:
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[3].triggers.Array.data[0].key
-      value: CreateSlowGun1
+      value: CreateMadGun1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[4].triggers.Array.data[0].key
-      value: CreateBardShotGun2
+      value: CreateSlowGun1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[5].triggers.Array.data[0].key
-      value: CreateWallCreater2
+      value: CreateBardShotGun2
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[6].triggers.Array.data[0].key
-      value: CreateWarpGun2
+      value: CreateWallCreater2
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[7].triggers.Array.data[0].key
+      value: CreateWarpGun2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[8].triggers.Array.data[0].key
       value: CreateSlowGun2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].triggers.Array.data[0].key
+      value: CreateMadGun2
       objectReference: {fileID: 0}
     - target: {fileID: 8309255008366925703, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -9914,6 +11090,90 @@ MonoBehaviour:
     target: 0
     key: CreateWarpGun2
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 825367586}
+--- !u!114 &825367591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825367587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 825367588}
+  key:
+    target: 0
+    key: CreateMadGun2
+  itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 825367586}
+--- !u!114 &825367592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825367587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 825367588}
+  key:
+    target: 0
+    key: CreateMadGun1
+  itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 825367586}
+--- !u!114 &825367593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825367587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 825367588}
+  key:
+    target: 0
+    key: CreateWarpGun1
+  itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 825367586}
+--- !u!114 &825367594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825367587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 825367588}
+  key:
+    target: 0
+    key: CreateWarpGun2
+  itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
     value: 0
@@ -10784,11 +12044,16 @@ PrefabInstance:
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.size
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[3].weight
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[4].weight
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
@@ -10803,12 +12068,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
+      propertyPath: choices.Array.data[8].weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
       propertyPath: choices.Array.data[6].triggers.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[7].triggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[8].triggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].triggers.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
@@ -10829,27 +12114,37 @@ PrefabInstance:
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[3].triggers.Array.data[0].key
-      value: CreateSlowGun1
+      value: CreateMadGun1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[4].triggers.Array.data[0].key
-      value: CreateBardShotGun2
+      value: CreateSlowGun1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[5].triggers.Array.data[0].key
-      value: CreateWallCreater2
+      value: CreateBardShotGun2
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[6].triggers.Array.data[0].key
-      value: CreateWarpGun2
+      value: CreateWallCreater2
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[7].triggers.Array.data[0].key
+      value: CreateWarpGun2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[8].triggers.Array.data[0].key
       value: CreateSlowGun2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].triggers.Array.data[0].key
+      value: CreateMadGun2
       objectReference: {fileID: 0}
     - target: {fileID: 8309255008366925703, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -10931,6 +12226,90 @@ MonoBehaviour:
     target: 0
     key: CreateWarpGun2
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 1019332700}
+--- !u!114 &1019332705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1019332701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1019332702}
+  key:
+    target: 0
+    key: CreateMadGun2
+  itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 1019332700}
+--- !u!114 &1019332706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1019332701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1019332702}
+  key:
+    target: 0
+    key: CreateMadGun1
+  itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 1019332700}
+--- !u!114 &1019332707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1019332701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1019332702}
+  key:
+    target: 0
+    key: CreateWarpGun1
+  itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 1019332700}
+--- !u!114 &1019332708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1019332701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1019332702}
+  key:
+    target: 0
+    key: CreateWarpGun2
+  itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
     value: 0
@@ -11453,11 +12832,16 @@ PrefabInstance:
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.size
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[3].weight
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[4].weight
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
@@ -11472,12 +12856,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
+      propertyPath: choices.Array.data[8].weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
       propertyPath: choices.Array.data[6].triggers.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[7].triggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[8].triggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].triggers.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
@@ -11498,27 +12902,37 @@ PrefabInstance:
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[3].triggers.Array.data[0].key
-      value: CreateSlowGun1
+      value: CreateMadGun1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[4].triggers.Array.data[0].key
-      value: CreateBardShotGun2
+      value: CreateSlowGun1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[5].triggers.Array.data[0].key
-      value: CreateWallCreater2
+      value: CreateBardShotGun2
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[6].triggers.Array.data[0].key
-      value: CreateWarpGun2
+      value: CreateWallCreater2
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[7].triggers.Array.data[0].key
+      value: CreateWarpGun2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[8].triggers.Array.data[0].key
       value: CreateSlowGun2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].triggers.Array.data[0].key
+      value: CreateMadGun2
       objectReference: {fileID: 0}
     - target: {fileID: 8309255008366925703, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -11600,6 +13014,90 @@ MonoBehaviour:
     target: 0
     key: CreateWarpGun2
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 1072641145}
+--- !u!114 &1072641150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072641146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1072641147}
+  key:
+    target: 0
+    key: CreateMadGun2
+  itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 1072641145}
+--- !u!114 &1072641151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072641146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1072641147}
+  key:
+    target: 0
+    key: CreateMadGun1
+  itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 1072641145}
+--- !u!114 &1072641152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072641146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1072641147}
+  key:
+    target: 0
+    key: CreateWarpGun1
+  itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 1072641145}
+--- !u!114 &1072641153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072641146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1072641147}
+  key:
+    target: 0
+    key: CreateWarpGun2
+  itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
     value: 0
@@ -11985,6 +13483,90 @@ MonoBehaviour:
   itemTemplateId:
     value: 0
   spawnPoint: {fileID: 1130689566}
+--- !u!114 &1130689569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130689565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1130689577}
+  key:
+    target: 0
+    key: CreateMadGun2
+  itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 1130689566}
+--- !u!114 &1130689570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130689565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1130689577}
+  key:
+    target: 0
+    key: CreateMadGun1
+  itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 1130689566}
+--- !u!114 &1130689571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130689565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1130689577}
+  key:
+    target: 0
+    key: CreateWarpGun1
+  itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 1130689566}
+--- !u!114 &1130689572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130689565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1130689577}
+  key:
+    target: 0
+    key: CreateWarpGun2
+  itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 1130689566}
 --- !u!114 &1130689577 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3186703557309067776, guid: 56feb52028c15144192bb6489346db0e,
@@ -12333,6 +13915,90 @@ MonoBehaviour:
     target: 0
     key: CreateWarpGun1
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 1190143267}
+--- !u!114 &1190143270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190143266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1190143278}
+  key:
+    target: 0
+    key: CreateMadGun2
+  itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 1190143267}
+--- !u!114 &1190143271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190143266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1190143278}
+  key:
+    target: 0
+    key: CreateMadGun1
+  itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 1190143267}
+--- !u!114 &1190143272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190143266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1190143278}
+  key:
+    target: 0
+    key: CreateWarpGun1
+  itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 1190143267}
+--- !u!114 &1190143273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190143266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1190143278}
+  key:
+    target: 0
+    key: CreateWarpGun2
+  itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
     value: 0
@@ -12787,11 +14453,16 @@ PrefabInstance:
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.size
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[3].weight
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[4].weight
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
@@ -12806,12 +14477,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
+      propertyPath: choices.Array.data[8].weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
       propertyPath: choices.Array.data[6].triggers.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[7].triggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[8].triggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].triggers.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
@@ -12832,27 +14523,37 @@ PrefabInstance:
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[3].triggers.Array.data[0].key
-      value: CreateSlowGun1
+      value: CreateMadGun1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[4].triggers.Array.data[0].key
-      value: CreateBardShotGun2
+      value: CreateSlowGun1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[5].triggers.Array.data[0].key
-      value: CreateWallCreater2
+      value: CreateBardShotGun2
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[6].triggers.Array.data[0].key
-      value: CreateWarpGun2
+      value: CreateWallCreater2
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[7].triggers.Array.data[0].key
+      value: CreateWarpGun2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[8].triggers.Array.data[0].key
       value: CreateSlowGun2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].triggers.Array.data[0].key
+      value: CreateMadGun2
       objectReference: {fileID: 0}
     - target: {fileID: 8309255008366925703, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -12934,6 +14635,90 @@ MonoBehaviour:
     target: 0
     key: CreateWarpGun1
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 1217830816}
+--- !u!114 &1217830821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217830817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1217830818}
+  key:
+    target: 0
+    key: CreateMadGun2
+  itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 1217830816}
+--- !u!114 &1217830822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217830817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1217830818}
+  key:
+    target: 0
+    key: CreateMadGun1
+  itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 1217830816}
+--- !u!114 &1217830823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217830817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1217830818}
+  key:
+    target: 0
+    key: CreateWarpGun1
+  itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 1217830816}
+--- !u!114 &1217830824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217830817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1217830818}
+  key:
+    target: 0
+    key: CreateWarpGun2
+  itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
     value: 0
@@ -13217,11 +15002,16 @@ PrefabInstance:
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.size
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[3].weight
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[4].weight
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
@@ -13236,12 +15026,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
+      propertyPath: choices.Array.data[8].weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
       propertyPath: choices.Array.data[6].triggers.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[7].triggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[8].triggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].triggers.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
@@ -13262,27 +15072,37 @@ PrefabInstance:
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[3].triggers.Array.data[0].key
-      value: CreateSlowGun1
+      value: CreateMadGun1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[4].triggers.Array.data[0].key
-      value: CreateBardShotGun2
+      value: CreateSlowGun1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[5].triggers.Array.data[0].key
-      value: CreateWallCreater2
+      value: CreateBardShotGun2
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[6].triggers.Array.data[0].key
-      value: CreateWarpGun2
+      value: CreateWallCreater2
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[7].triggers.Array.data[0].key
+      value: CreateWarpGun2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[8].triggers.Array.data[0].key
       value: CreateSlowGun2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].triggers.Array.data[0].key
+      value: CreateMadGun2
       objectReference: {fileID: 0}
     - target: {fileID: 8309255008366925703, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -13364,6 +15184,90 @@ MonoBehaviour:
     target: 0
     key: CreateWarpGun2
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 1231806932}
+--- !u!114 &1231806937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231806933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1231806934}
+  key:
+    target: 0
+    key: CreateMadGun2
+  itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 1231806932}
+--- !u!114 &1231806938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231806933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1231806934}
+  key:
+    target: 0
+    key: CreateMadGun1
+  itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 1231806932}
+--- !u!114 &1231806939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231806933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1231806934}
+  key:
+    target: 0
+    key: CreateWarpGun1
+  itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 1231806932}
+--- !u!114 &1231806940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231806933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1231806934}
+  key:
+    target: 0
+    key: CreateWarpGun2
+  itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
     value: 0
@@ -13951,11 +15855,16 @@ PrefabInstance:
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.size
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[3].weight
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[4].weight
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
@@ -13970,12 +15879,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
+      propertyPath: choices.Array.data[8].weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
       propertyPath: choices.Array.data[6].triggers.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[7].triggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[8].triggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].triggers.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
@@ -13996,27 +15925,37 @@ PrefabInstance:
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[3].triggers.Array.data[0].key
-      value: CreateSlowGun1
+      value: CreateMadGun1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[4].triggers.Array.data[0].key
-      value: CreateBardShotGun2
+      value: CreateSlowGun1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[5].triggers.Array.data[0].key
-      value: CreateWallCreater2
+      value: CreateBardShotGun2
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[6].triggers.Array.data[0].key
-      value: CreateWarpGun2
+      value: CreateWallCreater2
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[7].triggers.Array.data[0].key
+      value: CreateWarpGun2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[8].triggers.Array.data[0].key
       value: CreateSlowGun2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].triggers.Array.data[0].key
+      value: CreateMadGun2
       objectReference: {fileID: 0}
     - target: {fileID: 8309255008366925703, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -14102,12 +16041,180 @@ MonoBehaviour:
   itemTemplateId:
     value: 0
   spawnPoint: {fileID: 1318212450}
+--- !u!114 &1318212455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318212451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1318212452}
+  key:
+    target: 0
+    key: CreateMadGun2
+  itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 1318212450}
+--- !u!114 &1318212456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318212451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1318212452}
+  key:
+    target: 0
+    key: CreateMadGun1
+  itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 1318212450}
+--- !u!114 &1318212457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318212451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1318212452}
+  key:
+    target: 0
+    key: CreateWarpGun1
+  itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 1318212450}
+--- !u!114 &1318212458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318212451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1318212452}
+  key:
+    target: 0
+    key: CreateWarpGun2
+  itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 1318212450}
 --- !u!1 &1319002740 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5186273309835470871, guid: 56feb52028c15144192bb6489346db0e,
     type: 3}
   m_PrefabInstance: {fileID: 526012086}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1319002741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319002740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1319002749}
+  key:
+    target: 0
+    key: CreateMadGun2
+  itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 526012087}
+--- !u!114 &1319002742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319002740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1319002749}
+  key:
+    target: 0
+    key: CreateMadGun1
+  itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 526012087}
+--- !u!114 &1319002743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319002740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1319002749}
+  key:
+    target: 0
+    key: CreateWarpGun1
+  itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 526012087}
+--- !u!114 &1319002744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319002740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1319002749}
+  key:
+    target: 0
+    key: CreateWarpGun2
+  itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 526012087}
 --- !u!114 &1319002749 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3186703557309067776, guid: 56feb52028c15144192bb6489346db0e,
@@ -15654,11 +17761,16 @@ PrefabInstance:
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.size
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[3].weight
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[4].weight
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
@@ -15673,12 +17785,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
+      propertyPath: choices.Array.data[8].weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
       propertyPath: choices.Array.data[6].triggers.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[7].triggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[8].triggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].triggers.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
@@ -15699,27 +17831,37 @@ PrefabInstance:
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[3].triggers.Array.data[0].key
-      value: CreateSlowGun1
+      value: CreateMadGun1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[4].triggers.Array.data[0].key
-      value: CreateBardShotGun2
+      value: CreateSlowGun1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[5].triggers.Array.data[0].key
-      value: CreateWallCreater2
+      value: CreateBardShotGun2
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[6].triggers.Array.data[0].key
-      value: CreateWarpGun2
+      value: CreateWallCreater2
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[7].triggers.Array.data[0].key
+      value: CreateWarpGun2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[8].triggers.Array.data[0].key
       value: CreateSlowGun2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].triggers.Array.data[0].key
+      value: CreateMadGun2
       objectReference: {fileID: 0}
     - target: {fileID: 8309255008366925703, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -15801,6 +17943,90 @@ MonoBehaviour:
     target: 0
     key: CreateWarpGun2
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 1565662969}
+--- !u!114 &1565662974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565662970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1565662971}
+  key:
+    target: 0
+    key: CreateMadGun2
+  itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 1565662969}
+--- !u!114 &1565662975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565662970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1565662971}
+  key:
+    target: 0
+    key: CreateMadGun1
+  itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 1565662969}
+--- !u!114 &1565662976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565662970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1565662971}
+  key:
+    target: 0
+    key: CreateWarpGun1
+  itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 1565662969}
+--- !u!114 &1565662977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565662970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1565662971}
+  key:
+    target: 0
+    key: CreateWarpGun2
+  itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
     value: 0
@@ -16172,11 +18398,16 @@ PrefabInstance:
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.size
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[3].weight
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[4].weight
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
@@ -16191,12 +18422,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
+      propertyPath: choices.Array.data[8].weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
       propertyPath: choices.Array.data[6].triggers.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[7].triggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[8].triggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].triggers.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
@@ -16217,27 +18468,37 @@ PrefabInstance:
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[3].triggers.Array.data[0].key
-      value: CreateSlowGun1
+      value: CreateMadGun1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[4].triggers.Array.data[0].key
-      value: CreateBardShotGun2
+      value: CreateSlowGun1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[5].triggers.Array.data[0].key
-      value: CreateWallCreater2
+      value: CreateBardShotGun2
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[6].triggers.Array.data[0].key
-      value: CreateWarpGun2
+      value: CreateWallCreater2
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[7].triggers.Array.data[0].key
+      value: CreateWarpGun2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[8].triggers.Array.data[0].key
       value: CreateSlowGun2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].triggers.Array.data[0].key
+      value: CreateMadGun2
       objectReference: {fileID: 0}
     - target: {fileID: 8309255008366925703, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -22605,11 +24866,16 @@ PrefabInstance:
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.size
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[3].weight
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[4].weight
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
@@ -22624,12 +24890,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
+      propertyPath: choices.Array.data[8].weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
       propertyPath: choices.Array.data[6].triggers.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[7].triggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[8].triggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].triggers.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
@@ -22650,27 +24936,37 @@ PrefabInstance:
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[3].triggers.Array.data[0].key
-      value: CreateSlowGun1
+      value: CreateMadGun1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[4].triggers.Array.data[0].key
-      value: CreateBardShotGun2
+      value: CreateSlowGun1
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[5].triggers.Array.data[0].key
-      value: CreateWallCreater2
+      value: CreateBardShotGun2
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[6].triggers.Array.data[0].key
-      value: CreateWarpGun2
+      value: CreateWallCreater2
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: choices.Array.data[7].triggers.Array.data[0].key
+      value: CreateWarpGun2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[8].triggers.Array.data[0].key
       value: CreateSlowGun2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
+        type: 3}
+      propertyPath: choices.Array.data[9].triggers.Array.data[0].key
+      value: CreateMadGun2
       objectReference: {fileID: 0}
     - target: {fileID: 8309255008366925703, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -23264,6 +25560,90 @@ MonoBehaviour:
     target: 0
     key: CreateWarpGun1
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 2108288704}
+--- !u!114 &2108288707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2108288703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 2108288715}
+  key:
+    target: 0
+    key: CreateMadGun2
+  itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 2108288704}
+--- !u!114 &2108288708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2108288703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 2108288715}
+  key:
+    target: 0
+    key: CreateMadGun1
+  itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 2108288704}
+--- !u!114 &2108288709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2108288703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 2108288715}
+  key:
+    target: 0
+    key: CreateWarpGun1
+  itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 2108288704}
+--- !u!114 &2108288710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2108288703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 2108288715}
+  key:
+    target: 0
+    key: CreateWarpGun2
+  itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
     value: 0
