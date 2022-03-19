@@ -69,7 +69,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4515649043533909683}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -87,9 +87,9 @@ GameObject:
   - component: {fileID: 5411712286893335261}
   - component: {fileID: 5411712286893335262}
   - component: {fileID: 5411712286893335263}
-  - component: {fileID: 5411712286893335248}
   - component: {fileID: 8524173583244682815}
   - component: {fileID: 5893063990092691531}
+  - component: {fileID: 5164089229783400845}
   m_Layer: 14
   m_Name: Bard 2
   m_TagString: Untagged
@@ -168,20 +168,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 5411712286893335261}
   rb: {fileID: 5411712286893335262}
---- !u!114 &5411712286893335248
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5411712286893335250}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce108e3354c62c345a1cbcdf1f965e21, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movableItem: {fileID: 5411712286893335263}
-  grip: {fileID: 7731334724266002809}
 --- !u!114 &8524173583244682815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -225,6 +211,20 @@ MonoBehaviour:
       integerValue: 0
       vector2Value: {x: 0, y: 0}
       vector3Value: {x: 0, y: 0, z: 0}
+--- !u!64 &5164089229783400845
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5411712286893335250}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &3450677078010305318
 PrefabInstance:
   m_ObjectHideFlags: 0
