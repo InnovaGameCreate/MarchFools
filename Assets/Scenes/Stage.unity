@@ -166,6 +166,11 @@ PrefabInstance:
       propertyPath: globalGimmickKey.key.key
       value: Collapse19
       objectReference: {fileID: 0}
+    - target: {fileID: 2327302656665005230, guid: d2d45b4c6ff6f06468b39e4b8beff998,
+        type: 3}
+      propertyPath: id.value
+      value: 9810732069518984440
+      objectReference: {fileID: 0}
     - target: {fileID: 7105362881323531896, guid: d2d45b4c6ff6f06468b39e4b8beff998,
         type: 3}
       propertyPath: m_RootOrder
@@ -1119,6 +1124,11 @@ PrefabInstance:
       propertyPath: globalGimmickKey.item
       value: 
       objectReference: {fileID: 552566456}
+    - target: {fileID: 8782931179043417512, guid: abbff11cc07a5dd4f8c43d5d11ba3c52,
+        type: 3}
+      propertyPath: id.value
+      value: 7320744537473109902
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abbff11cc07a5dd4f8c43d5d11ba3c52, type: 3}
 --- !u!1 &139925706 stripped
@@ -1152,7 +1162,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17002356976547801838
   spawnPoint: {fileID: 139925707}
 --- !u!114 &139925709
 MonoBehaviour:
@@ -1173,7 +1183,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17002356976547801838
   spawnPoint: {fileID: 139925707}
 --- !u!114 &139925710
 MonoBehaviour:
@@ -1194,7 +1204,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17053457604042215876
   spawnPoint: {fileID: 139925707}
 --- !u!114 &139925711
 MonoBehaviour:
@@ -1215,7 +1225,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17053457604042215876
   spawnPoint: {fileID: 139925707}
 --- !u!114 &139925712
 MonoBehaviour:
@@ -1236,7 +1246,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 9817001504776261019
   spawnPoint: {fileID: 139925707}
 --- !u!114 &139925713
 MonoBehaviour:
@@ -1257,7 +1267,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 9817001504776261019
   spawnPoint: {fileID: 139925707}
 --- !u!114 &139925718 stripped
 MonoBehaviour:
@@ -1450,6 +1460,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2095509840}
     m_Modifications:
+    - target: {fileID: 1623517325655026555, guid: 05c0479536091ef4d9a7930b8e327f45,
+        type: 3}
+      propertyPath: id.value
+      value: 6456842076913160270
+      objectReference: {fileID: 0}
     - target: {fileID: 3997019715254038336, guid: 05c0479536091ef4d9a7930b8e327f45,
         type: 3}
       propertyPath: globalGimmickKey.key.key
@@ -1628,7 +1643,7 @@ PrefabInstance:
     - target: {fileID: 1638909071413393022, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 17006386098609942612
+      value: 12642392544218298335
       objectReference: {fileID: 0}
     - target: {fileID: 2431026514579281825, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -1704,7 +1719,7 @@ PrefabInstance:
     - target: {fileID: 3186703557309067776, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: id.value
-      value: 3821837256762986548
+      value: 5939146563082409198
       objectReference: {fileID: 0}
     - target: {fileID: 5186273309835470871, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -1741,7 +1756,7 @@ PrefabInstance:
     - target: {fileID: 5974716255901812898, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 2055404795152881608
+      value: 16274931675943470595
       objectReference: {fileID: 0}
     - target: {fileID: 6918590728685485732, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -1757,7 +1772,7 @@ PrefabInstance:
     - target: {fileID: 6918590728685485732, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 3197817230153062484
+      value: 9279361716976755920
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -1925,7 +1940,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17002356976547801838
   spawnPoint: {fileID: 198542764}
 --- !u!114 &198542768
 MonoBehaviour:
@@ -1946,7 +1961,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17002356976547801838
   spawnPoint: {fileID: 198542764}
 --- !u!114 &198542769
 MonoBehaviour:
@@ -1967,7 +1982,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17053457604042215876
   spawnPoint: {fileID: 198542764}
 --- !u!114 &198542770
 MonoBehaviour:
@@ -1988,7 +2003,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17053457604042215876
   spawnPoint: {fileID: 198542764}
 --- !u!114 &198542771
 MonoBehaviour:
@@ -2009,7 +2024,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 9817001504776261019
   spawnPoint: {fileID: 198542764}
 --- !u!114 &198542772
 MonoBehaviour:
@@ -2030,7 +2045,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 9817001504776261019
   spawnPoint: {fileID: 198542764}
 --- !u!114 &201979275 stripped
 MonoBehaviour:
@@ -2552,6 +2567,11 @@ PrefabInstance:
       propertyPath: globalGimmickKey.key.key
       value: Collapse15
       objectReference: {fileID: 0}
+    - target: {fileID: 2327302656665005230, guid: d2d45b4c6ff6f06468b39e4b8beff998,
+        type: 3}
+      propertyPath: id.value
+      value: 11320242550405430098
+      objectReference: {fileID: 0}
     - target: {fileID: 7105362881323531896, guid: d2d45b4c6ff6f06468b39e4b8beff998,
         type: 3}
       propertyPath: m_RootOrder
@@ -2717,6 +2737,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7919710391380311655, guid: 21324097405ffb7418fb84e5200f2184,
+        type: 3}
+      propertyPath: id.value
+      value: 12654801840634389633
+      objectReference: {fileID: 0}
     - target: {fileID: 8691659612054851305, guid: 21324097405ffb7418fb84e5200f2184,
         type: 3}
       propertyPath: globalGimmickKey.key.key
@@ -2796,6 +2821,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4531235599826060195, guid: 078b02e04e459de469269760c985d26d,
+        type: 3}
+      propertyPath: itemTemplateId.value
+      value: 2808302738002580128
+      objectReference: {fileID: 0}
+    - target: {fileID: 4531235599826060200, guid: 078b02e04e459de469269760c985d26d,
+        type: 3}
+      propertyPath: id.value
+      value: 994086205231864045
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 078b02e04e459de469269760c985d26d, type: 3}
@@ -3338,7 +3373,7 @@ PrefabInstance:
     - target: {fileID: 1638909071413393022, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 17006386098609942612
+      value: 12642392544218298335
       objectReference: {fileID: 0}
     - target: {fileID: 2431026514579281825, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -3414,7 +3449,7 @@ PrefabInstance:
     - target: {fileID: 3186703557309067776, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: id.value
-      value: 3821837256762986548
+      value: 5867881723258284816
       objectReference: {fileID: 0}
     - target: {fileID: 5186273309835470871, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -3451,7 +3486,7 @@ PrefabInstance:
     - target: {fileID: 5974716255901812898, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 2055404795152881608
+      value: 16274931675943470595
       objectReference: {fileID: 0}
     - target: {fileID: 6918590728685485732, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -3467,7 +3502,7 @@ PrefabInstance:
     - target: {fileID: 6918590728685485732, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 3197817230153062484
+      value: 9279361716976755920
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -3635,7 +3670,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17002356976547801838
   spawnPoint: {fileID: 377726926}
 --- !u!114 &377726930
 MonoBehaviour:
@@ -3656,7 +3691,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17002356976547801838
   spawnPoint: {fileID: 377726926}
 --- !u!114 &377726931
 MonoBehaviour:
@@ -3677,7 +3712,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17053457604042215876
   spawnPoint: {fileID: 377726926}
 --- !u!114 &377726932
 MonoBehaviour:
@@ -3698,7 +3733,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17053457604042215876
   spawnPoint: {fileID: 377726926}
 --- !u!114 &377726933
 MonoBehaviour:
@@ -3719,7 +3754,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 9817001504776261019
   spawnPoint: {fileID: 377726926}
 --- !u!114 &377726934
 MonoBehaviour:
@@ -3740,7 +3775,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 9817001504776261019
   spawnPoint: {fileID: 377726926}
 --- !u!1 &382844816
 GameObject:
@@ -3844,6 +3879,11 @@ PrefabInstance:
       propertyPath: globalGimmickKey.item
       value: 
       objectReference: {fileID: 654616233}
+    - target: {fileID: 8782931179043417512, guid: abbff11cc07a5dd4f8c43d5d11ba3c52,
+        type: 3}
+      propertyPath: id.value
+      value: 12590641435436312047
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abbff11cc07a5dd4f8c43d5d11ba3c52, type: 3}
 --- !u!1001 &414315864
@@ -3867,7 +3907,7 @@ PrefabInstance:
     - target: {fileID: 1638909071413393022, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 17006386098609942612
+      value: 12642392544218298335
       objectReference: {fileID: 0}
     - target: {fileID: 2431026514579281825, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -3943,7 +3983,7 @@ PrefabInstance:
     - target: {fileID: 3186703557309067776, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: id.value
-      value: 3821837256762986548
+      value: 8439489438706355502
       objectReference: {fileID: 0}
     - target: {fileID: 5186273309835470871, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -3980,7 +4020,7 @@ PrefabInstance:
     - target: {fileID: 5974716255901812898, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 2055404795152881608
+      value: 16274931675943470595
       objectReference: {fileID: 0}
     - target: {fileID: 6918590728685485732, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -3996,7 +4036,7 @@ PrefabInstance:
     - target: {fileID: 6918590728685485732, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 3197817230153062484
+      value: 9279361716976755920
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -4164,7 +4204,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17002356976547801838
   spawnPoint: {fileID: 414315865}
 --- !u!114 &414315869
 MonoBehaviour:
@@ -4185,7 +4225,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17002356976547801838
   spawnPoint: {fileID: 414315865}
 --- !u!114 &414315870
 MonoBehaviour:
@@ -4206,7 +4246,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17053457604042215876
   spawnPoint: {fileID: 414315865}
 --- !u!114 &414315871
 MonoBehaviour:
@@ -4227,7 +4267,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17053457604042215876
   spawnPoint: {fileID: 414315865}
 --- !u!114 &414315872
 MonoBehaviour:
@@ -4248,7 +4288,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 9817001504776261019
   spawnPoint: {fileID: 414315865}
 --- !u!114 &414315873
 MonoBehaviour:
@@ -4269,7 +4309,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 9817001504776261019
   spawnPoint: {fileID: 414315865}
 --- !u!1 &419070786
 GameObject:
@@ -4373,6 +4413,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4531235599826060195, guid: 078b02e04e459de469269760c985d26d,
+        type: 3}
+      propertyPath: itemTemplateId.value
+      value: 2808302738002580128
+      objectReference: {fileID: 0}
+    - target: {fileID: 4531235599826060200, guid: 078b02e04e459de469269760c985d26d,
+        type: 3}
+      propertyPath: id.value
+      value: 1491417563452402023
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 078b02e04e459de469269760c985d26d, type: 3}
 --- !u!4 &432143951 stripped
@@ -4402,7 +4452,7 @@ PrefabInstance:
     - target: {fileID: 1638909071413393022, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 17006386098609942612
+      value: 12642392544218298335
       objectReference: {fileID: 0}
     - target: {fileID: 2431026514579281825, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -4478,7 +4528,7 @@ PrefabInstance:
     - target: {fileID: 3186703557309067776, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: id.value
-      value: 3821837256762986548
+      value: 13799186582194099430
       objectReference: {fileID: 0}
     - target: {fileID: 5186273309835470871, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -4515,7 +4565,7 @@ PrefabInstance:
     - target: {fileID: 5974716255901812898, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 2055404795152881608
+      value: 16274931675943470595
       objectReference: {fileID: 0}
     - target: {fileID: 6918590728685485732, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -4531,7 +4581,7 @@ PrefabInstance:
     - target: {fileID: 6918590728685485732, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 3197817230153062484
+      value: 9279361716976755920
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -4699,7 +4749,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17002356976547801838
   spawnPoint: {fileID: 448484603}
 --- !u!114 &448484607
 MonoBehaviour:
@@ -4720,7 +4770,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17002356976547801838
   spawnPoint: {fileID: 448484603}
 --- !u!114 &448484608
 MonoBehaviour:
@@ -4741,7 +4791,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17053457604042215876
   spawnPoint: {fileID: 448484603}
 --- !u!114 &448484609
 MonoBehaviour:
@@ -4762,7 +4812,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17053457604042215876
   spawnPoint: {fileID: 448484603}
 --- !u!114 &448484610
 MonoBehaviour:
@@ -4783,7 +4833,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 9817001504776261019
   spawnPoint: {fileID: 448484603}
 --- !u!114 &448484611
 MonoBehaviour:
@@ -4804,7 +4854,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 9817001504776261019
   spawnPoint: {fileID: 448484603}
 --- !u!1001 &452872532
 PrefabInstance:
@@ -4827,7 +4877,7 @@ PrefabInstance:
     - target: {fileID: 1638909071413393022, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 17006386098609942612
+      value: 12642392544218298335
       objectReference: {fileID: 0}
     - target: {fileID: 2431026514579281825, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -4903,7 +4953,7 @@ PrefabInstance:
     - target: {fileID: 3186703557309067776, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: id.value
-      value: 3821837256762986548
+      value: 13565412282400775486
       objectReference: {fileID: 0}
     - target: {fileID: 5186273309835470871, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -4940,7 +4990,7 @@ PrefabInstance:
     - target: {fileID: 5974716255901812898, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 2055404795152881608
+      value: 16274931675943470595
       objectReference: {fileID: 0}
     - target: {fileID: 6918590728685485732, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -4956,7 +5006,7 @@ PrefabInstance:
     - target: {fileID: 6918590728685485732, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 3197817230153062484
+      value: 9279361716976755920
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -5567,7 +5617,7 @@ PrefabInstance:
     - target: {fileID: 1638909071413393022, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 17006386098609942612
+      value: 12642392544218298335
       objectReference: {fileID: 0}
     - target: {fileID: 2431026514579281825, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -5680,7 +5730,7 @@ PrefabInstance:
     - target: {fileID: 5974716255901812898, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 2055404795152881608
+      value: 16274931675943470595
       objectReference: {fileID: 0}
     - target: {fileID: 6918590728685485732, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -5696,7 +5746,7 @@ PrefabInstance:
     - target: {fileID: 6918590728685485732, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 3197817230153062484
+      value: 9279361716976755920
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -6343,6 +6393,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4531235599826060195, guid: 078b02e04e459de469269760c985d26d,
+        type: 3}
+      propertyPath: itemTemplateId.value
+      value: 2808302738002580128
+      objectReference: {fileID: 0}
+    - target: {fileID: 4531235599826060200, guid: 078b02e04e459de469269760c985d26d,
+        type: 3}
+      propertyPath: id.value
+      value: 17860128318252004959
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 078b02e04e459de469269760c985d26d, type: 3}
 --- !u!1001 &550820936
@@ -6366,7 +6426,7 @@ PrefabInstance:
     - target: {fileID: 1638909071413393022, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 17006386098609942612
+      value: 12642392544218298335
       objectReference: {fileID: 0}
     - target: {fileID: 2431026514579281825, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -6442,7 +6502,7 @@ PrefabInstance:
     - target: {fileID: 3186703557309067776, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: id.value
-      value: 3821837256762986548
+      value: 2867437303453034524
       objectReference: {fileID: 0}
     - target: {fileID: 5186273309835470871, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -6479,7 +6539,7 @@ PrefabInstance:
     - target: {fileID: 5974716255901812898, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 2055404795152881608
+      value: 16274931675943470595
       objectReference: {fileID: 0}
     - target: {fileID: 6918590728685485732, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -6495,7 +6555,7 @@ PrefabInstance:
     - target: {fileID: 6918590728685485732, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 3197817230153062484
+      value: 9279361716976755920
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -6774,7 +6834,7 @@ PrefabInstance:
     - target: {fileID: 1638909071413393022, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 17006386098609942612
+      value: 12642392544218298335
       objectReference: {fileID: 0}
     - target: {fileID: 2431026514579281825, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -6850,7 +6910,7 @@ PrefabInstance:
     - target: {fileID: 3186703557309067776, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: id.value
-      value: 3821837256762986548
+      value: 14861597327591946979
       objectReference: {fileID: 0}
     - target: {fileID: 5186273309835470871, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -6887,7 +6947,7 @@ PrefabInstance:
     - target: {fileID: 5974716255901812898, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 2055404795152881608
+      value: 16274931675943470595
       objectReference: {fileID: 0}
     - target: {fileID: 6918590728685485732, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -6903,7 +6963,7 @@ PrefabInstance:
     - target: {fileID: 6918590728685485732, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 3197817230153062484
+      value: 9279361716976755920
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -7262,7 +7322,7 @@ PrefabInstance:
     - target: {fileID: 1638909071413393022, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 17006386098609942612
+      value: 12642392544218298335
       objectReference: {fileID: 0}
     - target: {fileID: 2431026514579281825, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -7338,7 +7398,7 @@ PrefabInstance:
     - target: {fileID: 3186703557309067776, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: id.value
-      value: 3821837256762986548
+      value: 2438769652686031405
       objectReference: {fileID: 0}
     - target: {fileID: 5186273309835470871, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -7375,7 +7435,7 @@ PrefabInstance:
     - target: {fileID: 5974716255901812898, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 2055404795152881608
+      value: 16274931675943470595
       objectReference: {fileID: 0}
     - target: {fileID: 6918590728685485732, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -7391,7 +7451,7 @@ PrefabInstance:
     - target: {fileID: 6918590728685485732, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 3197817230153062484
+      value: 9279361716976755920
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -7559,7 +7619,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17002356976547801838
   spawnPoint: {fileID: 629504697}
 --- !u!114 &629504701
 MonoBehaviour:
@@ -7580,7 +7640,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17002356976547801838
   spawnPoint: {fileID: 629504697}
 --- !u!114 &629504702
 MonoBehaviour:
@@ -7601,7 +7661,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17053457604042215876
   spawnPoint: {fileID: 629504697}
 --- !u!114 &629504703
 MonoBehaviour:
@@ -7622,7 +7682,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17053457604042215876
   spawnPoint: {fileID: 629504697}
 --- !u!114 &629504704
 MonoBehaviour:
@@ -7643,7 +7703,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 9817001504776261019
   spawnPoint: {fileID: 629504697}
 --- !u!114 &629504705
 MonoBehaviour:
@@ -7664,7 +7724,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 9817001504776261019
   spawnPoint: {fileID: 629504697}
 --- !u!1 &638955007
 GameObject:
@@ -7905,6 +7965,11 @@ PrefabInstance:
       propertyPath: globalGimmickKey.key.key
       value: Collapse14
       objectReference: {fileID: 0}
+    - target: {fileID: 6198517311513893737, guid: b13065d51f191ff4fa288953eec046fe,
+        type: 3}
+      propertyPath: id.value
+      value: 1303002634575678481
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b13065d51f191ff4fa288953eec046fe, type: 3}
 --- !u!4 &653759051 stripped
@@ -8009,6 +8074,11 @@ PrefabInstance:
       propertyPath: globalGimmickKey.item
       value: 
       objectReference: {fileID: 1931617470}
+    - target: {fileID: 8782931179043417512, guid: abbff11cc07a5dd4f8c43d5d11ba3c52,
+        type: 3}
+      propertyPath: id.value
+      value: 9722477883619645878
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abbff11cc07a5dd4f8c43d5d11ba3c52, type: 3}
 --- !u!1001 &666267486
@@ -8077,6 +8147,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4531235599826060195, guid: 078b02e04e459de469269760c985d26d,
+        type: 3}
+      propertyPath: itemTemplateId.value
+      value: 2808302738002580128
+      objectReference: {fileID: 0}
+    - target: {fileID: 4531235599826060200, guid: 078b02e04e459de469269760c985d26d,
+        type: 3}
+      propertyPath: id.value
+      value: 1097337190125607042
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 078b02e04e459de469269760c985d26d, type: 3}
@@ -8166,6 +8246,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RockIland
+      objectReference: {fileID: 0}
+    - target: {fileID: 7714132548255242927, guid: e7fd8bf96954a3a4fa54cf701157c517,
+        type: 3}
+      propertyPath: id.value
+      value: 8783549849498256359
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7fd8bf96954a3a4fa54cf701157c517, type: 3}
@@ -8323,6 +8408,11 @@ PrefabInstance:
         type: 3}
       propertyPath: globalGimmickKey.key.key
       value: Collapse12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2327302656665005230, guid: d2d45b4c6ff6f06468b39e4b8beff998,
+        type: 3}
+      propertyPath: id.value
+      value: 613024336191218017
       objectReference: {fileID: 0}
     - target: {fileID: 7105362881323531896, guid: d2d45b4c6ff6f06468b39e4b8beff998,
         type: 3}
@@ -8531,7 +8621,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17002356976547801838
   spawnPoint: {fileID: 691419163}
 --- !u!114 &691419165
 MonoBehaviour:
@@ -8552,7 +8642,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17002356976547801838
   spawnPoint: {fileID: 691419163}
 --- !u!114 &691419166
 MonoBehaviour:
@@ -8573,7 +8663,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17053457604042215876
   spawnPoint: {fileID: 691419163}
 --- !u!114 &691419167
 MonoBehaviour:
@@ -8594,7 +8684,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17053457604042215876
   spawnPoint: {fileID: 691419163}
 --- !u!114 &691419168
 MonoBehaviour:
@@ -8615,7 +8705,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 9817001504776261019
   spawnPoint: {fileID: 691419163}
 --- !u!114 &691419169
 MonoBehaviour:
@@ -8636,7 +8726,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 9817001504776261019
   spawnPoint: {fileID: 691419163}
 --- !u!114 &691419174 stripped
 MonoBehaviour:
@@ -8733,7 +8823,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17002356976547801838
   spawnPoint: {fileID: 720770224}
 --- !u!114 &720770226
 MonoBehaviour:
@@ -8754,7 +8844,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17002356976547801838
   spawnPoint: {fileID: 720770224}
 --- !u!114 &720770227
 MonoBehaviour:
@@ -8775,7 +8865,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17053457604042215876
   spawnPoint: {fileID: 720770224}
 --- !u!114 &720770228
 MonoBehaviour:
@@ -8796,7 +8886,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17053457604042215876
   spawnPoint: {fileID: 720770224}
 --- !u!114 &720770229
 MonoBehaviour:
@@ -8817,7 +8907,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 9817001504776261019
   spawnPoint: {fileID: 720770224}
 --- !u!114 &720770230
 MonoBehaviour:
@@ -8838,7 +8928,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 9817001504776261019
   spawnPoint: {fileID: 720770224}
 --- !u!114 &720770235 stripped
 MonoBehaviour:
@@ -10620,7 +10710,7 @@ PrefabInstance:
     - target: {fileID: 1638909071413393022, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 17006386098609942612
+      value: 12642392544218298335
       objectReference: {fileID: 0}
     - target: {fileID: 2431026514579281825, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -10696,7 +10786,7 @@ PrefabInstance:
     - target: {fileID: 3186703557309067776, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: id.value
-      value: 3821837256762986548
+      value: 4816408537962556119
       objectReference: {fileID: 0}
     - target: {fileID: 5186273309835470871, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -10733,7 +10823,7 @@ PrefabInstance:
     - target: {fileID: 5974716255901812898, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 2055404795152881608
+      value: 16274931675943470595
       objectReference: {fileID: 0}
     - target: {fileID: 6918590728685485732, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -10749,7 +10839,7 @@ PrefabInstance:
     - target: {fileID: 6918590728685485732, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 3197817230153062484
+      value: 9279361716976755920
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -10905,7 +10995,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17002356976547801838
   spawnPoint: {fileID: 781255548}
 --- !u!114 &781255550
 MonoBehaviour:
@@ -10926,7 +11016,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17002356976547801838
   spawnPoint: {fileID: 781255548}
 --- !u!114 &781255551
 MonoBehaviour:
@@ -10947,7 +11037,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17053457604042215876
   spawnPoint: {fileID: 781255548}
 --- !u!114 &781255552
 MonoBehaviour:
@@ -10968,7 +11058,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17053457604042215876
   spawnPoint: {fileID: 781255548}
 --- !u!114 &781255553
 MonoBehaviour:
@@ -10989,7 +11079,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 9817001504776261019
   spawnPoint: {fileID: 781255548}
 --- !u!114 &781255554
 MonoBehaviour:
@@ -11010,7 +11100,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 9817001504776261019
   spawnPoint: {fileID: 781255548}
 --- !u!114 &781255559 stripped
 MonoBehaviour:
@@ -11300,6 +11390,11 @@ PrefabInstance:
       propertyPath: globalGimmickKey.item
       value: 
       objectReference: {fileID: 288902912}
+    - target: {fileID: 8782931179043417512, guid: abbff11cc07a5dd4f8c43d5d11ba3c52,
+        type: 3}
+      propertyPath: id.value
+      value: 17749787557989280727
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abbff11cc07a5dd4f8c43d5d11ba3c52, type: 3}
 --- !u!1001 &813756084
@@ -11323,7 +11418,7 @@ PrefabInstance:
     - target: {fileID: 1638909071413393022, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 17006386098609942612
+      value: 12642392544218298335
       objectReference: {fileID: 0}
     - target: {fileID: 2431026514579281825, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -11399,7 +11494,7 @@ PrefabInstance:
     - target: {fileID: 3186703557309067776, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: id.value
-      value: 3821837256762986548
+      value: 15466122980956640493
       objectReference: {fileID: 0}
     - target: {fileID: 5186273309835470871, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -11436,7 +11531,7 @@ PrefabInstance:
     - target: {fileID: 5974716255901812898, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 2055404795152881608
+      value: 16274931675943470595
       objectReference: {fileID: 0}
     - target: {fileID: 6918590728685485732, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -11452,7 +11547,7 @@ PrefabInstance:
     - target: {fileID: 6918590728685485732, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 3197817230153062484
+      value: 9279361716976755920
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -11604,7 +11699,7 @@ PrefabInstance:
     - target: {fileID: 1638909071413393022, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 17006386098609942612
+      value: 12642392544218298335
       objectReference: {fileID: 0}
     - target: {fileID: 2431026514579281825, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -11680,7 +11775,7 @@ PrefabInstance:
     - target: {fileID: 3186703557309067776, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: id.value
-      value: 3821837256762986548
+      value: 967809353459311600
       objectReference: {fileID: 0}
     - target: {fileID: 5186273309835470871, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -11717,7 +11812,7 @@ PrefabInstance:
     - target: {fileID: 5974716255901812898, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 2055404795152881608
+      value: 16274931675943470595
       objectReference: {fileID: 0}
     - target: {fileID: 6918590728685485732, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -11733,7 +11828,7 @@ PrefabInstance:
     - target: {fileID: 6918590728685485732, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 3197817230153062484
+      value: 9279361716976755920
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -11901,7 +11996,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17002356976547801838
   spawnPoint: {fileID: 825367586}
 --- !u!114 &825367590
 MonoBehaviour:
@@ -11922,7 +12017,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17002356976547801838
   spawnPoint: {fileID: 825367586}
 --- !u!114 &825367591
 MonoBehaviour:
@@ -11943,7 +12038,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17053457604042215876
   spawnPoint: {fileID: 825367586}
 --- !u!114 &825367592
 MonoBehaviour:
@@ -11964,7 +12059,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17053457604042215876
   spawnPoint: {fileID: 825367586}
 --- !u!114 &825367593
 MonoBehaviour:
@@ -11985,7 +12080,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 9817001504776261019
   spawnPoint: {fileID: 825367586}
 --- !u!114 &825367594
 MonoBehaviour:
@@ -12006,7 +12101,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 9817001504776261019
   spawnPoint: {fileID: 825367586}
 --- !u!114 &826638466 stripped
 MonoBehaviour:
@@ -12303,6 +12398,11 @@ PrefabInstance:
       propertyPath: globalGimmickKey.key.key
       value: Collapse11
       objectReference: {fileID: 0}
+    - target: {fileID: 5545508499699019131, guid: 12a631d248cea154ebedf73baf96c833,
+        type: 3}
+      propertyPath: id.value
+      value: 5339037987559139166
+      objectReference: {fileID: 0}
     - target: {fileID: 9050497852247815987, guid: 12a631d248cea154ebedf73baf96c833,
         type: 3}
       propertyPath: m_Name
@@ -12596,6 +12696,11 @@ PrefabInstance:
       propertyPath: globalGimmickKey.key.key
       value: Collapse18
       objectReference: {fileID: 0}
+    - target: {fileID: 6198517311513893737, guid: b13065d51f191ff4fa288953eec046fe,
+        type: 3}
+      propertyPath: id.value
+      value: 11968782657883742326
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b13065d51f191ff4fa288953eec046fe, type: 3}
 --- !u!4 &949134844 stripped
@@ -12686,6 +12791,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7919710391380311655, guid: 21324097405ffb7418fb84e5200f2184,
+        type: 3}
+      propertyPath: id.value
+      value: 9672578496977686462
+      objectReference: {fileID: 0}
     - target: {fileID: 8691659612054851305, guid: 21324097405ffb7418fb84e5200f2184,
         type: 3}
       propertyPath: globalGimmickKey.key.key
@@ -12765,6 +12875,11 @@ PrefabInstance:
       propertyPath: globalGimmickKey.item
       value: 
       objectReference: {fileID: 1209027014}
+    - target: {fileID: 8782931179043417512, guid: abbff11cc07a5dd4f8c43d5d11ba3c52,
+        type: 3}
+      propertyPath: id.value
+      value: 6498933839705017032
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abbff11cc07a5dd4f8c43d5d11ba3c52, type: 3}
 --- !u!1001 &1019332699
@@ -12788,7 +12903,7 @@ PrefabInstance:
     - target: {fileID: 1638909071413393022, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 17006386098609942612
+      value: 12642392544218298335
       objectReference: {fileID: 0}
     - target: {fileID: 2431026514579281825, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -12864,7 +12979,7 @@ PrefabInstance:
     - target: {fileID: 3186703557309067776, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: id.value
-      value: 3821837256762986548
+      value: 13837170957123173820
       objectReference: {fileID: 0}
     - target: {fileID: 5186273309835470871, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -12901,7 +13016,7 @@ PrefabInstance:
     - target: {fileID: 5974716255901812898, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 2055404795152881608
+      value: 16274931675943470595
       objectReference: {fileID: 0}
     - target: {fileID: 6918590728685485732, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -12917,7 +13032,7 @@ PrefabInstance:
     - target: {fileID: 6918590728685485732, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 3197817230153062484
+      value: 9279361716976755920
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -13085,7 +13200,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17002356976547801838
   spawnPoint: {fileID: 1019332700}
 --- !u!114 &1019332704
 MonoBehaviour:
@@ -13106,7 +13221,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17002356976547801838
   spawnPoint: {fileID: 1019332700}
 --- !u!114 &1019332705
 MonoBehaviour:
@@ -13127,7 +13242,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17053457604042215876
   spawnPoint: {fileID: 1019332700}
 --- !u!114 &1019332706
 MonoBehaviour:
@@ -13148,7 +13263,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17053457604042215876
   spawnPoint: {fileID: 1019332700}
 --- !u!114 &1019332707
 MonoBehaviour:
@@ -13169,7 +13284,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 9817001504776261019
   spawnPoint: {fileID: 1019332700}
 --- !u!114 &1019332708
 MonoBehaviour:
@@ -13190,7 +13305,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 9817001504776261019
   spawnPoint: {fileID: 1019332700}
 --- !u!1 &1043999085
 GameObject:
@@ -13417,7 +13532,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.509434, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.9150943, g: 0.45723015, b: 0.43596473, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -13486,7 +13601,7 @@ PrefabInstance:
     - target: {fileID: 1638909071413393022, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 17006386098609942612
+      value: 12642392544218298335
       objectReference: {fileID: 0}
     - target: {fileID: 2431026514579281825, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -13562,7 +13677,7 @@ PrefabInstance:
     - target: {fileID: 3186703557309067776, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: id.value
-      value: 3821837256762986548
+      value: 5609570688522021237
       objectReference: {fileID: 0}
     - target: {fileID: 5186273309835470871, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -13599,7 +13714,7 @@ PrefabInstance:
     - target: {fileID: 5974716255901812898, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 2055404795152881608
+      value: 16274931675943470595
       objectReference: {fileID: 0}
     - target: {fileID: 6918590728685485732, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -13615,7 +13730,7 @@ PrefabInstance:
     - target: {fileID: 6918590728685485732, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 3197817230153062484
+      value: 9279361716976755920
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -13783,7 +13898,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17002356976547801838
   spawnPoint: {fileID: 1072641145}
 --- !u!114 &1072641149
 MonoBehaviour:
@@ -13804,7 +13919,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17002356976547801838
   spawnPoint: {fileID: 1072641145}
 --- !u!114 &1072641150
 MonoBehaviour:
@@ -13825,7 +13940,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17053457604042215876
   spawnPoint: {fileID: 1072641145}
 --- !u!114 &1072641151
 MonoBehaviour:
@@ -13846,7 +13961,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17053457604042215876
   spawnPoint: {fileID: 1072641145}
 --- !u!114 &1072641152
 MonoBehaviour:
@@ -13867,7 +13982,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 9817001504776261019
   spawnPoint: {fileID: 1072641145}
 --- !u!114 &1072641153
 MonoBehaviour:
@@ -13888,7 +14003,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 9817001504776261019
   spawnPoint: {fileID: 1072641145}
 --- !u!4 &1076055474 stripped
 Transform:
@@ -14248,7 +14363,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17002356976547801838
   spawnPoint: {fileID: 1130689566}
 --- !u!114 &1130689568
 MonoBehaviour:
@@ -14269,7 +14384,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17002356976547801838
   spawnPoint: {fileID: 1130689566}
 --- !u!114 &1130689569
 MonoBehaviour:
@@ -14290,7 +14405,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17053457604042215876
   spawnPoint: {fileID: 1130689566}
 --- !u!114 &1130689570
 MonoBehaviour:
@@ -14311,7 +14426,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17053457604042215876
   spawnPoint: {fileID: 1130689566}
 --- !u!114 &1130689571
 MonoBehaviour:
@@ -14332,7 +14447,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 9817001504776261019
   spawnPoint: {fileID: 1130689566}
 --- !u!114 &1130689572
 MonoBehaviour:
@@ -14353,7 +14468,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 9817001504776261019
   spawnPoint: {fileID: 1130689566}
 --- !u!114 &1130689577 stripped
 MonoBehaviour:
@@ -14541,6 +14656,11 @@ PrefabInstance:
       propertyPath: globalGimmickKey.item
       value: 
       objectReference: {fileID: 658792459}
+    - target: {fileID: 8782931179043417512, guid: abbff11cc07a5dd4f8c43d5d11ba3c52,
+        type: 3}
+      propertyPath: id.value
+      value: 16623445102620262614
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abbff11cc07a5dd4f8c43d5d11ba3c52, type: 3}
 --- !u!1 &1190143266 stripped
@@ -14574,7 +14694,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17002356976547801838
   spawnPoint: {fileID: 1190143267}
 --- !u!114 &1190143269
 MonoBehaviour:
@@ -14595,7 +14715,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17002356976547801838
   spawnPoint: {fileID: 1190143267}
 --- !u!114 &1190143270
 MonoBehaviour:
@@ -14616,7 +14736,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17053457604042215876
   spawnPoint: {fileID: 1190143267}
 --- !u!114 &1190143271
 MonoBehaviour:
@@ -14637,7 +14757,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17053457604042215876
   spawnPoint: {fileID: 1190143267}
 --- !u!114 &1190143272
 MonoBehaviour:
@@ -14658,7 +14778,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 9817001504776261019
   spawnPoint: {fileID: 1190143267}
 --- !u!114 &1190143273
 MonoBehaviour:
@@ -14679,7 +14799,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 9817001504776261019
   spawnPoint: {fileID: 1190143267}
 --- !u!114 &1190143278 stripped
 MonoBehaviour:
@@ -14972,7 +15092,7 @@ PrefabInstance:
     - target: {fileID: 1638909071413393022, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 17006386098609942612
+      value: 12642392544218298335
       objectReference: {fileID: 0}
     - target: {fileID: 2431026514579281825, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -15048,7 +15168,7 @@ PrefabInstance:
     - target: {fileID: 3186703557309067776, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: id.value
-      value: 3821837256762986548
+      value: 8345329946032647394
       objectReference: {fileID: 0}
     - target: {fileID: 5186273309835470871, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -15085,7 +15205,7 @@ PrefabInstance:
     - target: {fileID: 5974716255901812898, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 2055404795152881608
+      value: 16274931675943470595
       objectReference: {fileID: 0}
     - target: {fileID: 6918590728685485732, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -15101,7 +15221,7 @@ PrefabInstance:
     - target: {fileID: 6918590728685485732, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 3197817230153062484
+      value: 9279361716976755920
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -15269,7 +15389,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17002356976547801838
   spawnPoint: {fileID: 1217830816}
 --- !u!114 &1217830820
 MonoBehaviour:
@@ -15290,7 +15410,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17002356976547801838
   spawnPoint: {fileID: 1217830816}
 --- !u!114 &1217830821
 MonoBehaviour:
@@ -15311,7 +15431,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17053457604042215876
   spawnPoint: {fileID: 1217830816}
 --- !u!114 &1217830822
 MonoBehaviour:
@@ -15332,7 +15452,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17053457604042215876
   spawnPoint: {fileID: 1217830816}
 --- !u!114 &1217830823
 MonoBehaviour:
@@ -15353,7 +15473,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 9817001504776261019
   spawnPoint: {fileID: 1217830816}
 --- !u!114 &1217830824
 MonoBehaviour:
@@ -15374,7 +15494,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 9817001504776261019
   spawnPoint: {fileID: 1217830816}
 --- !u!1 &1220243814
 GameObject:
@@ -15533,7 +15653,7 @@ PrefabInstance:
     - target: {fileID: 1638909071413393022, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 17006386098609942612
+      value: 12642392544218298335
       objectReference: {fileID: 0}
     - target: {fileID: 2431026514579281825, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -15609,7 +15729,7 @@ PrefabInstance:
     - target: {fileID: 3186703557309067776, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: id.value
-      value: 3821837256762986548
+      value: 4052050776829323305
       objectReference: {fileID: 0}
     - target: {fileID: 5186273309835470871, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -15646,7 +15766,7 @@ PrefabInstance:
     - target: {fileID: 5974716255901812898, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 2055404795152881608
+      value: 16274931675943470595
       objectReference: {fileID: 0}
     - target: {fileID: 6918590728685485732, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -15662,7 +15782,7 @@ PrefabInstance:
     - target: {fileID: 6918590728685485732, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 3197817230153062484
+      value: 9279361716976755920
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -15830,7 +15950,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17002356976547801838
   spawnPoint: {fileID: 1231806932}
 --- !u!114 &1231806936
 MonoBehaviour:
@@ -15851,7 +15971,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17002356976547801838
   spawnPoint: {fileID: 1231806932}
 --- !u!114 &1231806937
 MonoBehaviour:
@@ -15872,7 +15992,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17053457604042215876
   spawnPoint: {fileID: 1231806932}
 --- !u!114 &1231806938
 MonoBehaviour:
@@ -15893,7 +16013,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17053457604042215876
   spawnPoint: {fileID: 1231806932}
 --- !u!114 &1231806939
 MonoBehaviour:
@@ -15914,7 +16034,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 9817001504776261019
   spawnPoint: {fileID: 1231806932}
 --- !u!114 &1231806940
 MonoBehaviour:
@@ -15935,7 +16055,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 9817001504776261019
   spawnPoint: {fileID: 1231806932}
 --- !u!1 &1234488917
 GameObject:
@@ -15992,6 +16112,11 @@ PrefabInstance:
         type: 3}
       propertyPath: globalGimmickKey.key.key
       value: Collapse2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2327302656665005230, guid: d2d45b4c6ff6f06468b39e4b8beff998,
+        type: 3}
+      propertyPath: id.value
+      value: 13314016697369307852
       objectReference: {fileID: 0}
     - target: {fileID: 7105362881323531896, guid: d2d45b4c6ff6f06468b39e4b8beff998,
         type: 3}
@@ -16391,6 +16516,11 @@ PrefabInstance:
       propertyPath: globalGimmickKey.item
       value: 
       objectReference: {fileID: 826638466}
+    - target: {fileID: 8782931179043417512, guid: abbff11cc07a5dd4f8c43d5d11ba3c52,
+        type: 3}
+      propertyPath: id.value
+      value: 2816905090275761657
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abbff11cc07a5dd4f8c43d5d11ba3c52, type: 3}
 --- !u!1001 &1315403388
@@ -16480,6 +16610,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RockIland
       objectReference: {fileID: 0}
+    - target: {fileID: 7714132548255242927, guid: e7fd8bf96954a3a4fa54cf701157c517,
+        type: 3}
+      propertyPath: id.value
+      value: 6149067754265765290
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7fd8bf96954a3a4fa54cf701157c517, type: 3}
 --- !u!1001 &1318212449
@@ -16503,7 +16638,7 @@ PrefabInstance:
     - target: {fileID: 1638909071413393022, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 17006386098609942612
+      value: 12642392544218298335
       objectReference: {fileID: 0}
     - target: {fileID: 2431026514579281825, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -16579,7 +16714,7 @@ PrefabInstance:
     - target: {fileID: 3186703557309067776, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: id.value
-      value: 3821837256762986548
+      value: 8534873737169385100
       objectReference: {fileID: 0}
     - target: {fileID: 5186273309835470871, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -16616,7 +16751,7 @@ PrefabInstance:
     - target: {fileID: 5974716255901812898, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 2055404795152881608
+      value: 16274931675943470595
       objectReference: {fileID: 0}
     - target: {fileID: 6918590728685485732, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -16632,7 +16767,7 @@ PrefabInstance:
     - target: {fileID: 6918590728685485732, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 3197817230153062484
+      value: 9279361716976755920
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -16800,7 +16935,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17002356976547801838
   spawnPoint: {fileID: 1318212450}
 --- !u!114 &1318212454
 MonoBehaviour:
@@ -16821,7 +16956,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17002356976547801838
   spawnPoint: {fileID: 1318212450}
 --- !u!114 &1318212455
 MonoBehaviour:
@@ -16842,7 +16977,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17053457604042215876
   spawnPoint: {fileID: 1318212450}
 --- !u!114 &1318212456
 MonoBehaviour:
@@ -16863,7 +16998,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17053457604042215876
   spawnPoint: {fileID: 1318212450}
 --- !u!114 &1318212457
 MonoBehaviour:
@@ -16884,7 +17019,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 9817001504776261019
   spawnPoint: {fileID: 1318212450}
 --- !u!114 &1318212458
 MonoBehaviour:
@@ -16905,7 +17040,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 9817001504776261019
   spawnPoint: {fileID: 1318212450}
 --- !u!1 &1319002740 stripped
 GameObject:
@@ -16932,7 +17067,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17053457604042215876
   spawnPoint: {fileID: 526012087}
 --- !u!114 &1319002742
 MonoBehaviour:
@@ -16953,7 +17088,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17053457604042215876
   spawnPoint: {fileID: 526012087}
 --- !u!114 &1319002743
 MonoBehaviour:
@@ -16974,7 +17109,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 9817001504776261019
   spawnPoint: {fileID: 526012087}
 --- !u!114 &1319002744
 MonoBehaviour:
@@ -16995,7 +17130,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 9817001504776261019
   spawnPoint: {fileID: 526012087}
 --- !u!114 &1319002749 stripped
 MonoBehaviour:
@@ -17028,7 +17163,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17002356976547801838
   spawnPoint: {fileID: 526012087}
 --- !u!114 &1319002751
 MonoBehaviour:
@@ -17049,7 +17184,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17002356976547801838
   spawnPoint: {fileID: 526012087}
 --- !u!1 &1330236057
 GameObject:
@@ -17078,15 +17213,15 @@ RectTransform:
   m_GameObject: {fileID: 1330236057}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_Children: []
   m_Father: {fileID: 674486609}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 35}
-  m_SizeDelta: {x: 536, y: 60}
+  m_AnchoredPosition: {x: 0, y: 61.6}
+  m_SizeDelta: {x: 2846, y: 479.4287}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1330236059
 MonoBehaviour:
@@ -17107,7 +17242,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4ae68018da3eb3e4bbfd28bf2acdbf2e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f574b4ad7858a7a47a6de651e05fa4be, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -17270,15 +17405,15 @@ RectTransform:
   m_GameObject: {fileID: 1365096796}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_Children: []
   m_Father: {fileID: 674486609}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 35}
-  m_SizeDelta: {x: 360, y: 61}
+  m_AnchoredPosition: {x: 0, y: 62.2}
+  m_SizeDelta: {x: 2846, y: 479.4287}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1365096798
 MonoBehaviour:
@@ -17299,7 +17434,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 55ea32230e51f1344be3bf2834d4fcea, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e083d42060faeb745b7ca831c4735bb3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -17395,6 +17530,11 @@ PrefabInstance:
       propertyPath: globalGimmickKey.item
       value: 
       objectReference: {fileID: 327427084}
+    - target: {fileID: 8782931179043417512, guid: abbff11cc07a5dd4f8c43d5d11ba3c52,
+        type: 3}
+      propertyPath: id.value
+      value: 8695126364453171020
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abbff11cc07a5dd4f8c43d5d11ba3c52, type: 3}
 --- !u!1 &1384312879
@@ -17450,6 +17590,11 @@ PrefabInstance:
         type: 3}
       propertyPath: globalGimmickKey.key.key
       value: Collapse10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5545508499699019131, guid: 12a631d248cea154ebedf73baf96c833,
+        type: 3}
+      propertyPath: id.value
+      value: 2072595777289928344
       objectReference: {fileID: 0}
     - target: {fileID: 9050497852247815987, guid: 12a631d248cea154ebedf73baf96c833,
         type: 3}
@@ -17721,7 +17866,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id:
-    value: 0
+    value: 1638702289800042392
   itemName: "\u30A2\u30A4\u30C6\u30E0"
 --- !u!64 &1438786784
 MeshCollider:
@@ -17873,6 +18018,11 @@ PrefabInstance:
       propertyPath: key.target
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8782931179043417512, guid: abbff11cc07a5dd4f8c43d5d11ba3c52,
+        type: 3}
+      propertyPath: id.value
+      value: 14133016555955955439
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abbff11cc07a5dd4f8c43d5d11ba3c52, type: 3}
 --- !u!4 &1473146434 stripped
@@ -17960,6 +18110,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4531235599826060195, guid: 078b02e04e459de469269760c985d26d,
+        type: 3}
+      propertyPath: itemTemplateId.value
+      value: 2808302738002580128
+      objectReference: {fileID: 0}
+    - target: {fileID: 4531235599826060200, guid: 078b02e04e459de469269760c985d26d,
+        type: 3}
+      propertyPath: id.value
+      value: 15092965703047005988
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 078b02e04e459de469269760c985d26d, type: 3}
 --- !u!4 &1491996137 stripped
@@ -18034,6 +18194,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4531235599826060195, guid: 078b02e04e459de469269760c985d26d,
+        type: 3}
+      propertyPath: itemTemplateId.value
+      value: 2808302738002580128
+      objectReference: {fileID: 0}
+    - target: {fileID: 4531235599826060200, guid: 078b02e04e459de469269760c985d26d,
+        type: 3}
+      propertyPath: id.value
+      value: 16448816051546814775
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 078b02e04e459de469269760c985d26d, type: 3}
@@ -18203,6 +18373,11 @@ PrefabInstance:
       propertyPath: globalGimmickKey.item
       value: 
       objectReference: {fileID: 201979275}
+    - target: {fileID: 8782931179043417512, guid: abbff11cc07a5dd4f8c43d5d11ba3c52,
+        type: 3}
+      propertyPath: id.value
+      value: 4858976532054197317
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abbff11cc07a5dd4f8c43d5d11ba3c52, type: 3}
 --- !u!1001 &1543570782
@@ -18212,6 +18387,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2095509840}
     m_Modifications:
+    - target: {fileID: 1623517325655026555, guid: 05c0479536091ef4d9a7930b8e327f45,
+        type: 3}
+      propertyPath: id.value
+      value: 596773487970903039
+      objectReference: {fileID: 0}
     - target: {fileID: 3997019715254038336, guid: 05c0479536091ef4d9a7930b8e327f45,
         type: 3}
       propertyPath: globalGimmickKey.key.key
@@ -18393,7 +18573,7 @@ PrefabInstance:
     - target: {fileID: 1638909071413393022, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 17006386098609942612
+      value: 12642392544218298335
       objectReference: {fileID: 0}
     - target: {fileID: 2431026514579281825, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -18469,7 +18649,7 @@ PrefabInstance:
     - target: {fileID: 3186703557309067776, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: id.value
-      value: 3821837256762986548
+      value: 9766545804908013579
       objectReference: {fileID: 0}
     - target: {fileID: 5186273309835470871, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -18506,7 +18686,7 @@ PrefabInstance:
     - target: {fileID: 5974716255901812898, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 2055404795152881608
+      value: 16274931675943470595
       objectReference: {fileID: 0}
     - target: {fileID: 6918590728685485732, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -18522,7 +18702,7 @@ PrefabInstance:
     - target: {fileID: 6918590728685485732, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 3197817230153062484
+      value: 9279361716976755920
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -18690,7 +18870,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17002356976547801838
   spawnPoint: {fileID: 1565662969}
 --- !u!114 &1565662973
 MonoBehaviour:
@@ -18711,7 +18891,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17002356976547801838
   spawnPoint: {fileID: 1565662969}
 --- !u!114 &1565662974
 MonoBehaviour:
@@ -18732,7 +18912,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17053457604042215876
   spawnPoint: {fileID: 1565662969}
 --- !u!114 &1565662975
 MonoBehaviour:
@@ -18753,7 +18933,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17053457604042215876
   spawnPoint: {fileID: 1565662969}
 --- !u!114 &1565662976
 MonoBehaviour:
@@ -18774,7 +18954,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 9817001504776261019
   spawnPoint: {fileID: 1565662969}
 --- !u!114 &1565662977
 MonoBehaviour:
@@ -18795,7 +18975,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 9817001504776261019
   spawnPoint: {fileID: 1565662969}
 --- !u!1 &1583632511
 GameObject:
@@ -19030,7 +19210,7 @@ PrefabInstance:
     - target: {fileID: 1638909071413393022, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 17006386098609942612
+      value: 12642392544218298335
       objectReference: {fileID: 0}
     - target: {fileID: 2431026514579281825, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -19106,7 +19286,7 @@ PrefabInstance:
     - target: {fileID: 3186703557309067776, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: id.value
-      value: 3821837256762986548
+      value: 8776613773860543449
       objectReference: {fileID: 0}
     - target: {fileID: 5186273309835470871, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -19143,7 +19323,7 @@ PrefabInstance:
     - target: {fileID: 5974716255901812898, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 2055404795152881608
+      value: 16274931675943470595
       objectReference: {fileID: 0}
     - target: {fileID: 6918590728685485732, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -19159,7 +19339,7 @@ PrefabInstance:
     - target: {fileID: 6918590728685485732, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 3197817230153062484
+      value: 9279361716976755920
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -22153,6 +22333,11 @@ PrefabInstance:
       propertyPath: globalGimmickKey.key.key
       value: Collapse3
       objectReference: {fileID: 0}
+    - target: {fileID: 6198517311513893737, guid: b13065d51f191ff4fa288953eec046fe,
+        type: 3}
+      propertyPath: id.value
+      value: 10948308760983400577
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b13065d51f191ff4fa288953eec046fe, type: 3}
 --- !u!1001 &1675275170
@@ -22267,6 +22452,11 @@ PrefabInstance:
         type: 3}
       propertyPath: globalGimmickKey.key.key
       value: Collapse4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5463169479310551032, guid: b4238e87127ae8943a980ae415b80599,
+        type: 3}
+      propertyPath: id.value
+      value: 13465616312030944773
       objectReference: {fileID: 0}
     - target: {fileID: 7877108957608077667, guid: b4238e87127ae8943a980ae415b80599,
         type: 3}
@@ -22417,6 +22607,11 @@ PrefabInstance:
       propertyPath: globalGimmickKey.item
       value: 
       objectReference: {fileID: 1221930856}
+    - target: {fileID: 8782931179043417512, guid: abbff11cc07a5dd4f8c43d5d11ba3c52,
+        type: 3}
+      propertyPath: id.value
+      value: 2212995634390673140
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abbff11cc07a5dd4f8c43d5d11ba3c52, type: 3}
 --- !u!1 &1721044652
@@ -22516,6 +22711,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4531235599826060195, guid: 078b02e04e459de469269760c985d26d,
+        type: 3}
+      propertyPath: itemTemplateId.value
+      value: 2808302738002580128
+      objectReference: {fileID: 0}
+    - target: {fileID: 4531235599826060200, guid: 078b02e04e459de469269760c985d26d,
+        type: 3}
+      propertyPath: id.value
+      value: 7575349332946938434
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 078b02e04e459de469269760c985d26d, type: 3}
 --- !u!114 &1727143237 stripped
@@ -22602,6 +22807,11 @@ PrefabInstance:
       propertyPath: globalGimmickKey.item
       value: 
       objectReference: {fileID: 208980972}
+    - target: {fileID: 8782931179043417512, guid: abbff11cc07a5dd4f8c43d5d11ba3c52,
+        type: 3}
+      propertyPath: id.value
+      value: 3323644818648191520
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abbff11cc07a5dd4f8c43d5d11ba3c52, type: 3}
 --- !u!4 &1750145989 stripped
@@ -22669,7 +22879,7 @@ RectTransform:
   m_GameObject: {fileID: 1763878861}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_Children: []
   m_Father: {fileID: 674486609}
   m_RootOrder: 2
@@ -22677,7 +22887,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 35}
-  m_SizeDelta: {x: 313, y: 95}
+  m_SizeDelta: {x: 2846, y: 479.4287}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1763878863
 MonoBehaviour:
@@ -22698,7 +22908,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b1512f78c465ae84dbf3a9ea977443ab, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b95525cef99b3b143a7eeed8fa7d8cf4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -22974,6 +23184,11 @@ PrefabInstance:
       propertyPath: globalGimmickKey.item
       value: 
       objectReference: {fileID: 1364672633}
+    - target: {fileID: 8782931179043417512, guid: abbff11cc07a5dd4f8c43d5d11ba3c52,
+        type: 3}
+      propertyPath: id.value
+      value: 2616090959801522054
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abbff11cc07a5dd4f8c43d5d11ba3c52, type: 3}
 --- !u!1 &1862117396
@@ -23062,6 +23277,11 @@ PrefabInstance:
         type: 3}
       propertyPath: globalGimmickKey.key.key
       value: Collapse8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2327302656665005230, guid: d2d45b4c6ff6f06468b39e4b8beff998,
+        type: 3}
+      propertyPath: id.value
+      value: 17321567153119729581
       objectReference: {fileID: 0}
     - target: {fileID: 7105362881323531896, guid: d2d45b4c6ff6f06468b39e4b8beff998,
         type: 3}
@@ -23251,7 +23471,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1894245626
 RectTransform:
   m_ObjectHideFlags: 0
@@ -24867,6 +25087,11 @@ PrefabInstance:
       propertyPath: globalGimmickKey.key.key
       value: Collapse17
       objectReference: {fileID: 0}
+    - target: {fileID: 5463169479310551032, guid: b4238e87127ae8943a980ae415b80599,
+        type: 3}
+      propertyPath: id.value
+      value: 18433424469657083141
+      objectReference: {fileID: 0}
     - target: {fileID: 7877108957608077667, guid: b4238e87127ae8943a980ae415b80599,
         type: 3}
       propertyPath: m_RootOrder
@@ -25022,6 +25247,11 @@ PrefabInstance:
       propertyPath: globalGimmickKey.item
       value: 
       objectReference: {fileID: 1867741078}
+    - target: {fileID: 8782931179043417512, guid: abbff11cc07a5dd4f8c43d5d11ba3c52,
+        type: 3}
+      propertyPath: id.value
+      value: 6259485329396417214
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abbff11cc07a5dd4f8c43d5d11ba3c52, type: 3}
 --- !u!1 &1972790017
@@ -25297,7 +25527,7 @@ PrefabInstance:
     - target: {fileID: 1638909071413393022, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 17006386098609942612
+      value: 12642392544218298335
       objectReference: {fileID: 0}
     - target: {fileID: 2431026514579281825, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -25373,7 +25603,7 @@ PrefabInstance:
     - target: {fileID: 3186703557309067776, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: id.value
-      value: 3821837256762986548
+      value: 11966018796016734417
       objectReference: {fileID: 0}
     - target: {fileID: 5186273309835470871, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -25410,7 +25640,7 @@ PrefabInstance:
     - target: {fileID: 5974716255901812898, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 2055404795152881608
+      value: 16274931675943470595
       objectReference: {fileID: 0}
     - target: {fileID: 6918590728685485732, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -25426,7 +25656,7 @@ PrefabInstance:
     - target: {fileID: 6918590728685485732, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
       propertyPath: itemTemplateId.value
-      value: 3197817230153062484
+      value: 9279361716976755920
       objectReference: {fileID: 0}
     - target: {fileID: 7042004018864523139, guid: 56feb52028c15144192bb6489346db0e,
         type: 3}
@@ -25633,6 +25863,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7919710391380311655, guid: 21324097405ffb7418fb84e5200f2184,
+        type: 3}
+      propertyPath: id.value
+      value: 17314896589122775280
+      objectReference: {fileID: 0}
     - target: {fileID: 8691659612054851305, guid: 21324097405ffb7418fb84e5200f2184,
         type: 3}
       propertyPath: globalGimmickKey.key.key
@@ -25712,6 +25947,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4531235599826060195, guid: 078b02e04e459de469269760c985d26d,
+        type: 3}
+      propertyPath: itemTemplateId.value
+      value: 2808302738002580128
+      objectReference: {fileID: 0}
+    - target: {fileID: 4531235599826060200, guid: 078b02e04e459de469269760c985d26d,
+        type: 3}
+      propertyPath: id.value
+      value: 2287497962618282076
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 078b02e04e459de469269760c985d26d, type: 3}
@@ -25796,6 +26041,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WaterSourceIland
+      objectReference: {fileID: 0}
+    - target: {fileID: 4428319453173266677, guid: ad6a0dcc06f38964999fbbb9fe5cb54a,
+        type: 3}
+      propertyPath: id.value
+      value: 5839986791499416518
       objectReference: {fileID: 0}
     - target: {fileID: 4832736787364659069, guid: ad6a0dcc06f38964999fbbb9fe5cb54a,
         type: 3}
@@ -25916,6 +26166,11 @@ PrefabInstance:
       propertyPath: globalGimmickKey.item
       value: 
       objectReference: {fileID: 1291568449}
+    - target: {fileID: 8782931179043417512, guid: abbff11cc07a5dd4f8c43d5d11ba3c52,
+        type: 3}
+      propertyPath: id.value
+      value: 14146973290638275855
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abbff11cc07a5dd4f8c43d5d11ba3c52, type: 3}
 --- !u!1 &2069631155
@@ -26205,7 +26460,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17002356976547801838
   spawnPoint: {fileID: 2108288704}
 --- !u!114 &2108288706
 MonoBehaviour:
@@ -26226,7 +26481,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6167446186580526867, guid: 796f771f77cb42644957a4575cd5e8ae,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17002356976547801838
   spawnPoint: {fileID: 2108288704}
 --- !u!114 &2108288707
 MonoBehaviour:
@@ -26247,7 +26502,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17053457604042215876
   spawnPoint: {fileID: 2108288704}
 --- !u!114 &2108288708
 MonoBehaviour:
@@ -26268,7 +26523,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6004820020645861570, guid: bb68b095a1da2a441ac1dd6e7917ceb6,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17053457604042215876
   spawnPoint: {fileID: 2108288704}
 --- !u!114 &2108288709
 MonoBehaviour:
@@ -26289,7 +26544,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 9817001504776261019
   spawnPoint: {fileID: 2108288704}
 --- !u!114 &2108288710
 MonoBehaviour:
@@ -26310,7 +26565,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 7670364246324224467, guid: 83c4455bfb6430844b58fd051130db73,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 9817001504776261019
   spawnPoint: {fileID: 2108288704}
 --- !u!114 &2108288715 stripped
 MonoBehaviour:
