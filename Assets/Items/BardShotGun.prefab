@@ -48,6 +48,7 @@ GameObject:
   - component: {fileID: 4504551383536300063}
   - component: {fileID: 7257647217092839603}
   - component: {fileID: -702254223535408721}
+  - component: {fileID: 234628951435160714}
   m_Layer: 14
   m_Name: BardShotGun
   m_TagString: Untagged
@@ -189,7 +190,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 5411712286893335261, guid: 91eb5226a7f05c243b493c9be9366b90,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 8321151222170522617
   spawnPoint: {fileID: 1299324011694168931}
 --- !u!114 &4504551383536300063
 MonoBehaviour:
@@ -210,7 +211,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 5411712286893335261, guid: e94392f04bc4997489d8a16518e2e2c6,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 10828994882474964438
   spawnPoint: {fileID: 8865093755784835804}
 --- !u!114 &7257647217092839603
 MonoBehaviour:
@@ -231,7 +232,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 5411712286893335261, guid: 63cf127a97adbbc47aeffb1663e05be7,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 4820586877259218321
   spawnPoint: {fileID: 5322244524895042855}
 --- !u!114 &-702254223535408721
 MonoBehaviour:
@@ -249,6 +250,22 @@ MonoBehaviour:
   key:
     target: 0
     key: DestroyBardShotGun
+--- !u!114 &234628951435160714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299324011017796695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1299324011017796702}
+  key:
+    target: 2
+    key: GameEnd
 --- !u!1 &1299324011694168930
 GameObject:
   m_ObjectHideFlags: 0

@@ -5319,6 +5319,7 @@ GameObject:
   - component: {fileID: 3089324835461040838}
   - component: {fileID: 6167446186580526895}
   - component: {fileID: 6167446186580526892}
+  - component: {fileID: -7957602118983364379}
   m_Layer: 14
   m_Name: WarpGun
   m_TagString: Untagged
@@ -5742,6 +5743,22 @@ MonoBehaviour:
   key:
     target: 0
     key: DestroyWarpGun
+--- !u!114 &-7957602118983364379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6167446186580526889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 6167446186580526867}
+  key:
+    target: 2
+    key: GameEnd
 --- !u!1 &6279147779621460976
 GameObject:
   m_ObjectHideFlags: 0

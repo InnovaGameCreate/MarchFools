@@ -194,7 +194,7 @@ GameObject:
   - component: {fileID: 4531235599826060195}
   - component: {fileID: 232755424788446629}
   - component: {fileID: -8162572091543794709}
-  - component: {fileID: 1055423634}
+  - component: {fileID: 7375629762790424563}
   m_Layer: 14
   m_Name: bridgeGun
   m_TagString: Untagged
@@ -334,7 +334,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 8533804513839474506, guid: 63fbac738b1ed26428026b1c70200f24,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17223335012933596451
   spawnPoint: {fileID: 4531235600758465685}
 --- !u!114 &232755424788446629
 MonoBehaviour:
@@ -496,7 +496,7 @@ MonoBehaviour:
       integerValue: 0
       vector2Value: {x: 0, y: 0}
       vector3Value: {x: 0, y: 0, z: 0}
---- !u!114 &1055423634
+--- !u!114 &7375629762790424563
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -505,129 +505,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 4531235599826060193}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d06d8dc2ce9e442ab2712de694945b2e, type: 3}
+  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 4531235599826060200}
   key:
-    target: 0
-    key: FireExec
-  logic:
-    statements:
-    - singleStatement:
-        targetState:
-          target: 0
-          key: Fire
-          parameterType: 0
-        expression:
-          type: 1
-          value:
-            type: 0
-            constant:
-              type: 1
-              boolValue: 0
-              floatValue: 0
-              integerValue: 0
-              vector2Value: {x: 0, y: 0}
-              vector3Value: {x: 0, y: 0, z: 0}
-            sourceState:
-              target: 0
-              key: 
-              type: 6
-          operatorExpression:
-            operator: 7
-            operands:
-            - type: 0
-              value:
-                type: 1
-                constant:
-                  type: 1
-                  boolValue: 0
-                  floatValue: 0
-                  integerValue: 0
-                  vector2Value: {x: 0, y: 0}
-                  vector3Value: {x: 0, y: 0, z: 0}
-                sourceState:
-                  target: 2
-                  key: GameState
-                  type: 3
-              operatorExpression:
-                operator: 0
-                operands: []
-            - type: 0
-              value:
-                type: 0
-                constant:
-                  type: 3
-                  boolValue: 0
-                  floatValue: 0
-                  integerValue: 2
-                  vector2Value: {x: 0, y: 0}
-                  vector3Value: {x: 0, y: 0, z: 0}
-                sourceState:
-                  target: 0
-                  key: 
-                  type: 6
-              operatorExpression:
-                operator: 0
-                operands: []
-    - singleStatement:
-        targetState:
-          target: 0
-          key: Fire
-          parameterType: 0
-        expression:
-          type: 1
-          value:
-            type: 0
-            constant:
-              type: 1
-              boolValue: 0
-              floatValue: 0
-              integerValue: 0
-              vector2Value: {x: 0, y: 0}
-              vector3Value: {x: 0, y: 0, z: 0}
-            sourceState:
-              target: 0
-              key: 
-              type: 6
-          operatorExpression:
-            operator: 7
-            operands:
-            - type: 0
-              value:
-                type: 1
-                constant:
-                  type: 1
-                  boolValue: 0
-                  floatValue: 0
-                  integerValue: 0
-                  vector2Value: {x: 0, y: 0}
-                  vector3Value: {x: 0, y: 0, z: 0}
-                sourceState:
-                  target: 2
-                  key: GameState
-                  type: 3
-              operatorExpression:
-                operator: 0
-                operands: []
-            - type: 0
-              value:
-                type: 0
-                constant:
-                  type: 3
-                  boolValue: 0
-                  floatValue: 0
-                  integerValue: 3
-                  vector2Value: {x: 0, y: 0}
-                  vector3Value: {x: 0, y: 0, z: 0}
-                sourceState:
-                  target: 0
-                  key: 
-                  type: 6
-              operatorExpression:
-                operator: 0
-                operands: []
+    target: 2
+    key: GameEnd
 --- !u!1 &4531235600758465684
 GameObject:
   m_ObjectHideFlags: 0
