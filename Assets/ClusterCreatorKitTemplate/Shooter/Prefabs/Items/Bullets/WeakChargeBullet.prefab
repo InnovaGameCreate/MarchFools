@@ -4785,6 +4785,10 @@ GameObject:
   - component: {fileID: 5191475587956444837}
   - component: {fileID: 5111966469821219355}
   - component: {fileID: 4402445735300942967}
+  - component: {fileID: 258529570233420285}
+  - component: {fileID: 6364123277675543294}
+  - component: {fileID: 5336628108303961296}
+  - component: {fileID: 354993078242368227}
   m_Layer: 0
   m_Name: WeakChargeBullet
   m_TagString: Untagged
@@ -4875,6 +4879,8 @@ MonoBehaviour:
       boolValue: 0
       floatValue: 0
       integerValue: 0
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
 --- !u!114 &8756446878988507644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4892,7 +4898,7 @@ MonoBehaviour:
     target: 0
     key: OnCreate
   space: {fileID: 7505433668568587305}
-  force: {x: 0, y: 0, z: 40}
+  force: {x: 0, y: 0, z: 100}
   ignoreMass: 1
 --- !u!114 &6694808779546835723
 MonoBehaviour:
@@ -4912,28 +4918,24 @@ MonoBehaviour:
   triggers:
   - target: 3
     specifiedTargetItem: {fileID: 0}
-    key: damage
-    type: 3
+    key: moveSpeed
+    type: 2
     value:
       boolValue: 0
       floatValue: 0
-      integerValue: 1
+      integerValue: 2
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
   - target: 3
     specifiedTargetItem: {fileID: 0}
-    key: Hit
-    type: 0
+    key: jumpHeight
+    type: 2
     value:
       boolValue: 0
       floatValue: 0
       integerValue: 2
-  - target: 0
-    specifiedTargetItem: {fileID: 0}
-    key: Destroy
-    type: 0
-    value:
-      boolValue: 0
-      floatValue: 0
-      integerValue: 2
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
 --- !u!114 &5191475587956444837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4985,7 +4987,7 @@ MonoBehaviour:
   key:
     target: 0
     key: OnCreate
-  delayTimeSeconds: 1
+  delayTimeSeconds: 5
   triggers:
   - target: 0
     specifiedTargetItem: {fileID: 0}
@@ -4995,6 +4997,104 @@ MonoBehaviour:
       boolValue: 0
       floatValue: 0
       integerValue: 0
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+--- !u!114 &258529570233420285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8465407990803066407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef324b4228e9496bbce596eda9f877af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key:
+    target: 1
+    key: moveSpeed
+    item: {fileID: 0}
+--- !u!114 &6364123277675543294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8465407990803066407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b388f2ec20ba410780878c01fdbfa289, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key:
+    target: 1
+    key: jumpHeight
+    item: {fileID: 0}
+--- !u!114 &5336628108303961296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8465407990803066407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba507dbcf46b94a9895daa4d46e12805, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: -2917047267138979866}
+  collisionEventType: 0
+  collisionType: -1
+  triggers:
+  - target: 0
+    specifiedTargetItem: {fileID: 0}
+    key: HitSlowGun
+    type: 0
+    value:
+      boolValue: 0
+      floatValue: 0
+      integerValue: 0
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+--- !u!114 &354993078242368227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8465407990803066407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20d99222c508466c9f51279c46d58ed2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key:
+    target: 0
+    key: OnCreate
+    item: {fileID: -2917047267138979866}
+  delayTimeSeconds: 3
+  triggers:
+  - target: 2
+    specifiedTargetItem: {fileID: 0}
+    key: moveSpeed
+    type: 2
+    value:
+      boolValue: 0
+      floatValue: 5
+      integerValue: 0
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+  - target: 2
+    specifiedTargetItem: {fileID: 0}
+    key: jumpHeight
+    type: 2
+    value:
+      boolValue: 0
+      floatValue: 5
+      integerValue: 0
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
 --- !u!1001 &8941868060949890270
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5002,6 +5102,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7505433668568587305}
     m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f355099bde902574e9a756dd9fc33aad,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f355099bde902574e9a756dd9fc33aad,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f355099bde902574e9a756dd9fc33aad,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f355099bde902574e9a756dd9fc33aad,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f355099bde902574e9a756dd9fc33aad,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5016,6 +5136,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f355099bde902574e9a756dd9fc33aad,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f355099bde902574e9a756dd9fc33aad,
         type: 3}
@@ -5034,16 +5159,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f355099bde902574e9a756dd9fc33aad,
         type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f355099bde902574e9a756dd9fc33aad,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f355099bde902574e9a756dd9fc33aad,
-        type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
@@ -5056,21 +5171,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f355099bde902574e9a756dd9fc33aad,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f355099bde902574e9a756dd9fc33aad,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f355099bde902574e9a756dd9fc33aad,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: f355099bde902574e9a756dd9fc33aad,
         type: 3}
