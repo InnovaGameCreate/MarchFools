@@ -18052,7 +18052,7 @@ MonoBehaviour:
     triggers:
     - target: 4
       specifiedTargetItem: {fileID: 0}
-      key: Collapse1
+      key: Collapse3
       type: 0
       value:
         boolValue: 0
@@ -18062,7 +18062,7 @@ MonoBehaviour:
         vector3Value: {x: 0, y: 0, z: 0}
     - target: 4
       specifiedTargetItem: {fileID: 0}
-      key: Collapse5
+      key: Collapse6
       type: 0
       value:
         boolValue: 0
@@ -18072,7 +18072,7 @@ MonoBehaviour:
         vector3Value: {x: 0, y: 0, z: 0}
     - target: 4
       specifiedTargetItem: {fileID: 0}
-      key: Collapse13
+      key: Collapse10
       type: 0
       value:
         boolValue: 0
@@ -18082,7 +18082,7 @@ MonoBehaviour:
         vector3Value: {x: 0, y: 0, z: 0}
     - target: 4
       specifiedTargetItem: {fileID: 0}
-      key: Collapse17
+      key: Collapse14
       type: 0
       value:
         boolValue: 0
@@ -18092,7 +18092,7 @@ MonoBehaviour:
         vector3Value: {x: 0, y: 0, z: 0}
     - target: 4
       specifiedTargetItem: {fileID: 0}
-      key: Collapse18
+      key: Collapse16
       type: 0
       value:
         boolValue: 0
@@ -18142,7 +18142,7 @@ MonoBehaviour:
     triggers:
     - target: 4
       specifiedTargetItem: {fileID: 0}
-      key: Collapse2
+      key: Collapse1
       type: 0
       value:
         boolValue: 0
@@ -18152,7 +18152,7 @@ MonoBehaviour:
         vector3Value: {x: 0, y: 0, z: 0}
     - target: 4
       specifiedTargetItem: {fileID: 0}
-      key: Collapse4
+      key: Collapse5
       type: 0
       value:
         boolValue: 0
@@ -18162,7 +18162,7 @@ MonoBehaviour:
         vector3Value: {x: 0, y: 0, z: 0}
     - target: 4
       specifiedTargetItem: {fileID: 0}
-      key: Collapse12
+      key: Collapse18
       type: 0
       value:
         boolValue: 0
@@ -18172,7 +18172,7 @@ MonoBehaviour:
         vector3Value: {x: 0, y: 0, z: 0}
     - target: 4
       specifiedTargetItem: {fileID: 0}
-      key: Collapse19
+      key: Collapse17
       type: 0
       value:
         boolValue: 0
@@ -18182,7 +18182,7 @@ MonoBehaviour:
         vector3Value: {x: 0, y: 0, z: 0}
     - target: 4
       specifiedTargetItem: {fileID: 0}
-      key: Collapse20
+      key: Collapse13
       type: 0
       value:
         boolValue: 0
@@ -18650,7 +18650,7 @@ MonoBehaviour:
         vector3Value: {x: 0, y: 0, z: 0}
     - target: 4
       specifiedTargetItem: {fileID: 0}
-      key: Collapse15
+      key: Collapse17
       type: 0
       value:
         boolValue: 0
