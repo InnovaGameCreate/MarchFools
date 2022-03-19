@@ -161,6 +161,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2095509840}
     m_Modifications:
+    - target: {fileID: 6890392314434205428, guid: d2d45b4c6ff6f06468b39e4b8beff998,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.targetState.key
+      value: Collapse19
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890392314434205428, guid: d2d45b4c6ff6f06468b39e4b8beff998,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.expression.operatorExpression.operands.Array.data[0].value.sourceState.key
+      value: Collapse19
+      objectReference: {fileID: 0}
     - target: {fileID: 7105362881323531896, guid: d2d45b4c6ff6f06468b39e4b8beff998,
         type: 3}
       propertyPath: m_RootOrder
@@ -235,6 +245,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SpringIland (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7438854336187998405, guid: d2d45b4c6ff6f06468b39e4b8beff998,
+        type: 3}
+      propertyPath: globalGimmickKey.key.key
+      value: Collapse19
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2d45b4c6ff6f06468b39e4b8beff998, type: 3}
@@ -396,80 +411,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1 &42466952 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7877108957608077668, guid: b4238e87127ae8943a980ae415b80599,
-    type: 3}
-  m_PrefabInstance: {fileID: 1070407844}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &42466953
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 42466952}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 42466954}
-  key:
-    target: 2
-    key: Collapse13
---- !u!114 &42466954
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 42466952}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: "\u30A2\u30A4\u30C6\u30E0"
---- !u!1 &43500771 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7105362881323531903, guid: d2d45b4c6ff6f06468b39e4b8beff998,
-    type: 3}
-  m_PrefabInstance: {fileID: 1865912504}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &43500772
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 43500771}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 43500773}
-  key:
-    target: 2
-    key: Collapse8
---- !u!114 &43500773
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 43500771}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: "\u30A2\u30A4\u30C6\u30E0"
 --- !u!1 &69432779
 GameObject:
   m_ObjectHideFlags: 0
@@ -1417,43 +1358,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 2534964839176971238, guid: 503a86fbbbe72c1419d2302a4a748b26, type: 3}
---- !u!1 &178205238 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7877108957608077668, guid: b4238e87127ae8943a980ae415b80599,
-    type: 3}
-  m_PrefabInstance: {fileID: 1645702149}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &178205239
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 178205238}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 178205240}
-  key:
-    target: 2
-    key: Collapse6
---- !u!114 &178205240
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 178205238}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: "\u30A2\u30A4\u30C6\u30E0"
 --- !u!4 &196350793 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2581976762534266670, guid: abbff11cc07a5dd4f8c43d5d11ba3c52,
@@ -2326,6 +2230,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2095509840}
     m_Modifications:
+    - target: {fileID: 6890392314434205428, guid: d2d45b4c6ff6f06468b39e4b8beff998,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.targetState.key
+      value: Collapse15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890392314434205428, guid: d2d45b4c6ff6f06468b39e4b8beff998,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.expression.operatorExpression.operands.Array.data[0].value.sourceState.key
+      value: Collapse15
+      objectReference: {fileID: 0}
     - target: {fileID: 7105362881323531896, guid: d2d45b4c6ff6f06468b39e4b8beff998,
         type: 3}
       propertyPath: m_RootOrder
@@ -2400,6 +2314,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SpringIland (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7438854336187998405, guid: d2d45b4c6ff6f06468b39e4b8beff998,
+        type: 3}
+      propertyPath: globalGimmickKey.key.key
+      value: Collapse15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2d45b4c6ff6f06468b39e4b8beff998, type: 3}
@@ -2490,6 +2409,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7663621518056268722, guid: 21324097405ffb7418fb84e5200f2184,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.targetState.key
+      value: Collapse16
+      objectReference: {fileID: 0}
+    - target: {fileID: 7663621518056268722, guid: 21324097405ffb7418fb84e5200f2184,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.expression.operatorExpression.operands.Array.data[0].value.sourceState.key
+      value: Collapse16
+      objectReference: {fileID: 0}
+    - target: {fileID: 7961732057999063265, guid: 21324097405ffb7418fb84e5200f2184,
+        type: 3}
+      propertyPath: globalGimmickKey.key.key
+      value: Collapse16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21324097405ffb7418fb84e5200f2184, type: 3}
@@ -2648,43 +2582,6 @@ Transform:
   m_Father: {fileID: 2046227088}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &289098097 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7464956665905413738, guid: 21324097405ffb7418fb84e5200f2184,
-    type: 3}
-  m_PrefabInstance: {fileID: 950336865}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &289098098
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 289098097}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 289098099}
-  key:
-    target: 2
-    key: Collapse5
---- !u!114 &289098099
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 289098097}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: "\u30A2\u30A4\u30C6\u30E0"
 --- !u!1 &300643131
 GameObject:
   m_ObjectHideFlags: 0
@@ -2729,43 +2626,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 16, y: 10, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &313156070 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7105362881323531903, guid: d2d45b4c6ff6f06468b39e4b8beff998,
-    type: 3}
-  m_PrefabInstance: {fileID: 678847533}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &313156071
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 313156070}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 313156072}
-  key:
-    target: 2
-    key: Collapse12
---- !u!114 &313156072
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 313156070}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: "\u30A2\u30A4\u30C6\u30E0"
 --- !u!4 &322445559 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1202435379417630556, guid: b13065d51f191ff4fa288953eec046fe,
@@ -3017,6 +2877,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2140807742483685205, guid: b13065d51f191ff4fa288953eec046fe,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.targetState.key
+      value: Collapse10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2140807742483685205, guid: b13065d51f191ff4fa288953eec046fe,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.expression.operatorExpression.operands.Array.data[0].value.sourceState.key
+      value: Collapse10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6482136018340335676, guid: b13065d51f191ff4fa288953eec046fe,
+        type: 3}
+      propertyPath: globalGimmickKey.key.key
+      value: Collapse10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b13065d51f191ff4fa288953eec046fe, type: 3}
@@ -4626,43 +4501,6 @@ Transform:
   m_Father: {fileID: 1751859674}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &504827080 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7105362881323531903, guid: d2d45b4c6ff6f06468b39e4b8beff998,
-    type: 3}
-  m_PrefabInstance: {fileID: 233558889}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &504827081
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 504827080}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 504827082}
-  key:
-    target: 2
-    key: Collapse15
---- !u!114 &504827082
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 504827080}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: "\u30A2\u30A4\u30C6\u30E0"
 --- !u!1 &505991364
 GameObject:
   m_ObjectHideFlags: 0
@@ -6076,43 +5914,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 8, y: 10, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &571813636 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7105362881323531903, guid: d2d45b4c6ff6f06468b39e4b8beff998,
-    type: 3}
-  m_PrefabInstance: {fileID: 1242274435}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &571813637
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571813636}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 571813638}
-  key:
-    target: 2
-    key: Collapse2
---- !u!114 &571813638
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571813636}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: "\u30A2\u30A4\u30C6\u30E0"
 --- !u!1 &572260024
 GameObject:
   m_ObjectHideFlags: 0
@@ -7062,43 +6863,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1 &645387912 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7877108957608077668, guid: b4238e87127ae8943a980ae415b80599,
-    type: 3}
-  m_PrefabInstance: {fileID: 1690304085}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &645387913
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 645387912}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 645387914}
-  key:
-    target: 2
-    key: Collapse4
---- !u!114 &645387914
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 645387912}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: "\u30A2\u30A4\u30C6\u30E0"
 --- !u!1001 &653759050
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7180,6 +6944,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2140807742483685205, guid: b13065d51f191ff4fa288953eec046fe,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.targetState.key
+      value: Collapse14
+      objectReference: {fileID: 0}
+    - target: {fileID: 2140807742483685205, guid: b13065d51f191ff4fa288953eec046fe,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.expression.operatorExpression.operands.Array.data[0].value.sourceState.key
+      value: Collapse14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6482136018340335676, guid: b13065d51f191ff4fa288953eec046fe,
+        type: 3}
+      propertyPath: globalGimmickKey.key.key
+      value: Collapse14
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b13065d51f191ff4fa288953eec046fe, type: 3}
@@ -7327,43 +7106,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 078b02e04e459de469269760c985d26d, type: 3}
---- !u!1 &672619757 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1202435379417630555, guid: b13065d51f191ff4fa288953eec046fe,
-    type: 3}
-  m_PrefabInstance: {fileID: 949134843}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &672619758
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 672619757}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 672619759}
-  key:
-    target: 2
-    key: Collapse18
---- !u!114 &672619759
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 672619757}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: "\u30A2\u30A4\u30C6\u30E0"
 --- !u!1 &674486608
 GameObject:
   m_ObjectHideFlags: 0
@@ -7514,6 +7256,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2095509840}
     m_Modifications:
+    - target: {fileID: 6890392314434205428, guid: d2d45b4c6ff6f06468b39e4b8beff998,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.targetState.key
+      value: Collapse12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890392314434205428, guid: d2d45b4c6ff6f06468b39e4b8beff998,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.expression.operatorExpression.operands.Array.data[0].value.sourceState.key
+      value: Collapse12
+      objectReference: {fileID: 0}
     - target: {fileID: 7105362881323531896, guid: d2d45b4c6ff6f06468b39e4b8beff998,
         type: 3}
       propertyPath: m_RootOrder
@@ -7588,6 +7340,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SpringIland (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7438854336187998405, guid: d2d45b4c6ff6f06468b39e4b8beff998,
+        type: 3}
+      propertyPath: globalGimmickKey.key.key
+      value: Collapse12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2d45b4c6ff6f06468b39e4b8beff998, type: 3}
@@ -7968,6 +7725,7 @@ GameObject:
   - component: {fileID: 754604642}
   - component: {fileID: 754604641}
   - component: {fileID: 754604640}
+  - component: {fileID: 754604643}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -8625,6 +8383,825 @@ MonoBehaviour:
             sourceState:
               target: 2
               key: 1
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+--- !u!114 &754604643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754604630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e67bdc2960f9462385a7fba1c0052836, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  globalGimmickKey:
+    key:
+      target: 2
+      key: StartEntry
+    item: {fileID: 0}
+  logic:
+    statements:
+    - singleStatement:
+        targetState:
+          target: 2
+          key: Collapse1
+          parameterType: 1
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: Collapse2
+          parameterType: 1
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: Collapse3
+          parameterType: 1
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: Collapse4
+          parameterType: 1
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: Collapse5
+          parameterType: 1
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: Collapse6
+          parameterType: 1
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: Collapse7
+          parameterType: 1
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: Collapse8
+          parameterType: 1
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: Collapse9
+          parameterType: 1
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: Collapse10
+          parameterType: 1
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: Collapse11
+          parameterType: 1
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: Collapse12
+          parameterType: 1
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: Collapse13
+          parameterType: 1
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: Collapse14
+          parameterType: 1
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: Collapse15
+          parameterType: 1
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: Collapse16
+          parameterType: 1
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: Collapse17
+          parameterType: 1
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: Collapse18
+          parameterType: 1
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: Collapse19
+          parameterType: 1
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: Collapse20
+          parameterType: 1
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
               type: 6
           operatorExpression:
             operator: 0
@@ -9961,43 +10538,6 @@ Transform:
   m_Father: {fileID: 1638740616}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &843096930 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7105362881323531903, guid: d2d45b4c6ff6f06468b39e4b8beff998,
-    type: 3}
-  m_PrefabInstance: {fileID: 7445918}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &843096931
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 843096930}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 843096932}
-  key:
-    target: 2
-    key: Collapse19
---- !u!114 &843096932
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 843096930}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: "\u30A2\u30A4\u30C6\u30E0"
 --- !u!1 &851612708
 GameObject:
   m_ObjectHideFlags: 0
@@ -10349,43 +10889,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 923030002}
   m_CullTransparentMesh: 0
---- !u!1 &946577637 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7464956665905413738, guid: 21324097405ffb7418fb84e5200f2184,
-    type: 3}
-  m_PrefabInstance: {fileID: 1990719773}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &946577638
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 946577637}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 946577639}
-  key:
-    target: 2
-    key: Collapse20
---- !u!114 &946577639
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 946577637}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: "\u30A2\u30A4\u30C6\u30E0"
 --- !u!1001 &949134843
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10467,6 +10970,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2140807742483685205, guid: b13065d51f191ff4fa288953eec046fe,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.targetState.key
+      value: Collapse18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2140807742483685205, guid: b13065d51f191ff4fa288953eec046fe,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.expression.operatorExpression.operands.Array.data[0].value.sourceState.key
+      value: Collapse18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6482136018340335676, guid: b13065d51f191ff4fa288953eec046fe,
+        type: 3}
+      propertyPath: globalGimmickKey.key.key
+      value: Collapse18
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b13065d51f191ff4fa288953eec046fe, type: 3}
@@ -10557,6 +11075,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7663621518056268722, guid: 21324097405ffb7418fb84e5200f2184,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.targetState.key
+      value: Collapse5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7663621518056268722, guid: 21324097405ffb7418fb84e5200f2184,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.expression.operatorExpression.operands.Array.data[0].value.sourceState.key
+      value: Collapse5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7961732057999063265, guid: 21324097405ffb7418fb84e5200f2184,
+        type: 3}
+      propertyPath: globalGimmickKey.key.key
+      value: Collapse5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21324097405ffb7418fb84e5200f2184, type: 3}
@@ -11116,6 +11649,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2095509840}
     m_Modifications:
+    - target: {fileID: 489320711237719237, guid: b4238e87127ae8943a980ae415b80599,
+        type: 3}
+      propertyPath: globalGimmickKey.key.key
+      value: Collapse13
+      objectReference: {fileID: 0}
+    - target: {fileID: 705763465227017528, guid: b4238e87127ae8943a980ae415b80599,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.targetState.key
+      value: Collapse13
+      objectReference: {fileID: 0}
+    - target: {fileID: 705763465227017528, guid: b4238e87127ae8943a980ae415b80599,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.expression.operatorExpression.operands.Array.data[0].value.sourceState.key
+      value: Collapse13
+      objectReference: {fileID: 0}
     - target: {fileID: 7877108957608077667, guid: b4238e87127ae8943a980ae415b80599,
         type: 3}
       propertyPath: m_RootOrder
@@ -11997,43 +12545,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1153903896 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7877108957608077668, guid: b4238e87127ae8943a980ae415b80599,
-    type: 3}
-  m_PrefabInstance: {fileID: 1519846609}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1153903897
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1153903896}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1153903898}
-  key:
-    target: 2
-    key: Collapse11
---- !u!114 &1153903898
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1153903896}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: "\u30A2\u30A4\u30C6\u30E0"
 --- !u!1001 &1169685858
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12443,43 +12954,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1191203970}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1199546330 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7464956665905413738, guid: 21324097405ffb7418fb84e5200f2184,
-    type: 3}
-  m_PrefabInstance: {fileID: 1349000051}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1199546331
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1199546330}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1199546332}
-  key:
-    target: 2
-    key: Collapse1
---- !u!114 &1199546332
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1199546330}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: "\u30A2\u30A4\u30C6\u30E0"
 --- !u!1 &1203297053
 GameObject:
   m_ObjectHideFlags: 0
@@ -13419,6 +13893,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2095509840}
     m_Modifications:
+    - target: {fileID: 6890392314434205428, guid: d2d45b4c6ff6f06468b39e4b8beff998,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.targetState.key
+      value: Collapse2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890392314434205428, guid: d2d45b4c6ff6f06468b39e4b8beff998,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.expression.operatorExpression.operands.Array.data[0].value.sourceState.key
+      value: Collapse2
+      objectReference: {fileID: 0}
     - target: {fileID: 7105362881323531896, guid: d2d45b4c6ff6f06468b39e4b8beff998,
         type: 3}
       propertyPath: m_RootOrder
@@ -13493,6 +13977,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SpringIland
+      objectReference: {fileID: 0}
+    - target: {fileID: 7438854336187998405, guid: d2d45b4c6ff6f06468b39e4b8beff998,
+        type: 3}
+      propertyPath: globalGimmickKey.key.key
+      value: Collapse2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2d45b4c6ff6f06468b39e4b8beff998, type: 3}
@@ -14424,6 +14913,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7663621518056268722, guid: 21324097405ffb7418fb84e5200f2184,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.expression.type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7663621518056268722, guid: 21324097405ffb7418fb84e5200f2184,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.targetState.key
+      value: Collapse1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7663621518056268722, guid: 21324097405ffb7418fb84e5200f2184,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.expression.value.type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7663621518056268722, guid: 21324097405ffb7418fb84e5200f2184,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.expression.value.sourceState.key
+      value: Collapse1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7663621518056268722, guid: 21324097405ffb7418fb84e5200f2184,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.expression.operatorExpression.operands.Array.data[0].value.sourceState.key
+      value: Collapse1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7961732057999063265, guid: 21324097405ffb7418fb84e5200f2184,
+        type: 3}
+      propertyPath: globalGimmickKey.key.key
+      value: Collapse1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21324097405ffb7418fb84e5200f2184, type: 3}
 --- !u!1 &1365096796
@@ -14910,80 +15429,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1186266951}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1497535557 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1202435379417630555, guid: b13065d51f191ff4fa288953eec046fe,
-    type: 3}
-  m_PrefabInstance: {fileID: 653759050}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1497535558
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1497535557}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1497535559}
-  key:
-    target: 2
-    key: Collapse14
---- !u!114 &1497535559
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1497535557}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: "\u30A2\u30A4\u30C6\u30E0"
---- !u!1 &1500687940 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7464956665905413738, guid: 21324097405ffb7418fb84e5200f2184,
-    type: 3}
-  m_PrefabInstance: {fileID: 243668821}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1500687941
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1500687940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1500687942}
-  key:
-    target: 2
-    key: Collapse16
---- !u!114 &1500687942
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1500687940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: "\u30A2\u30A4\u30C6\u30E0"
 --- !u!1001 &1519846609
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14991,6 +15436,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2095509840}
     m_Modifications:
+    - target: {fileID: 489320711237719237, guid: b4238e87127ae8943a980ae415b80599,
+        type: 3}
+      propertyPath: globalGimmickKey.key.key
+      value: Collapse11
+      objectReference: {fileID: 0}
+    - target: {fileID: 705763465227017528, guid: b4238e87127ae8943a980ae415b80599,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.targetState.key
+      value: Collapse11
+      objectReference: {fileID: 0}
+    - target: {fileID: 705763465227017528, guid: b4238e87127ae8943a980ae415b80599,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.expression.operatorExpression.operands.Array.data[0].value.sourceState.key
+      value: Collapse11
+      objectReference: {fileID: 0}
     - target: {fileID: 7877108957608077667, guid: b4238e87127ae8943a980ae415b80599,
         type: 3}
       propertyPath: m_RootOrder
@@ -15300,43 +15760,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abbff11cc07a5dd4f8c43d5d11ba3c52, type: 3}
---- !u!1 &1555385629 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7877108957608077668, guid: b4238e87127ae8943a980ae415b80599,
-    type: 3}
-  m_PrefabInstance: {fileID: 1960544934}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1555385630
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1555385629}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1555385631}
-  key:
-    target: 2
-    key: Collapse17
---- !u!114 &1555385631
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1555385629}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: "\u30A2\u30A4\u30C6\u30E0"
 --- !u!1001 &1557670409
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15418,6 +15841,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7663621518056268722, guid: 21324097405ffb7418fb84e5200f2184,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.targetState.key
+      value: Collapse9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7663621518056268722, guid: 21324097405ffb7418fb84e5200f2184,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.expression.operatorExpression.operands.Array.data[0].value.sourceState.key
+      value: Collapse9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7961732057999063265, guid: 21324097405ffb7418fb84e5200f2184,
+        type: 3}
+      propertyPath: globalGimmickKey.key.key
+      value: Collapse9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21324097405ffb7418fb84e5200f2184, type: 3}
@@ -16387,6 +16825,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2095509840}
     m_Modifications:
+    - target: {fileID: 489320711237719237, guid: b4238e87127ae8943a980ae415b80599,
+        type: 3}
+      propertyPath: globalGimmickKey.key.key
+      value: Collapse6
+      objectReference: {fileID: 0}
+    - target: {fileID: 705763465227017528, guid: b4238e87127ae8943a980ae415b80599,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.targetState.key
+      value: Collapse6
+      objectReference: {fileID: 0}
+    - target: {fileID: 705763465227017528, guid: b4238e87127ae8943a980ae415b80599,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.expression.operatorExpression.operands.Array.data[0].value.sourceState.key
+      value: Collapse6
+      objectReference: {fileID: 0}
     - target: {fileID: 7877108957608077667, guid: b4238e87127ae8943a980ae415b80599,
         type: 3}
       propertyPath: m_RootOrder
@@ -16464,2664 +16917,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b4238e87127ae8943a980ae415b80599, type: 3}
---- !u!1 &1646044656
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1646044657}
-  - component: {fileID: 1646044677}
-  - component: {fileID: 1646044659}
-  - component: {fileID: 1646044676}
-  - component: {fileID: 1646044675}
-  - component: {fileID: 1646044658}
-  - component: {fileID: 1646044674}
-  - component: {fileID: 1646044673}
-  - component: {fileID: 1646044672}
-  - component: {fileID: 1646044671}
-  - component: {fileID: 1646044670}
-  - component: {fileID: 1646044669}
-  - component: {fileID: 1646044668}
-  - component: {fileID: 1646044667}
-  - component: {fileID: 1646044666}
-  - component: {fileID: 1646044665}
-  - component: {fileID: 1646044664}
-  - component: {fileID: 1646044663}
-  - component: {fileID: 1646044662}
-  - component: {fileID: 1646044661}
-  - component: {fileID: 1646044660}
-  m_Layer: 0
-  m_Name: CollapseIsland
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1646044657
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1646044656}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -42.875786, y: -3.438188, z: 47.314682}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1646044658
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1646044656}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4facf580bbce4a8ca569b43b5db5cf5a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  globalGimmickKey:
-    key:
-      target: 2
-      key: Wave2A
-    item: {fileID: 0}
-  choices:
-  - weight: 1
-    triggers:
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse3
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse6
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse10
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse14
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse16
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Timer3
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Wave3a
-      type: 1
-      value:
-        boolValue: 1
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
---- !u!114 &1646044659
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1646044656}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4facf580bbce4a8ca569b43b5db5cf5a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  globalGimmickKey:
-    key:
-      target: 2
-      key: Wave1
-    item: {fileID: 0}
-  choices:
-  - weight: 1
-    triggers:
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse1
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse5
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse18
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse17
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse13
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Timer2
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Wave2a
-      type: 1
-      value:
-        boolValue: 1
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-  - weight: 1
-    triggers:
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse3
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse6
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse10
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse14
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse16
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Timer2
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Wave2b
-      type: 1
-      value:
-        boolValue: 1
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-  - weight: 1
-    triggers:
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse7
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse8
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse9
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse11
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse15
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Timer2
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Wave2c
-      type: 1
-      value:
-        boolValue: 1
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-  - weight: 1
-    triggers:
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse2
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse4
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse12
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse19
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse20
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Timer2
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Wave2d
-      type: 1
-      value:
-        boolValue: 1
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
---- !u!114 &1646044660
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1646044656}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4facf580bbce4a8ca569b43b5db5cf5a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  globalGimmickKey:
-    key:
-      target: 2
-      key: Wave4D
-    item: {fileID: 0}
-  choices:
-  - weight: 1
-    triggers:
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse8
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse9
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse11
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse15
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-  - weight: 1
-    triggers:
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse7
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse9
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse11
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse15
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-  - weight: 1
-    triggers:
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse7
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse8
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse11
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse15
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-  - weight: 1
-    triggers:
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse7
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse8
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse9
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse15
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-  - weight: 1
-    triggers:
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse7
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse8
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse9
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse11
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
---- !u!114 &1646044661
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1646044656}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4facf580bbce4a8ca569b43b5db5cf5a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  globalGimmickKey:
-    key:
-      target: 2
-      key: Wave4C
-    item: {fileID: 0}
-  choices:
-  - weight: 1
-    triggers:
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse3
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse6
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse10
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse14
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-  - weight: 1
-    triggers:
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse3
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse6
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse10
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse16
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-  - weight: 1
-    triggers:
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse3
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse6
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse14
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse16
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-  - weight: 1
-    triggers:
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse3
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse10
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse14
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse16
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-  - weight: 1
-    triggers:
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse6
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse10
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse14
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse16
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
---- !u!114 &1646044662
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1646044656}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4facf580bbce4a8ca569b43b5db5cf5a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  globalGimmickKey:
-    key:
-      target: 2
-      key: Wave4B
-    item: {fileID: 0}
-  choices:
-  - weight: 1
-    triggers:
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse1
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse5
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse13
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse17
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-  - weight: 1
-    triggers:
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse1
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse5
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse13
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse18
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-  - weight: 1
-    triggers:
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse1
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse5
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse17
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse18
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-  - weight: 1
-    triggers:
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse1
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse13
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse17
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse18
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-  - weight: 1
-    triggers:
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse5
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse13
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse17
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse18
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
---- !u!114 &1646044663
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1646044656}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4facf580bbce4a8ca569b43b5db5cf5a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  globalGimmickKey:
-    key:
-      target: 2
-      key: Wave4A
-    item: {fileID: 0}
-  choices:
-  - weight: 1
-    triggers:
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse2
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse4
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse12
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse19
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-  - weight: 1
-    triggers:
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse2
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse4
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse12
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse20
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-  - weight: 1
-    triggers:
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse2
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse4
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse19
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse20
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-  - weight: 1
-    triggers:
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse2
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse12
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse19
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse20
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-  - weight: 1
-    triggers:
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse4
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse12
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse19
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse20
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
---- !u!114 &1646044664
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1646044656}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e67bdc2960f9462385a7fba1c0052836, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  globalGimmickKey:
-    key:
-      target: 2
-      key: Wave4
-    item: {fileID: 0}
-  logic:
-    statements:
-    - singleStatement:
-        targetState:
-          target: 2
-          key: Wave4A
-          parameterType: 0
-        expression:
-          type: 0
-          value:
-            type: 1
-            constant:
-              type: 1
-              boolValue: 0
-              floatValue: 0
-              integerValue: 0
-              vector2Value: {x: 0, y: 0}
-              vector3Value: {x: 0, y: 0, z: 0}
-            sourceState:
-              target: 2
-              key: Wave4a
-              type: 1
-          operatorExpression:
-            operator: 0
-            operands:
-            - type: 0
-              value:
-                type: 0
-                constant:
-                  type: 1
-                  boolValue: 0
-                  floatValue: 0
-                  integerValue: 0
-                  vector2Value: {x: 0, y: 0}
-                  vector3Value: {x: 0, y: 0, z: 0}
-                sourceState:
-                  target: 2
-                  key: 
-                  type: 6
-              operatorExpression:
-                operator: 0
-                operands: []
-    - singleStatement:
-        targetState:
-          target: 2
-          key: Wave4B
-          parameterType: 0
-        expression:
-          type: 0
-          value:
-            type: 1
-            constant:
-              type: 1
-              boolValue: 0
-              floatValue: 0
-              integerValue: 0
-              vector2Value: {x: 0, y: 0}
-              vector3Value: {x: 0, y: 0, z: 0}
-            sourceState:
-              target: 2
-              key: Wave4b
-              type: 1
-          operatorExpression:
-            operator: 0
-            operands:
-            - type: 0
-              value:
-                type: 0
-                constant:
-                  type: 1
-                  boolValue: 0
-                  floatValue: 0
-                  integerValue: 0
-                  vector2Value: {x: 0, y: 0}
-                  vector3Value: {x: 0, y: 0, z: 0}
-                sourceState:
-                  target: 2
-                  key: 
-                  type: 6
-              operatorExpression:
-                operator: 0
-                operands: []
-    - singleStatement:
-        targetState:
-          target: 2
-          key: Wave4C
-          parameterType: 0
-        expression:
-          type: 0
-          value:
-            type: 1
-            constant:
-              type: 1
-              boolValue: 0
-              floatValue: 0
-              integerValue: 0
-              vector2Value: {x: 0, y: 0}
-              vector3Value: {x: 0, y: 0, z: 0}
-            sourceState:
-              target: 2
-              key: Wave4c
-              type: 1
-          operatorExpression:
-            operator: 0
-            operands:
-            - type: 0
-              value:
-                type: 0
-                constant:
-                  type: 1
-                  boolValue: 0
-                  floatValue: 0
-                  integerValue: 0
-                  vector2Value: {x: 0, y: 0}
-                  vector3Value: {x: 0, y: 0, z: 0}
-                sourceState:
-                  target: 2
-                  key: 
-                  type: 6
-              operatorExpression:
-                operator: 0
-                operands: []
-    - singleStatement:
-        targetState:
-          target: 2
-          key: Wave4D
-          parameterType: 0
-        expression:
-          type: 0
-          value:
-            type: 1
-            constant:
-              type: 1
-              boolValue: 0
-              floatValue: 0
-              integerValue: 0
-              vector2Value: {x: 0, y: 0}
-              vector3Value: {x: 0, y: 0, z: 0}
-            sourceState:
-              target: 2
-              key: Wave4d
-              type: 1
-          operatorExpression:
-            operator: 0
-            operands:
-            - type: 0
-              value:
-                type: 0
-                constant:
-                  type: 1
-                  boolValue: 0
-                  floatValue: 0
-                  integerValue: 0
-                  vector2Value: {x: 0, y: 0}
-                  vector3Value: {x: 0, y: 0, z: 0}
-                sourceState:
-                  target: 2
-                  key: 
-                  type: 6
-              operatorExpression:
-                operator: 0
-                operands: []
---- !u!114 &1646044665
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1646044656}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5eadc47e8f964e87aae22996c282c981, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  globalGimmickKey:
-    key:
-      target: 2
-      key: Timer4
-    item: {fileID: 0}
-  delayTimeSeconds: 15
-  triggers:
-  - target: 4
-    specifiedTargetItem: {fileID: 0}
-    key: Wave4
-    type: 0
-    value:
-      boolValue: 0
-      floatValue: 0
-      integerValue: 0
-      vector2Value: {x: 0, y: 0}
-      vector3Value: {x: 0, y: 0, z: 0}
---- !u!114 &1646044666
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1646044656}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4facf580bbce4a8ca569b43b5db5cf5a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  globalGimmickKey:
-    key:
-      target: 2
-      key: Wave3D
-    item: {fileID: 0}
-  choices:
-  - weight: 1
-    triggers:
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse3
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse6
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse10
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse14
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse16
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Timer4
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Wave4d
-      type: 1
-      value:
-        boolValue: 1
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
---- !u!114 &1646044667
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1646044656}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4facf580bbce4a8ca569b43b5db5cf5a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  globalGimmickKey:
-    key:
-      target: 2
-      key: Wave3C
-    item: {fileID: 0}
-  choices:
-  - weight: 1
-    triggers:
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse1
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse5
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse18
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse17
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse13
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Timer4
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Wave4c
-      type: 1
-      value:
-        boolValue: 1
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
---- !u!114 &1646044668
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1646044656}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4facf580bbce4a8ca569b43b5db5cf5a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  globalGimmickKey:
-    key:
-      target: 2
-      key: Wave3B
-    item: {fileID: 0}
-  choices:
-  - weight: 1
-    triggers:
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse2
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse4
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse12
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse19
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse20
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Timer4
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Wave4b
-      type: 1
-      value:
-        boolValue: 1
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
---- !u!114 &1646044669
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1646044656}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4facf580bbce4a8ca569b43b5db5cf5a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  globalGimmickKey:
-    key:
-      target: 2
-      key: Wave3A
-    item: {fileID: 0}
-  choices:
-  - weight: 1
-    triggers:
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse7
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse8
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse9
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse11
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse15
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Timer4
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Wave4a
-      type: 1
-      value:
-        boolValue: 1
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
---- !u!114 &1646044670
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1646044656}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e67bdc2960f9462385a7fba1c0052836, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  globalGimmickKey:
-    key:
-      target: 2
-      key: Wave3
-    item: {fileID: 0}
-  logic:
-    statements:
-    - singleStatement:
-        targetState:
-          target: 2
-          key: Wave3A
-          parameterType: 0
-        expression:
-          type: 0
-          value:
-            type: 1
-            constant:
-              type: 1
-              boolValue: 0
-              floatValue: 0
-              integerValue: 0
-              vector2Value: {x: 0, y: 0}
-              vector3Value: {x: 0, y: 0, z: 0}
-            sourceState:
-              target: 2
-              key: Wave3a
-              type: 1
-          operatorExpression:
-            operator: 0
-            operands:
-            - type: 0
-              value:
-                type: 0
-                constant:
-                  type: 1
-                  boolValue: 0
-                  floatValue: 0
-                  integerValue: 0
-                  vector2Value: {x: 0, y: 0}
-                  vector3Value: {x: 0, y: 0, z: 0}
-                sourceState:
-                  target: 2
-                  key: 
-                  type: 6
-              operatorExpression:
-                operator: 0
-                operands: []
-    - singleStatement:
-        targetState:
-          target: 2
-          key: Wave3B
-          parameterType: 0
-        expression:
-          type: 0
-          value:
-            type: 1
-            constant:
-              type: 1
-              boolValue: 0
-              floatValue: 0
-              integerValue: 0
-              vector2Value: {x: 0, y: 0}
-              vector3Value: {x: 0, y: 0, z: 0}
-            sourceState:
-              target: 2
-              key: Wave3b
-              type: 1
-          operatorExpression:
-            operator: 0
-            operands:
-            - type: 0
-              value:
-                type: 0
-                constant:
-                  type: 1
-                  boolValue: 0
-                  floatValue: 0
-                  integerValue: 0
-                  vector2Value: {x: 0, y: 0}
-                  vector3Value: {x: 0, y: 0, z: 0}
-                sourceState:
-                  target: 2
-                  key: 
-                  type: 6
-              operatorExpression:
-                operator: 0
-                operands: []
-    - singleStatement:
-        targetState:
-          target: 2
-          key: Wave3C
-          parameterType: 0
-        expression:
-          type: 0
-          value:
-            type: 1
-            constant:
-              type: 1
-              boolValue: 0
-              floatValue: 0
-              integerValue: 0
-              vector2Value: {x: 0, y: 0}
-              vector3Value: {x: 0, y: 0, z: 0}
-            sourceState:
-              target: 2
-              key: Wave3c
-              type: 1
-          operatorExpression:
-            operator: 0
-            operands:
-            - type: 0
-              value:
-                type: 0
-                constant:
-                  type: 1
-                  boolValue: 0
-                  floatValue: 0
-                  integerValue: 0
-                  vector2Value: {x: 0, y: 0}
-                  vector3Value: {x: 0, y: 0, z: 0}
-                sourceState:
-                  target: 2
-                  key: 
-                  type: 6
-              operatorExpression:
-                operator: 0
-                operands: []
-    - singleStatement:
-        targetState:
-          target: 2
-          key: Wave3D
-          parameterType: 0
-        expression:
-          type: 0
-          value:
-            type: 1
-            constant:
-              type: 1
-              boolValue: 0
-              floatValue: 0
-              integerValue: 0
-              vector2Value: {x: 0, y: 0}
-              vector3Value: {x: 0, y: 0, z: 0}
-            sourceState:
-              target: 2
-              key: Wave3d
-              type: 1
-          operatorExpression:
-            operator: 0
-            operands:
-            - type: 0
-              value:
-                type: 0
-                constant:
-                  type: 1
-                  boolValue: 0
-                  floatValue: 0
-                  integerValue: 0
-                  vector2Value: {x: 0, y: 0}
-                  vector3Value: {x: 0, y: 0, z: 0}
-                sourceState:
-                  target: 2
-                  key: 
-                  type: 6
-              operatorExpression:
-                operator: 0
-                operands: []
---- !u!114 &1646044671
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1646044656}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5eadc47e8f964e87aae22996c282c981, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  globalGimmickKey:
-    key:
-      target: 2
-      key: Timer3
-    item: {fileID: 0}
-  delayTimeSeconds: 15
-  triggers:
-  - target: 4
-    specifiedTargetItem: {fileID: 0}
-    key: Wave3
-    type: 0
-    value:
-      boolValue: 0
-      floatValue: 0
-      integerValue: 0
-      vector2Value: {x: 0, y: 0}
-      vector3Value: {x: 0, y: 0, z: 0}
---- !u!114 &1646044672
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1646044656}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4facf580bbce4a8ca569b43b5db5cf5a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  globalGimmickKey:
-    key:
-      target: 2
-      key: Wave2D
-    item: {fileID: 0}
-  choices:
-  - weight: 1
-    triggers:
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse1
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse5
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse13
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse17
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse18
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Timer3
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Wave3d
-      type: 1
-      value:
-        boolValue: 1
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
---- !u!114 &1646044673
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1646044656}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4facf580bbce4a8ca569b43b5db5cf5a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  globalGimmickKey:
-    key:
-      target: 2
-      key: Wave2C
-    item: {fileID: 0}
-  choices:
-  - weight: 1
-    triggers:
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse2
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse4
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse12
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse19
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse20
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Timer3
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Wave3c
-      type: 1
-      value:
-        boolValue: 1
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
---- !u!114 &1646044674
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1646044656}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4facf580bbce4a8ca569b43b5db5cf5a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  globalGimmickKey:
-    key:
-      target: 2
-      key: Wave2B
-    item: {fileID: 0}
-  choices:
-  - weight: 1
-    triggers:
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse7
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse8
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse9
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse11
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Collapse15
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Timer3
-      type: 0
-      value:
-        boolValue: 0
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
-    - target: 4
-      specifiedTargetItem: {fileID: 0}
-      key: Wave3b
-      type: 1
-      value:
-        boolValue: 1
-        floatValue: 0
-        integerValue: 0
-        vector2Value: {x: 0, y: 0}
-        vector3Value: {x: 0, y: 0, z: 0}
---- !u!114 &1646044675
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1646044656}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e67bdc2960f9462385a7fba1c0052836, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  globalGimmickKey:
-    key:
-      target: 2
-      key: Wave2
-    item: {fileID: 0}
-  logic:
-    statements:
-    - singleStatement:
-        targetState:
-          target: 2
-          key: Wave2A
-          parameterType: 0
-        expression:
-          type: 0
-          value:
-            type: 1
-            constant:
-              type: 1
-              boolValue: 0
-              floatValue: 0
-              integerValue: 0
-              vector2Value: {x: 0, y: 0}
-              vector3Value: {x: 0, y: 0, z: 0}
-            sourceState:
-              target: 2
-              key: Wave2a
-              type: 1
-          operatorExpression:
-            operator: 7
-            operands:
-            - type: 0
-              value:
-                type: 0
-                constant:
-                  type: 1
-                  boolValue: 0
-                  floatValue: 0
-                  integerValue: 0
-                  vector2Value: {x: 0, y: 0}
-                  vector3Value: {x: 0, y: 0, z: 0}
-                sourceState:
-                  target: 2
-                  key: 
-                  type: 6
-              operatorExpression:
-                operator: 0
-                operands: []
-            - type: 0
-              value:
-                type: 0
-                constant:
-                  type: 1
-                  boolValue: 0
-                  floatValue: 0
-                  integerValue: 0
-                  vector2Value: {x: 0, y: 0}
-                  vector3Value: {x: 0, y: 0, z: 0}
-                sourceState:
-                  target: 2
-                  key: 
-                  type: 6
-              operatorExpression:
-                operator: 0
-                operands: []
-    - singleStatement:
-        targetState:
-          target: 2
-          key: Wave2B
-          parameterType: 0
-        expression:
-          type: 0
-          value:
-            type: 1
-            constant:
-              type: 1
-              boolValue: 0
-              floatValue: 0
-              integerValue: 0
-              vector2Value: {x: 0, y: 0}
-              vector3Value: {x: 0, y: 0, z: 0}
-            sourceState:
-              target: 2
-              key: Wave2b
-              type: 1
-          operatorExpression:
-            operator: 0
-            operands:
-            - type: 0
-              value:
-                type: 0
-                constant:
-                  type: 1
-                  boolValue: 0
-                  floatValue: 0
-                  integerValue: 0
-                  vector2Value: {x: 0, y: 0}
-                  vector3Value: {x: 0, y: 0, z: 0}
-                sourceState:
-                  target: 2
-                  key: 
-                  type: 6
-              operatorExpression:
-                operator: 0
-                operands: []
-    - singleStatement:
-        targetState:
-          target: 2
-          key: Wave2C
-          parameterType: 0
-        expression:
-          type: 0
-          value:
-            type: 1
-            constant:
-              type: 1
-              boolValue: 0
-              floatValue: 0
-              integerValue: 0
-              vector2Value: {x: 0, y: 0}
-              vector3Value: {x: 0, y: 0, z: 0}
-            sourceState:
-              target: 2
-              key: Wave2c
-              type: 1
-          operatorExpression:
-            operator: 0
-            operands:
-            - type: 0
-              value:
-                type: 0
-                constant:
-                  type: 1
-                  boolValue: 0
-                  floatValue: 0
-                  integerValue: 0
-                  vector2Value: {x: 0, y: 0}
-                  vector3Value: {x: 0, y: 0, z: 0}
-                sourceState:
-                  target: 2
-                  key: 
-                  type: 6
-              operatorExpression:
-                operator: 0
-                operands: []
-    - singleStatement:
-        targetState:
-          target: 2
-          key: Wave2D
-          parameterType: 0
-        expression:
-          type: 0
-          value:
-            type: 1
-            constant:
-              type: 1
-              boolValue: 0
-              floatValue: 0
-              integerValue: 0
-              vector2Value: {x: 0, y: 0}
-              vector3Value: {x: 0, y: 0, z: 0}
-            sourceState:
-              target: 2
-              key: Wave2d
-              type: 1
-          operatorExpression:
-            operator: 0
-            operands:
-            - type: 0
-              value:
-                type: 0
-                constant:
-                  type: 1
-                  boolValue: 0
-                  floatValue: 0
-                  integerValue: 0
-                  vector2Value: {x: 0, y: 0}
-                  vector3Value: {x: 0, y: 0, z: 0}
-                sourceState:
-                  target: 2
-                  key: 
-                  type: 6
-              operatorExpression:
-                operator: 0
-                operands: []
---- !u!114 &1646044676
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1646044656}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5eadc47e8f964e87aae22996c282c981, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  globalGimmickKey:
-    key:
-      target: 2
-      key: Timer2
-    item: {fileID: 0}
-  delayTimeSeconds: 15
-  triggers:
-  - target: 4
-    specifiedTargetItem: {fileID: 0}
-    key: Wave2
-    type: 0
-    value:
-      boolValue: 0
-      floatValue: 0
-      integerValue: 0
-      vector2Value: {x: 0, y: 0}
-      vector3Value: {x: 0, y: 0, z: 0}
---- !u!114 &1646044677
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1646044656}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5eadc47e8f964e87aae22996c282c981, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  globalGimmickKey:
-    key:
-      target: 2
-      key: GameStart
-    item: {fileID: 0}
-  delayTimeSeconds: 15
-  triggers:
-  - target: 4
-    specifiedTargetItem: {fileID: 0}
-    key: Wave1
-    type: 0
-    value:
-      boolValue: 0
-      floatValue: 0
-      integerValue: 0
-      vector2Value: {x: 0, y: 0}
-      vector3Value: {x: 0, y: 0, z: 0}
 --- !u!1001 &1646930338
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19204,45 +16999,23 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2140807742483685205, guid: b13065d51f191ff4fa288953eec046fe,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.targetState.key
+      value: Collapse3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2140807742483685205, guid: b13065d51f191ff4fa288953eec046fe,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.expression.operatorExpression.operands.Array.data[0].value.sourceState.key
+      value: Collapse3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6482136018340335676, guid: b13065d51f191ff4fa288953eec046fe,
+        type: 3}
+      propertyPath: globalGimmickKey.key.key
+      value: Collapse3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b13065d51f191ff4fa288953eec046fe, type: 3}
---- !u!1 &1672694590 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1202435379417630555, guid: b13065d51f191ff4fa288953eec046fe,
-    type: 3}
-  m_PrefabInstance: {fileID: 359588824}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1672694591
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1672694590}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1672694592}
-  key:
-    target: 2
-    key: Collapse10
---- !u!114 &1672694592
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1672694590}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: "\u30A2\u30A4\u30C6\u30E0"
 --- !u!1001 &1675275170
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19344,43 +17117,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1675275170}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1680114022 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1202435379417630555, guid: b13065d51f191ff4fa288953eec046fe,
-    type: 3}
-  m_PrefabInstance: {fileID: 1646930338}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1680114023
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1680114022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1680114024}
-  key:
-    target: 2
-    key: Collapse3
---- !u!114 &1680114024
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1680114022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: "\u30A2\u30A4\u30C6\u30E0"
 --- !u!1001 &1690304085
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19388,6 +17124,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2095509840}
     m_Modifications:
+    - target: {fileID: 489320711237719237, guid: b4238e87127ae8943a980ae415b80599,
+        type: 3}
+      propertyPath: globalGimmickKey.key.key
+      value: Collapse4
+      objectReference: {fileID: 0}
+    - target: {fileID: 705763465227017528, guid: b4238e87127ae8943a980ae415b80599,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.targetState.key
+      value: Collapse4
+      objectReference: {fileID: 0}
+    - target: {fileID: 705763465227017528, guid: b4238e87127ae8943a980ae415b80599,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.expression.operatorExpression.operands.Array.data[0].value.sourceState.key
+      value: Collapse4
+      objectReference: {fileID: 0}
     - target: {fileID: 7877108957608077667, guid: b4238e87127ae8943a980ae415b80599,
         type: 3}
       propertyPath: m_RootOrder
@@ -20075,43 +17826,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abbff11cc07a5dd4f8c43d5d11ba3c52, type: 3}
---- !u!1 &1859446557 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1202435379417630555, guid: b13065d51f191ff4fa288953eec046fe,
-    type: 3}
-  m_PrefabInstance: {fileID: 1969317383}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1859446558
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1859446557}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1859446559}
-  key:
-    target: 2
-    key: Collapse7
---- !u!114 &1859446559
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1859446557}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: "\u30A2\u30A4\u30C6\u30E0"
 --- !u!1 &1862117396
 GameObject:
   m_ObjectHideFlags: 0
@@ -20200,6 +17914,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2095509840}
     m_Modifications:
+    - target: {fileID: 6890392314434205428, guid: d2d45b4c6ff6f06468b39e4b8beff998,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.targetState.key
+      value: Collapse8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890392314434205428, guid: d2d45b4c6ff6f06468b39e4b8beff998,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.expression.operatorExpression.operands.Array.data[0].value.sourceState.key
+      value: Collapse8
+      objectReference: {fileID: 0}
     - target: {fileID: 7105362881323531896, guid: d2d45b4c6ff6f06468b39e4b8beff998,
         type: 3}
       propertyPath: m_RootOrder
@@ -20274,6 +17998,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SpringIland (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7438854336187998405, guid: d2d45b4c6ff6f06468b39e4b8beff998,
+        type: 3}
+      propertyPath: globalGimmickKey.key.key
+      value: Collapse8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2d45b4c6ff6f06468b39e4b8beff998, type: 3}
@@ -21375,43 +19104,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1900113212}
   m_CullTransparentMesh: 0
---- !u!1 &1907705484 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7464956665905413738, guid: 21324097405ffb7418fb84e5200f2184,
-    type: 3}
-  m_PrefabInstance: {fileID: 1557670409}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1907705485
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1907705484}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1907705486}
-  key:
-    target: 2
-    key: Collapse9
---- !u!114 &1907705486
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1907705484}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: "\u30A2\u30A4\u30C6\u30E0"
 --- !u!1 &1926138225
 GameObject:
   m_ObjectHideFlags: 0
@@ -21962,6 +19654,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2095509840}
     m_Modifications:
+    - target: {fileID: 489320711237719237, guid: b4238e87127ae8943a980ae415b80599,
+        type: 3}
+      propertyPath: globalGimmickKey.key.key
+      value: Collapse17
+      objectReference: {fileID: 0}
+    - target: {fileID: 705763465227017528, guid: b4238e87127ae8943a980ae415b80599,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.targetState.key
+      value: Collapse17
+      objectReference: {fileID: 0}
+    - target: {fileID: 705763465227017528, guid: b4238e87127ae8943a980ae415b80599,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.expression.operatorExpression.operands.Array.data[0].value.sourceState.key
+      value: Collapse17
+      objectReference: {fileID: 0}
     - target: {fileID: 7877108957608077667, guid: b4238e87127ae8943a980ae415b80599,
         type: 3}
       propertyPath: m_RootOrder
@@ -22195,6 +19902,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2140807742483685205, guid: b13065d51f191ff4fa288953eec046fe,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.targetState.key
+      value: Collapse7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2140807742483685205, guid: b13065d51f191ff4fa288953eec046fe,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.expression.operatorExpression.operands.Array.data[0].value.sourceState.key
+      value: Collapse7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6482136018340335676, guid: b13065d51f191ff4fa288953eec046fe,
+        type: 3}
+      propertyPath: globalGimmickKey.key.key
+      value: Collapse7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b13065d51f191ff4fa288953eec046fe, type: 3}
@@ -22771,6 +20493,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7663621518056268722, guid: 21324097405ffb7418fb84e5200f2184,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.targetState.key
+      value: Collapse20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7663621518056268722, guid: 21324097405ffb7418fb84e5200f2184,
+        type: 3}
+      propertyPath: logic.statements.Array.data[0].singleStatement.expression.operatorExpression.operands.Array.data[0].value.sourceState.key
+      value: Collapse20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7961732057999063265, guid: 21324097405ffb7418fb84e5200f2184,
+        type: 3}
+      propertyPath: globalGimmickKey.key.key
+      value: Collapse20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21324097405ffb7418fb84e5200f2184, type: 3}
@@ -24277,3 +22014,782 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 816f81b6af783ae4a99218d998c87761, type: 3}
+--- !u!1001 &8692970903483411091
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8692970904054123665, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[0].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054123665, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[1].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054123665, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[2].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054123665, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[3].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054123665, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[4].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054123666, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[0].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054123666, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[1].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054123666, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[2].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054123666, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[3].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054123666, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[4].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054123667, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[0].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054123667, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[1].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054123667, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[2].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054123667, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[3].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054123667, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[4].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124384, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[0].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124384, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[1].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124384, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[2].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124384, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[3].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124384, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[4].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124384, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[1].triggers.Array.data[0].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124384, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[1].triggers.Array.data[1].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124384, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[1].triggers.Array.data[2].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124384, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[1].triggers.Array.data[3].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124384, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[1].triggers.Array.data[4].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124384, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[1].triggers.Array.data[5].type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124384, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[2].triggers.Array.data[0].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124384, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[2].triggers.Array.data[1].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124384, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[2].triggers.Array.data[2].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124384, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[2].triggers.Array.data[3].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124384, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[2].triggers.Array.data[4].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124384, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[3].triggers.Array.data[0].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124384, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[3].triggers.Array.data[1].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124384, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[3].triggers.Array.data[2].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124384, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[3].triggers.Array.data[3].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124384, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[3].triggers.Array.data[4].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124384, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[0].value.boolValue
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124385, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[0].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124385, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[1].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124385, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[2].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124385, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[3].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124385, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[4].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124386, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124386, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -42.875786
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124386, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.438188
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124386, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 47.314682
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124386, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124386, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124386, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124386, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124386, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124386, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124386, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124387, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: m_Name
+      value: CollapseIsland
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124388, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[0].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124388, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[1].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124388, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[2].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124388, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[3].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124388, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[1].triggers.Array.data[0].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124388, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[1].triggers.Array.data[1].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124388, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[1].triggers.Array.data[2].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124388, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[1].triggers.Array.data[3].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124388, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[2].triggers.Array.data[0].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124388, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[2].triggers.Array.data[1].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124388, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[2].triggers.Array.data[2].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124388, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[2].triggers.Array.data[3].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124388, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[3].triggers.Array.data[0].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124388, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[3].triggers.Array.data[1].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124388, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[3].triggers.Array.data[2].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124388, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[3].triggers.Array.data[3].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124388, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[4].triggers.Array.data[0].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124388, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[4].triggers.Array.data[1].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124388, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[4].triggers.Array.data[2].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124388, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[4].triggers.Array.data[3].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124389, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[0].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124389, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[1].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124389, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[2].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124389, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[3].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124389, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[1].triggers.Array.data[0].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124389, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[1].triggers.Array.data[1].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124389, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[1].triggers.Array.data[2].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124389, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[1].triggers.Array.data[3].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124389, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[2].triggers.Array.data[0].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124389, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[2].triggers.Array.data[1].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124389, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[2].triggers.Array.data[2].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124389, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[2].triggers.Array.data[3].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124389, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[3].triggers.Array.data[0].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124389, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[3].triggers.Array.data[1].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124389, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[3].triggers.Array.data[2].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124389, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[3].triggers.Array.data[3].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124389, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[4].triggers.Array.data[0].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124389, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[4].triggers.Array.data[1].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124389, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[4].triggers.Array.data[2].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124389, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[4].triggers.Array.data[3].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124390, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[0].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124390, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[1].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124390, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[2].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124390, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[3].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124390, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[1].triggers.Array.data[0].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124390, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[1].triggers.Array.data[1].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124390, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[1].triggers.Array.data[2].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124390, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[1].triggers.Array.data[3].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124390, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[2].triggers.Array.data[0].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124390, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[2].triggers.Array.data[1].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124390, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[2].triggers.Array.data[2].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124390, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[2].triggers.Array.data[3].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124390, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[3].triggers.Array.data[0].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124390, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[3].triggers.Array.data[1].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124390, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[3].triggers.Array.data[2].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124390, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[3].triggers.Array.data[3].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124390, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[4].triggers.Array.data[0].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124390, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[4].triggers.Array.data[1].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124390, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[4].triggers.Array.data[2].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124390, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[4].triggers.Array.data[3].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124391, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[0].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124391, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[1].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124391, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[2].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124391, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[3].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124391, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[1].triggers.Array.data[0].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124391, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[1].triggers.Array.data[1].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124391, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[1].triggers.Array.data[2].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124391, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[1].triggers.Array.data[3].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124391, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[2].triggers.Array.data[0].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124391, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[2].triggers.Array.data[1].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124391, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[2].triggers.Array.data[2].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124391, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[2].triggers.Array.data[3].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124391, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[3].triggers.Array.data[0].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124391, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[3].triggers.Array.data[1].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124391, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[3].triggers.Array.data[2].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124391, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[3].triggers.Array.data[3].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124391, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[4].triggers.Array.data[0].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124391, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[4].triggers.Array.data[1].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124391, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[4].triggers.Array.data[2].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124391, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[4].triggers.Array.data[3].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124392, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[0].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124392, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[1].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124392, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[2].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124392, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[3].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124392, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[4].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124393, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[0].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124393, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[1].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124393, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[2].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124393, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[3].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124393, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[4].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124398, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[0].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124398, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[1].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124398, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[2].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124398, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[3].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124398, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[4].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124399, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[0].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124399, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[1].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124399, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[2].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124399, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[3].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692970904054124399, guid: 80c1a61146783ba499349ae8c19e0029,
+        type: 3}
+      propertyPath: choices.Array.data[0].triggers.Array.data[4].type
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 80c1a61146783ba499349ae8c19e0029, type: 3}
