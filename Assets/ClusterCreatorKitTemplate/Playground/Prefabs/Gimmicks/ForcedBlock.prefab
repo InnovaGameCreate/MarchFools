@@ -19,6 +19,34 @@ MonoBehaviour:
   space: {fileID: 8533804513839474502}
   force: {x: 0, y: 1.5, z: 4}
   ignoreMass: 1
+--- !u!114 &7112617510115343644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8533804513839474501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5a9785e42671427a8761e148889f041, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 8533804513839474506}
+  key:
+    target: 0
+    key: Timer
+  delayTimeSeconds: 20
+  triggers:
+  - target: 0
+    specifiedTargetItem: {fileID: 0}
+    key: Destroy
+    type: 0
+    value:
+      boolValue: 0
+      floatValue: 0
+      integerValue: 0
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
 --- !u!114 &7730353118168392196
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69,34 +97,6 @@ MonoBehaviour:
   key:
     target: 0
     key: Destroy
---- !u!114 &7112617510115343644
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8533804513839474501}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5a9785e42671427a8761e148889f041, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 8533804513839474506}
-  key:
-    target: 0
-    key: Timer
-  delayTimeSeconds: 20
-  triggers:
-  - target: 0
-    specifiedTargetItem: {fileID: 0}
-    key: Destroy
-    type: 0
-    value:
-      boolValue: 0
-      floatValue: 0
-      integerValue: 0
-      vector2Value: {x: 0, y: 0}
-      vector3Value: {x: 0, y: 0, z: 0}
 --- !u!1001 &2603753837618063303
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -174,7 +174,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: ForcedBlock
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5930200211204735104, guid: 0ba283f2bbeb5ce42bedf3d1549f36fb, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0ba283f2bbeb5ce42bedf3d1549f36fb, type: 3}
 --- !u!1 &8533804513839474501 stripped
 GameObject:
