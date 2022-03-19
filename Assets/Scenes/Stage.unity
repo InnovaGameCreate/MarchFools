@@ -161,6 +161,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2095509840}
     m_Modifications:
+    - target: {fileID: 1450525211573831478, guid: d2d45b4c6ff6f06468b39e4b8beff998,
+        type: 3}
+      propertyPath: globalGimmickKey.key.key
+      value: Collapse19
+      objectReference: {fileID: 0}
     - target: {fileID: 7105362881323531896, guid: d2d45b4c6ff6f06468b39e4b8beff998,
         type: 3}
       propertyPath: m_RootOrder
@@ -396,43 +401,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1 &43500771 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7105362881323531903, guid: d2d45b4c6ff6f06468b39e4b8beff998,
-    type: 3}
-  m_PrefabInstance: {fileID: 1865912504}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &43500772
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 43500771}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 43500773}
-  key:
-    target: 2
-    key: Collapse8
---- !u!114 &43500773
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 43500771}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: "\u30A2\u30A4\u30C6\u30E0"
 --- !u!1 &69432779
 GameObject:
   m_ObjectHideFlags: 0
@@ -1348,49 +1316,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1000698073}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &162378808 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4268904913840118656, guid: ad6a0dcc06f38964999fbbb9fe5cb54a,
-    type: 3}
-  m_PrefabInstance: {fileID: 2009882531}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &162378809 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3491946444714950970, guid: ad6a0dcc06f38964999fbbb9fe5cb54a,
     type: 3}
   m_PrefabInstance: {fileID: 2009882531}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &162378810
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 162378808}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 162378811}
-  key:
-    target: 0
-    key: Collapse9
---- !u!114 &162378811
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 162378808}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: "\u30A2\u30A4\u30C6\u30E0"
 --- !u!4 &163478823 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2581976762534266670, guid: abbff11cc07a5dd4f8c43d5d11ba3c52,
@@ -1514,6 +1445,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2095509840}
     m_Modifications:
+    - target: {fileID: 3997019715254038336, guid: 05c0479536091ef4d9a7930b8e327f45,
+        type: 3}
+      propertyPath: globalGimmickKey.key.key
+      value: Collapse13
+      objectReference: {fileID: 0}
     - target: {fileID: 7877108957608077667, guid: 05c0479536091ef4d9a7930b8e327f45,
         type: 3}
       propertyPath: m_RootOrder
@@ -2582,6 +2518,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2095509840}
     m_Modifications:
+    - target: {fileID: 1450525211573831478, guid: d2d45b4c6ff6f06468b39e4b8beff998,
+        type: 3}
+      propertyPath: globalGimmickKey.key.key
+      value: Collapse15
+      objectReference: {fileID: 0}
     - target: {fileID: 7105362881323531896, guid: d2d45b4c6ff6f06468b39e4b8beff998,
         type: 3}
       propertyPath: m_RootOrder
@@ -2747,6 +2688,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8691659612054851305, guid: 21324097405ffb7418fb84e5200f2184,
+        type: 3}
+      propertyPath: globalGimmickKey.key.key
+      value: Collapse16
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21324097405ffb7418fb84e5200f2184, type: 3}
 --- !u!4 &243668822 stripped
@@ -2904,43 +2850,6 @@ Transform:
   m_Father: {fileID: 2046227088}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &289098097 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7464956665905413738, guid: 21324097405ffb7418fb84e5200f2184,
-    type: 3}
-  m_PrefabInstance: {fileID: 950336865}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &289098098
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 289098097}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 289098099}
-  key:
-    target: 2
-    key: Collapse5
---- !u!114 &289098099
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 289098097}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: "\u30A2\u30A4\u30C6\u30E0"
 --- !u!1 &300643131
 GameObject:
   m_ObjectHideFlags: 0
@@ -2985,86 +2894,12 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 16, y: 10, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &306778369 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9050497852247815987, guid: 12a631d248cea154ebedf73baf96c833,
-    type: 3}
-  m_PrefabInstance: {fileID: 1399570288}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &306778370 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9050497852247815988, guid: 12a631d248cea154ebedf73baf96c833,
     type: 3}
   m_PrefabInstance: {fileID: 1399570288}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &306778371
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 306778369}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 306778372}
-  key:
-    target: 0
-    key: Collapse10
---- !u!114 &306778372
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 306778369}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: "\u30A2\u30A4\u30C6\u30E0"
---- !u!1 &313156070 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7105362881323531903, guid: d2d45b4c6ff6f06468b39e4b8beff998,
-    type: 3}
-  m_PrefabInstance: {fileID: 678847533}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &313156071
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 313156070}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 313156072}
-  key:
-    target: 2
-    key: Collapse12
---- !u!114 &313156072
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 313156070}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: "\u30A2\u30A4\u30C6\u30E0"
 --- !u!1 &327397551
 GameObject:
   m_ObjectHideFlags: 0
@@ -5227,43 +5062,6 @@ Transform:
   m_Father: {fileID: 1751859674}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &504827080 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7105362881323531903, guid: d2d45b4c6ff6f06468b39e4b8beff998,
-    type: 3}
-  m_PrefabInstance: {fileID: 233558889}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &504827081
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 504827080}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 504827082}
-  key:
-    target: 2
-    key: Collapse15
---- !u!114 &504827082
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 504827080}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: "\u30A2\u30A4\u30C6\u30E0"
 --- !u!1 &505991364
 GameObject:
   m_ObjectHideFlags: 0
@@ -5610,49 +5408,12 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!1 &506962799 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7877108957608077668, guid: 05c0479536091ef4d9a7930b8e327f45,
-    type: 3}
-  m_PrefabInstance: {fileID: 1543570782}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &506962800 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7877108957608077667, guid: 05c0479536091ef4d9a7930b8e327f45,
     type: 3}
   m_PrefabInstance: {fileID: 1543570782}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &506962801
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 506962799}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 506962802}
-  key:
-    target: 0
-    key: Collapse6
---- !u!114 &506962802
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 506962799}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: "\u30A2\u30A4\u30C6\u30E0"
 --- !u!1 &516995087
 GameObject:
   m_ObjectHideFlags: 0
@@ -6790,86 +6551,12 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 8, y: 10, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &558588171 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7877108957608077668, guid: 05c0479536091ef4d9a7930b8e327f45,
-    type: 3}
-  m_PrefabInstance: {fileID: 177792379}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &558588172 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7877108957608077667, guid: 05c0479536091ef4d9a7930b8e327f45,
     type: 3}
   m_PrefabInstance: {fileID: 177792379}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &558588173
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 558588171}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 558588174}
-  key:
-    target: 0
-    key: Collapse13
---- !u!114 &558588174
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 558588171}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: "\u30A2\u30A4\u30C6\u30E0"
---- !u!1 &571813636 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7105362881323531903, guid: d2d45b4c6ff6f06468b39e4b8beff998,
-    type: 3}
-  m_PrefabInstance: {fileID: 1242274435}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &571813637
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571813636}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 571813638}
-  key:
-    target: 2
-    key: Collapse2
---- !u!114 &571813638
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571813636}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: "\u30A2\u30A4\u30C6\u30E0"
 --- !u!1 &572260024
 GameObject:
   m_ObjectHideFlags: 0
@@ -7973,43 +7660,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1 &645387912 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7877108957608077668, guid: b4238e87127ae8943a980ae415b80599,
-    type: 3}
-  m_PrefabInstance: {fileID: 1690304085}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &645387913
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 645387912}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 645387914}
-  key:
-    target: 2
-    key: Collapse4
---- !u!114 &645387914
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 645387912}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: "\u30A2\u30A4\u30C6\u30E0"
 --- !u!1001 &653759050
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8025,7 +7675,7 @@ PrefabInstance:
     - target: {fileID: 1202435379417630556, guid: b13065d51f191ff4fa288953eec046fe,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 1202435379417630556, guid: b13065d51f191ff4fa288953eec046fe,
         type: 3}
@@ -8091,6 +7741,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627913812480416099, guid: b13065d51f191ff4fa288953eec046fe,
+        type: 3}
+      propertyPath: globalGimmickKey.key.key
+      value: Collapse14
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b13065d51f191ff4fa288953eec046fe, type: 3}
@@ -8245,6 +7900,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2095509840}
     m_Modifications:
+    - target: {fileID: 5314669635633713645, guid: e7fd8bf96954a3a4fa54cf701157c517,
+        type: 3}
+      propertyPath: globalGimmickKey.key.key
+      value: Collapse1
+      objectReference: {fileID: 0}
     - target: {fileID: 7105362881323531896, guid: e7fd8bf96954a3a4fa54cf701157c517,
         type: 3}
       propertyPath: m_RootOrder
@@ -8322,43 +7982,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7fd8bf96954a3a4fa54cf701157c517, type: 3}
---- !u!1 &672619757 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1202435379417630555, guid: b13065d51f191ff4fa288953eec046fe,
-    type: 3}
-  m_PrefabInstance: {fileID: 949134843}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &672619758
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 672619757}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 672619759}
-  key:
-    target: 2
-    key: Collapse18
---- !u!114 &672619759
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 672619757}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: "\u30A2\u30A4\u30C6\u30E0"
 --- !u!1 &674486608
 GameObject:
   m_ObjectHideFlags: 0
@@ -8509,10 +8132,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2095509840}
     m_Modifications:
+    - target: {fileID: 1450525211573831478, guid: d2d45b4c6ff6f06468b39e4b8beff998,
+        type: 3}
+      propertyPath: globalGimmickKey.key.key
+      value: Collapse12
+      objectReference: {fileID: 0}
     - target: {fileID: 7105362881323531896, guid: d2d45b4c6ff6f06468b39e4b8beff998,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7105362881323531896, guid: d2d45b4c6ff6f06468b39e4b8beff998,
         type: 3}
@@ -9151,6 +8779,7 @@ GameObject:
   - component: {fileID: 754604642}
   - component: {fileID: 754604641}
   - component: {fileID: 754604640}
+  - component: {fileID: 754604643}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -9808,6 +9437,825 @@ MonoBehaviour:
             sourceState:
               target: 2
               key: 1
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+--- !u!114 &754604643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754604630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e67bdc2960f9462385a7fba1c0052836, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  globalGimmickKey:
+    key:
+      target: 2
+      key: StartEntry
+    item: {fileID: 0}
+  logic:
+    statements:
+    - singleStatement:
+        targetState:
+          target: 2
+          key: Collapse1
+          parameterType: 1
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: Collapse2
+          parameterType: 1
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: Collapse3
+          parameterType: 1
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: Collapse4
+          parameterType: 1
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: Collapse5
+          parameterType: 1
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: Collapse6
+          parameterType: 1
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: Collapse7
+          parameterType: 1
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: Collapse8
+          parameterType: 1
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: Collapse9
+          parameterType: 1
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: Collapse10
+          parameterType: 1
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: Collapse11
+          parameterType: 1
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: Collapse12
+          parameterType: 1
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: Collapse13
+          parameterType: 1
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: Collapse14
+          parameterType: 1
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: Collapse15
+          parameterType: 1
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: Collapse16
+          parameterType: 1
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: Collapse17
+          parameterType: 1
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: Collapse18
+          parameterType: 1
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: Collapse19
+          parameterType: 1
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
+              type: 6
+          operatorExpression:
+            operator: 0
+            operands:
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                  vector2Value: {x: 0, y: 0}
+                  vector3Value: {x: 0, y: 0, z: 0}
+                sourceState:
+                  target: 2
+                  key: 
+                  type: 6
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: Collapse20
+          parameterType: 1
+        expression:
+          type: 0
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 1
+              floatValue: 0
+              integerValue: 0
+              vector2Value: {x: 0, y: 0}
+              vector3Value: {x: 0, y: 0, z: 0}
+            sourceState:
+              target: 2
+              key: 
               type: 6
           operatorExpression:
             operator: 0
@@ -11411,43 +11859,6 @@ Transform:
   m_Father: {fileID: 1638740616}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &843096930 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7105362881323531903, guid: d2d45b4c6ff6f06468b39e4b8beff998,
-    type: 3}
-  m_PrefabInstance: {fileID: 7445918}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &843096931
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 843096930}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 843096932}
-  key:
-    target: 2
-    key: Collapse19
---- !u!114 &843096932
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 843096930}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: "\u30A2\u30A4\u30C6\u30E0"
 --- !u!1 &851612708
 GameObject:
   m_ObjectHideFlags: 0
@@ -11580,49 +11991,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &855896825 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7105362881323531903, guid: e7fd8bf96954a3a4fa54cf701157c517,
-    type: 3}
-  m_PrefabInstance: {fileID: 668866534}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &855896826 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7105362881323531896, guid: e7fd8bf96954a3a4fa54cf701157c517,
     type: 3}
   m_PrefabInstance: {fileID: 668866534}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &855896827
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 855896825}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 855896828}
-  key:
-    target: 0
-    key: Collapse1
---- !u!114 &855896828
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 855896825}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: "\u30A2\u30A4\u30C6\u30E0"
 --- !u!1001 &891065853
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11720,6 +12094,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2095509840}
     m_Modifications:
+    - target: {fileID: 3827742938564767903, guid: 12a631d248cea154ebedf73baf96c833,
+        type: 3}
+      propertyPath: globalGimmickKey.key.key
+      value: Collapse11
+      objectReference: {fileID: 0}
     - target: {fileID: 9050497852247815987, guid: 12a631d248cea154ebedf73baf96c833,
         type: 3}
       propertyPath: m_Name
@@ -11728,7 +12107,7 @@ PrefabInstance:
     - target: {fileID: 9050497852247815988, guid: 12a631d248cea154ebedf73baf96c833,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 9050497852247815988, guid: 12a631d248cea154ebedf73baf96c833,
         type: 3}
@@ -11926,43 +12305,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 923030002}
   m_CullTransparentMesh: 0
---- !u!1 &946577637 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7464956665905413738, guid: 21324097405ffb7418fb84e5200f2184,
-    type: 3}
-  m_PrefabInstance: {fileID: 1990719773}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &946577638
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 946577637}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 946577639}
-  key:
-    target: 2
-    key: Collapse20
---- !u!114 &946577639
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 946577637}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: "\u30A2\u30A4\u30C6\u30E0"
 --- !u!1001 &949134843
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11978,7 +12320,7 @@ PrefabInstance:
     - target: {fileID: 1202435379417630556, guid: b13065d51f191ff4fa288953eec046fe,
         type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 1202435379417630556, guid: b13065d51f191ff4fa288953eec046fe,
         type: 3}
@@ -12044,6 +12386,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627913812480416099, guid: b13065d51f191ff4fa288953eec046fe,
+        type: 3}
+      propertyPath: globalGimmickKey.key.key
+      value: Collapse18
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b13065d51f191ff4fa288953eec046fe, type: 3}
@@ -12134,6 +12481,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8691659612054851305, guid: 21324097405ffb7418fb84e5200f2184,
+        type: 3}
+      propertyPath: globalGimmickKey.key.key
+      value: Collapse5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21324097405ffb7418fb84e5200f2184, type: 3}
@@ -15476,6 +15828,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2095509840}
     m_Modifications:
+    - target: {fileID: 1450525211573831478, guid: d2d45b4c6ff6f06468b39e4b8beff998,
+        type: 3}
+      propertyPath: globalGimmickKey.key.key
+      value: Collapse2
+      objectReference: {fileID: 0}
     - target: {fileID: 7105362881323531896, guid: d2d45b4c6ff6f06468b39e4b8beff998,
         type: 3}
       propertyPath: m_RootOrder
@@ -15784,49 +16141,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1282235911}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1302155475 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7105362881323531903, guid: e7fd8bf96954a3a4fa54cf701157c517,
-    type: 3}
-  m_PrefabInstance: {fileID: 1315403388}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1302155476 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7105362881323531896, guid: e7fd8bf96954a3a4fa54cf701157c517,
     type: 3}
   m_PrefabInstance: {fileID: 1315403388}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1302155477
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1302155475}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1302155478}
-  key:
-    target: 0
-    key: Collapse7
---- !u!114 &1302155478
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1302155475}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: "\u30A2\u30A4\u30C6\u30E0"
 --- !u!1001 &1313548243
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15903,6 +16223,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2095509840}
     m_Modifications:
+    - target: {fileID: 5314669635633713645, guid: e7fd8bf96954a3a4fa54cf701157c517,
+        type: 3}
+      propertyPath: globalGimmickKey.key.key
+      value: Collapse7
+      objectReference: {fileID: 0}
     - target: {fileID: 7105362881323531896, guid: e7fd8bf96954a3a4fa54cf701157c517,
         type: 3}
       propertyPath: m_RootOrder
@@ -16927,6 +17252,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2095509840}
     m_Modifications:
+    - target: {fileID: 3827742938564767903, guid: 12a631d248cea154ebedf73baf96c833,
+        type: 3}
+      propertyPath: globalGimmickKey.key.key
+      value: Collapse10
+      objectReference: {fileID: 0}
     - target: {fileID: 9050497852247815987, guid: 12a631d248cea154ebedf73baf96c833,
         type: 3}
       propertyPath: m_Name
@@ -16935,7 +17265,7 @@ PrefabInstance:
     - target: {fileID: 9050497852247815988, guid: 12a631d248cea154ebedf73baf96c833,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 9050497852247815988, guid: 12a631d248cea154ebedf73baf96c833,
         type: 3}
@@ -17129,49 +17459,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1719607613}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1464539025 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9050497852247815987, guid: 12a631d248cea154ebedf73baf96c833,
-    type: 3}
-  m_PrefabInstance: {fileID: 891198119}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1464539026 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9050497852247815988, guid: 12a631d248cea154ebedf73baf96c833,
     type: 3}
   m_PrefabInstance: {fileID: 891198119}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1464539027
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1464539025}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1464539028}
-  key:
-    target: 0
-    key: Collapse11
---- !u!114 &1464539028
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1464539025}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: "\u30A2\u30A4\u30C6\u30E0"
 --- !u!1001 &1472551263
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17334,80 +17627,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1186266951}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1497535557 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1202435379417630555, guid: b13065d51f191ff4fa288953eec046fe,
-    type: 3}
-  m_PrefabInstance: {fileID: 653759050}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1497535558
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1497535557}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1497535559}
-  key:
-    target: 2
-    key: Collapse14
---- !u!114 &1497535559
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1497535557}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: "\u30A2\u30A4\u30C6\u30E0"
---- !u!1 &1500687940 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7464956665905413738, guid: 21324097405ffb7418fb84e5200f2184,
-    type: 3}
-  m_PrefabInstance: {fileID: 243668821}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1500687941
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1500687940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1500687942}
-  key:
-    target: 2
-    key: Collapse16
---- !u!114 &1500687942
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1500687940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: "\u30A2\u30A4\u30C6\u30E0"
 --- !u!1001 &1526325228
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17647,6 +17866,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2095509840}
     m_Modifications:
+    - target: {fileID: 3997019715254038336, guid: 05c0479536091ef4d9a7930b8e327f45,
+        type: 3}
+      propertyPath: globalGimmickKey.key.key
+      value: Collapse6
+      objectReference: {fileID: 0}
     - target: {fileID: 7877108957608077667, guid: 05c0479536091ef4d9a7930b8e327f45,
         type: 3}
       propertyPath: m_RootOrder
@@ -17724,43 +17948,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05c0479536091ef4d9a7930b8e327f45, type: 3}
---- !u!1 &1555385629 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7877108957608077668, guid: b4238e87127ae8943a980ae415b80599,
-    type: 3}
-  m_PrefabInstance: {fileID: 1960544934}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1555385630
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1555385629}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1555385631}
-  key:
-    target: 2
-    key: Collapse17
---- !u!114 &1555385631
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1555385629}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: "\u30A2\u30A4\u30C6\u30E0"
 --- !u!1 &1563810182
 GameObject:
   m_ObjectHideFlags: 0
@@ -18947,7 +19134,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse3
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -18957,7 +19144,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse6
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -18967,7 +19154,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse10
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -18977,7 +19164,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse14
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -18987,7 +19174,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse16
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19037,7 +19224,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse1
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19047,7 +19234,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse5
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19057,7 +19244,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse18
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19067,7 +19254,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse17
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19077,7 +19264,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse13
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19109,7 +19296,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse3
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19119,7 +19306,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse6
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19129,7 +19316,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse10
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19139,7 +19326,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse14
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19149,7 +19336,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse16
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19181,7 +19368,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse7
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19191,7 +19378,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse8
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19201,7 +19388,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse9
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19211,7 +19398,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse11
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19221,7 +19408,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse15
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19253,7 +19440,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse2
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19263,7 +19450,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse4
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19273,7 +19460,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse12
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19283,7 +19470,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse19
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19293,7 +19480,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse20
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19343,7 +19530,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse8
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19353,7 +19540,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse9
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19363,7 +19550,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse11
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19373,7 +19560,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse15
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19385,7 +19572,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse7
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19395,7 +19582,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse9
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19405,7 +19592,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse11
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19415,7 +19602,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse15
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19427,7 +19614,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse7
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19437,7 +19624,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse8
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19447,7 +19634,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse11
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19457,7 +19644,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse15
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19469,7 +19656,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse7
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19479,7 +19666,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse8
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19489,7 +19676,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse9
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19499,7 +19686,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse15
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19511,7 +19698,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse7
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19521,7 +19708,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse8
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19531,7 +19718,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse9
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19541,7 +19728,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse11
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19571,7 +19758,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse3
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19581,7 +19768,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse6
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19591,7 +19778,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse10
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19601,7 +19788,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse14
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19613,7 +19800,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse3
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19623,7 +19810,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse6
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19633,7 +19820,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse10
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19643,7 +19830,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse16
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19655,7 +19842,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse3
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19665,7 +19852,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse6
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19675,7 +19862,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse14
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19685,7 +19872,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse16
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19697,7 +19884,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse3
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19707,7 +19894,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse10
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19717,7 +19904,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse14
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19727,7 +19914,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse16
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19739,7 +19926,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse6
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19749,7 +19936,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse10
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19759,7 +19946,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse14
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19769,7 +19956,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse16
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19799,7 +19986,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse1
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19809,7 +19996,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse5
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19819,7 +20006,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse13
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19829,7 +20016,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse17
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19841,7 +20028,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse1
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19851,7 +20038,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse5
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19861,7 +20048,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse13
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19871,7 +20058,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse18
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19883,7 +20070,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse1
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19893,7 +20080,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse5
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19903,7 +20090,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse17
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19913,7 +20100,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse18
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19925,7 +20112,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse1
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19935,7 +20122,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse13
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19945,7 +20132,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse17
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19955,7 +20142,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse18
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19967,7 +20154,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse5
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19977,7 +20164,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse13
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19987,7 +20174,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse17
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -19997,7 +20184,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse18
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -20027,7 +20214,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse2
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -20037,7 +20224,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse4
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -20047,7 +20234,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse12
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -20057,7 +20244,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse19
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -20069,7 +20256,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse2
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -20079,7 +20266,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse4
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -20089,7 +20276,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse12
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -20099,7 +20286,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse20
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -20111,7 +20298,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse2
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -20121,7 +20308,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse4
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -20131,7 +20318,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse19
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -20141,7 +20328,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse20
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -20153,7 +20340,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse2
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -20163,7 +20350,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse12
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -20173,7 +20360,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse19
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -20183,7 +20370,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse20
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -20195,7 +20382,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse4
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -20205,7 +20392,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse12
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -20215,7 +20402,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse19
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -20225,7 +20412,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse20
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -20463,7 +20650,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse3
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -20473,7 +20660,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse6
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -20483,7 +20670,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse10
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -20493,7 +20680,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse14
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -20503,7 +20690,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse16
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -20553,7 +20740,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse1
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -20563,7 +20750,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse5
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -20573,7 +20760,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse18
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -20583,7 +20770,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse17
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -20593,7 +20780,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse13
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -20643,7 +20830,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse2
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -20653,7 +20840,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse4
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -20663,7 +20850,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse12
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -20673,7 +20860,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse19
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -20683,7 +20870,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse20
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -20733,7 +20920,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse7
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -20743,7 +20930,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse8
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -20753,7 +20940,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse9
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -20763,7 +20950,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse11
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -20773,7 +20960,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse15
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -21031,7 +21218,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse1
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -21041,7 +21228,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse5
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -21051,7 +21238,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse13
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -21061,7 +21248,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse17
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -21071,7 +21258,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse18
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -21121,7 +21308,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse2
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -21131,7 +21318,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse4
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -21141,7 +21328,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse12
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -21151,7 +21338,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse19
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -21161,7 +21348,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse20
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -21211,7 +21398,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse7
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -21221,7 +21408,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse8
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -21231,7 +21418,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse9
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -21241,7 +21428,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse11
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -21251,7 +21438,7 @@ MonoBehaviour:
     - target: 4
       specifiedTargetItem: {fileID: 0}
       key: Collapse15
-      type: 0
+      type: 1
       value:
         boolValue: 0
         floatValue: 0
@@ -21547,7 +21734,7 @@ PrefabInstance:
     - target: {fileID: 1202435379417630556, guid: b13065d51f191ff4fa288953eec046fe,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1202435379417630556, guid: b13065d51f191ff4fa288953eec046fe,
         type: 3}
@@ -21613,6 +21800,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627913812480416099, guid: b13065d51f191ff4fa288953eec046fe,
+        type: 3}
+      propertyPath: globalGimmickKey.key.key
+      value: Collapse3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b13065d51f191ff4fa288953eec046fe, type: 3}
@@ -21717,43 +21909,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1675275170}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1680114022 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1202435379417630555, guid: b13065d51f191ff4fa288953eec046fe,
-    type: 3}
-  m_PrefabInstance: {fileID: 1646930338}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1680114023
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1680114022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1680114024}
-  key:
-    target: 2
-    key: Collapse3
---- !u!114 &1680114024
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1680114022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 0
-  itemName: "\u30A2\u30A4\u30C6\u30E0"
 --- !u!1001 &1690304085
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21761,10 +21916,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2095509840}
     m_Modifications:
+    - target: {fileID: 4067770396802444950, guid: b4238e87127ae8943a980ae415b80599,
+        type: 3}
+      propertyPath: globalGimmickKey.key.key
+      value: Collapse4
+      objectReference: {fileID: 0}
     - target: {fileID: 7877108957608077667, guid: b4238e87127ae8943a980ae415b80599,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7877108957608077667, guid: b4238e87127ae8943a980ae415b80599,
         type: 3}
@@ -22524,6 +22684,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2095509840}
     m_Modifications:
+    - target: {fileID: 1450525211573831478, guid: d2d45b4c6ff6f06468b39e4b8beff998,
+        type: 3}
+      propertyPath: globalGimmickKey.key.key
+      value: Collapse8
+      objectReference: {fileID: 0}
     - target: {fileID: 7105362881323531896, guid: d2d45b4c6ff6f06468b39e4b8beff998,
         type: 3}
       propertyPath: m_RootOrder
@@ -24249,6 +24414,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2095509840}
     m_Modifications:
+    - target: {fileID: 4067770396802444950, guid: b4238e87127ae8943a980ae415b80599,
+        type: 3}
+      propertyPath: globalGimmickKey.key.key
+      value: Collapse17
+      objectReference: {fileID: 0}
     - target: {fileID: 7877108957608077667, guid: b4238e87127ae8943a980ae415b80599,
         type: 3}
       propertyPath: m_RootOrder
@@ -25010,6 +25180,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8691659612054851305, guid: 21324097405ffb7418fb84e5200f2184,
+        type: 3}
+      propertyPath: globalGimmickKey.key.key
+      value: Collapse20
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21324097405ffb7418fb84e5200f2184, type: 3}
 --- !u!4 &1990719774 stripped
@@ -25168,6 +25343,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WaterSourceIland
+      objectReference: {fileID: 0}
+    - target: {fileID: 4832736787364659069, guid: ad6a0dcc06f38964999fbbb9fe5cb54a,
+        type: 3}
+      propertyPath: globalGimmickKey.key.key
+      value: Collapse9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad6a0dcc06f38964999fbbb9fe5cb54a, type: 3}
@@ -25502,17 +25682,17 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 855896826}
-  - {fileID: 2143237307}
   - {fileID: 2103241070}
-  - {fileID: 1395350840}
+  - {fileID: 2143237307}
   - {fileID: 1890257512}
+  - {fileID: 1395350840}
   - {fileID: 506962800}
   - {fileID: 1302155476}
   - {fileID: 266585807}
   - {fileID: 162378809}
   - {fileID: 1464539026}
-  - {fileID: 306778370}
   - {fileID: 1176768093}
+  - {fileID: 306778370}
   - {fileID: 558588172}
   - {fileID: 653759051}
   - {fileID: 233558890}
