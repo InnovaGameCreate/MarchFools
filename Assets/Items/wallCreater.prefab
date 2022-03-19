@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 2236893565193429298}
   - component: {fileID: 2236893565193429301}
   - component: {fileID: -8801646744748013929}
+  - component: {fileID: 2010241177759734492}
   m_Layer: 14
   m_Name: wallCreater
   m_TagString: Untagged
@@ -155,7 +156,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 2794541447128232921, guid: 3e2d30e03c5c2a24ba0939e79f130fb3,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 7725969113440061496
   spawnPoint: {fileID: 2236893565571909123}
 --- !u!114 &-8801646744748013929
 MonoBehaviour:
@@ -173,6 +174,22 @@ MonoBehaviour:
   key:
     target: 0
     key: DestroyWalltGun
+--- !u!114 &2010241177759734492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2236893565193429303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 2236893565193429310}
+  key:
+    target: 2
+    key: GameEnd
 --- !u!1 &2236893565571909122
 GameObject:
   m_ObjectHideFlags: 0
