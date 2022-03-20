@@ -6,6 +6,8 @@
         _Color ("Color", Color) = (1,1,1,1)
         _RimColor ("RimColor", Color) = (1,1,1,1)
         _RimPower("RimPower", float) = 0.0
+        
+        _Offset("揺れの大きさ", Float) = 0.5
     }
     SubShader
     {
@@ -41,10 +43,20 @@
             fixed4 _RimColor;
             half _RimPower;
 
+            float _Offset;
+
             v2f vert (appdata v)
             {
                 v2f o;
-                o.vertex = UnityObjectToClipPos(v.vertex);
+
+                float4 positionOS = v.vertex;
+                float4 positionWS = mul(unity_ObjectToWorld, positionOS);
+
+                positionWS.y += _Offset * sin(0.1 * positionWS.x * _Time.y);
+
+                positionOS = mul(unity_WorldToObject, positionWS);
+                
+                o.vertex = UnityObjectToClipPos(positionOS);
                 o.uv = TRANSFORM_TEX(v.uv, _MainTex);
                 float4x4 modelMatrix = unity_ObjectToWorld;
                 o.normalDir = normalize(UnityObjectToWorldNormal(v.normal));
