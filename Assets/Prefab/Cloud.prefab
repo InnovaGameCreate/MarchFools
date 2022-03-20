@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 3531618398124595556}
   - component: {fileID: 6021950107172597404}
   - component: {fileID: 4421754838118509194}
+  - component: {fileID: 252318422610777962}
   m_Layer: 0
   m_Name: Cloud
   m_TagString: Untagged
@@ -278,3 +279,19 @@ MonoBehaviour:
               operatorExpression:
                 operator: 0
                 operands: []
+--- !u!114 &252318422610777962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2581976762534370062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 8782931179043417512}
+  key:
+    target: 2
+    key: GameEnd

@@ -1289,6 +1289,7 @@ GameObject:
   - component: {fileID: 7175589733702979061}
   - component: {fileID: 7080569181272265959}
   - component: {fileID: 3997019715254038336}
+  - component: {fileID: 1934920716061091755}
   m_Layer: 0
   m_Name: tundra
   m_TagString: Untagged
@@ -1378,6 +1379,22 @@ MonoBehaviour:
       target: 2
       key: 
     item: {fileID: 0}
+--- !u!114 &1934920716061091755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7877108957608077668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1623517325655026555}
+  key:
+    target: 2
+    key: GameEnd
 --- !u!1 &7877108957813291392
 GameObject:
   m_ObjectHideFlags: 0

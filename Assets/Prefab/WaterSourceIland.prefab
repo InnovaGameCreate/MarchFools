@@ -92,6 +92,7 @@ GameObject:
   - component: {fileID: 7276091633434193139}
   - component: {fileID: 6128365874090103183}
   - component: {fileID: 4832736787364659069}
+  - component: {fileID: 2573326080748578173}
   m_Layer: 0
   m_Name: WaterSourceIland
   m_TagString: Untagged
@@ -177,6 +178,22 @@ MonoBehaviour:
       target: 2
       key: 
     item: {fileID: 0}
+--- !u!114 &2573326080748578173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4268904913840118656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 4428319453173266677}
+  key:
+    target: 2
+    key: GameEnd
 --- !u!1 &7838945582018779360
 GameObject:
   m_ObjectHideFlags: 0
