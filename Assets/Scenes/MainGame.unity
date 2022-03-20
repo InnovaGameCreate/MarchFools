@@ -438,21 +438,40 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1299324011017796693, guid: 7ecec87fbd2b47b45966daafbe318d91,
-        type: 3}
-      propertyPath: itemTemplate
-      value: 
-      objectReference: {fileID: 5411712286893335261, guid: 91eb5226a7f05c243b493c9be9366b90,
-        type: 3}
     - target: {fileID: 1299324011017796695, guid: 7ecec87fbd2b47b45966daafbe318d91,
         type: 3}
       propertyPath: m_Name
       value: BardShotGun
       objectReference: {fileID: 0}
-    - target: {fileID: 3349363820600211731, guid: 7ecec87fbd2b47b45966daafbe318d91,
+    - target: {fileID: 2992086874953615277, guid: 7ecec87fbd2b47b45966daafbe318d91,
         type: 3}
-      propertyPath: m_Layer
-      value: 14
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3399800054858709296, guid: 7ecec87fbd2b47b45966daafbe318d91,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3648312853995058977, guid: 7ecec87fbd2b47b45966daafbe318d91,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4072167620104737586, guid: 7ecec87fbd2b47b45966daafbe318d91,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6568011222208707777, guid: 7ecec87fbd2b47b45966daafbe318d91,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8270167733803752506, guid: 7ecec87fbd2b47b45966daafbe318d91,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ecec87fbd2b47b45966daafbe318d91, type: 3}
