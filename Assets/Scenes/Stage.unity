@@ -10098,6 +10098,7 @@ GameObject:
   - component: {fileID: 754604641}
   - component: {fileID: 754604640}
   - component: {fileID: 754604643}
+  - component: {fileID: 754604644}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -11595,6 +11596,35 @@ MonoBehaviour:
               operatorExpression:
                 operator: 0
                 operands: []
+--- !u!114 &754604644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754604630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5eadc47e8f964e87aae22996c282c981, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  globalGimmickKey:
+    key:
+      target: 2
+      key: AnimationStop
+    item: {fileID: 0}
+  delayTimeSeconds: 5
+  triggers:
+  - target: 4
+    specifiedTargetItem: {fileID: 0}
+    key: GameReset
+    type: 0
+    value:
+      boolValue: 0
+      floatValue: 0
+      integerValue: 0
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
 --- !u!1 &778246052
 GameObject:
   m_ObjectHideFlags: 0
