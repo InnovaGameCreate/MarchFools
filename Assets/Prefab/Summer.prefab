@@ -574,6 +574,7 @@ GameObject:
   - component: {fileID: 2785467192325694892}
   - component: {fileID: 4510684054606664150}
   - component: {fileID: 5627913812480416099}
+  - component: {fileID: 7532034403677842659}
   m_Layer: 0
   m_Name: Summer
   m_TagString: Untagged
@@ -660,6 +661,22 @@ MonoBehaviour:
       target: 2
       key: 
     item: {fileID: 0}
+--- !u!114 &7532034403677842659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202435379417630555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 6198517311513893737}
+  key:
+    target: 2
+    key: GameEnd
 --- !u!1 &1202435379774650294
 GameObject:
   m_ObjectHideFlags: 0

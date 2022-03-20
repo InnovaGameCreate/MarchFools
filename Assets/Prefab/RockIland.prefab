@@ -576,6 +576,7 @@ GameObject:
   - component: {fileID: 1391814051504597864}
   - component: {fileID: 7968156395784267353}
   - component: {fileID: 5314669635633713645}
+  - component: {fileID: 6722280189598955354}
   m_Layer: 0
   m_Name: RockIland
   m_TagString: Untagged
@@ -661,6 +662,22 @@ MonoBehaviour:
       target: 2
       key: 
     item: {fileID: 0}
+--- !u!114 &6722280189598955354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7105362881323531903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 7714132548255242927}
+  key:
+    target: 2
+    key: GameEnd
 --- !u!1 &7105362882739548053
 GameObject:
   m_ObjectHideFlags: 0
@@ -1495,15 +1512,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85f4229977c9ee247bc4425710c5b0c4, type: 3}
---- !u!1 &6447887245625458250 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 128044, guid: 85f4229977c9ee247bc4425710c5b0c4,
-    type: 3}
-  m_PrefabInstance: {fileID: 6447887245625461350}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6447887245625111006 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 441272, guid: 85f4229977c9ee247bc4425710c5b0c4,
+    type: 3}
+  m_PrefabInstance: {fileID: 6447887245625461350}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6447887245625458250 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 128044, guid: 85f4229977c9ee247bc4425710c5b0c4,
     type: 3}
   m_PrefabInstance: {fileID: 6447887245625461350}
   m_PrefabAsset: {fileID: 0}

@@ -2156,6 +2156,7 @@ GameObject:
   - component: {fileID: 54912417355125756}
   - component: {fileID: 4159658695811486499}
   - component: {fileID: 4067770396802444950}
+  - component: {fileID: 4451539928709535068}
   m_Layer: 0
   m_Name: Winter
   m_TagString: Untagged
@@ -2241,6 +2242,22 @@ MonoBehaviour:
       target: 2
       key: 
     item: {fileID: 0}
+--- !u!114 &4451539928709535068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7877108957608077668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 5463169479310551032}
+  key:
+    target: 2
+    key: GameEnd
 --- !u!1 &7877108957813291392
 GameObject:
   m_ObjectHideFlags: 0
