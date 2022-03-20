@@ -198,7 +198,7 @@ MonoBehaviour:
     target: 0
     key: Force
   space: {fileID: 5411712286893335249}
-  force: {x: 0, y: 1, z: 16}
+  force: {x: 0, y: 1, z: 60}
   ignoreMass: 1
 --- !u!114 &5893063990092691531
 MonoBehaviour:
