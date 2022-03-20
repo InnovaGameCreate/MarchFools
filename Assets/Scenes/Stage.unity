@@ -1345,36 +1345,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 560965813}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &125389255
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 125389256}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &125389256
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 125389255}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.386, z: 2.085}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 712198813}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &128783279 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7182040577296693734, guid: a43c8039111c4a84bb739b06f1ce4782,
@@ -8666,8 +8636,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 712198813}
-  - component: {fileID: 712198815}
-  - component: {fileID: 712198814}
   m_Layer: 0
   m_Name: WinnerStage
   m_TagString: Untagged
@@ -8688,46 +8656,9 @@ Transform:
   m_Children:
   - {fileID: 1234488918}
   - {fileID: 1832578088}
-  - {fileID: 125389256}
   m_Father: {fileID: 87123320}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &712198814
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 712198812}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 712198815}
-  key:
-    target: 2
-    key: GameStart
-  itemTemplate: {fileID: -5786526833377269269, guid: 00f1225aaab553d4b901f40388161370,
-    type: 3}
-  itemTemplateId:
-    value: 15942545905439340657
-  spawnPoint: {fileID: 125389256}
---- !u!114 &712198815
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 712198812}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id:
-    value: 4105127145584065525
-  itemName: "\u30A2\u30A4\u30C6\u30E0"
 --- !u!114 &718923761 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8782931179043417512, guid: abbff11cc07a5dd4f8c43d5d11ba3c52,
