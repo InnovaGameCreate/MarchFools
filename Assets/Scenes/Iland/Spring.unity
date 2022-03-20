@@ -220,6 +220,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5319848784259675082, guid: 4678b1c660ffd004bb5706fed7dab185,
+        type: 3}
+      propertyPath: prewarm
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5319848784259675082, guid: 4678b1c660ffd004bb5706fed7dab185,
+        type: 3}
+      propertyPath: startDelay.scalar
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5319848785682403620, guid: 4678b1c660ffd004bb5706fed7dab185,
         type: 3}
       propertyPath: m_RootOrder
